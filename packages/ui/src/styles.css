@@ -1,0 +1,112 @@
+/*
+ * Zihin tasarım belirteçleri.
+ * Ana renk `--brand-hue` üzerinden türetilir; env'deki NEXT_PUBLIC_BRAND_HUE
+ * değeri kök öğeye satır içi stil olarak işlenir (bkz. app/layout.tsx).
+ * Kontrast oranları WCAG AA (metin 4.5:1, büyük metin 3:1) hedeflenerek seçildi.
+ */
+@layer base {
+  :root {
+    --brand-hue: 243;
+
+    --background: 0 0% 100%;
+    --foreground: 222 47% 11%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 222 47% 11%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 222 47% 11%;
+
+    --primary: var(--brand-hue) 75% 52%;
+    --primary-foreground: 0 0% 100%;
+
+    --secondary: 220 14% 96%;
+    --secondary-foreground: 222 47% 11%;
+
+    --muted: 220 14% 96%;
+    --muted-foreground: 220 9% 40%;
+
+    --accent: var(--brand-hue) 90% 96%;
+    --accent-foreground: var(--brand-hue) 70% 32%;
+
+    --destructive: 0 72% 46%;
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 220 13% 89%;
+    --input: 220 13% 89%;
+    --ring: var(--brand-hue) 75% 52%;
+
+    --radius: 0.65rem;
+
+    /* Yetkinlik puanı renkleri */
+    --mastery-unknown: 220 9% 62%;
+    --mastery-weak: 0 72% 51%;
+    --mastery-medium: 38 92% 45%;
+    --mastery-strong: 142 66% 34%;
+
+    /* Calisma programi blok turleri (izle / coz / tekrar / deneme).
+       Renk yalnizca ayirt edicidir; her blok ayrica Turkce tur etiketi ve
+       ikon tasir (CONVENTIONS 8). Bu yuzden metin degil, kenarlik ve ikon
+       renklendirilir; parlaklik 45% ile grafik kontrasti 3:1 uzerinde kalir. */
+    --block-watch: var(--brand-hue) 70% 45%;
+    --block-solve: 174 72% 30%;
+    --block-review: 280 55% 45%;
+    --block-mock: 340 68% 42%;
+  }
+
+  .dark {
+    --background: 224 34% 8%;
+    --foreground: 210 40% 96%;
+
+    --card: 223 32% 11%;
+    --card-foreground: 210 40% 96%;
+
+    --popover: 223 32% 11%;
+    --popover-foreground: 210 40% 96%;
+
+    --primary: var(--brand-hue) 85% 70%;
+    --primary-foreground: 224 45% 12%;
+
+    --secondary: 223 25% 18%;
+    --secondary-foreground: 210 40% 96%;
+
+    --muted: 223 25% 18%;
+    --muted-foreground: 218 14% 68%;
+
+    --accent: 223 30% 22%;
+    --accent-foreground: 210 40% 96%;
+
+    --destructive: 0 68% 58%;
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 223 22% 22%;
+    --input: 223 22% 24%;
+    --ring: var(--brand-hue) 85% 70%;
+
+    --mastery-unknown: 220 9% 50%;
+    --mastery-weak: 0 70% 58%;
+    --mastery-medium: 38 88% 56%;
+    --mastery-strong: 142 55% 48%;
+
+    --block-watch: var(--brand-hue) 80% 68%;
+    --block-solve: 174 60% 52%;
+    --block-review: 280 60% 68%;
+    --block-mock: 340 70% 64%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+    font-feature-settings:
+      'rlig' 1,
+      'calt' 1;
+  }
+  /* Klavye kullanıcıları için belirgin odak halkası (WCAG 2.4.7) */
+  :focus-visible {
+    @apply ring-ring ring-offset-background outline-none ring-2 ring-offset-2;
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "panel": {
+    "title": "Akıllı Test Paneli",
+    "description": "Konularınızın ısı haritası, öncelikli çalışma listeniz ve gelişim grafikleriniz tek ekranda.",
+
+    "overallAverage": "Genel ortalama",
+    "measuredTopics": "Ölçülen konu",
+    "topicCount": "Toplam konu",
+    "outOfHundred": "100 üzerinden",
+
+    "heatMapTitle": "Konu ısı haritası",
+    "heatMapDescription": "Her kutu bir konudur. Renk yetkinlik bandını, sayı 100 üzerinden puanı gösterir.",
+    "heatMapNavLabel": "Ders seçimi",
+    "heatMapHint": "Bir konuya odaklandığınızda çözüm sayısı ve durumu görünür; Enter konunun sayfasını açar.",
+    "legendLabel": "Renk anahtarı",
+    "unitTopicsLabel": "Ünitedeki konular",
+    "attemptsLabel": "Çözüm sayısı",
+    "statusLabel": "Durum",
+    "scoreLabel": "Puan",
+    "notMeasuredYet": "Bu konuda henüz soru çözmediniz.",
+    "cellDescription": "Puan {score}, durum {status}, {attempts} çözüm.",
+
+    "priorityTitle": "Öncelikli 5 konu",
+    "priorityDescription": "Sıralama; yetkinliğiniz, konunun sınav ağırlığı ve zorluğu birlikte değerlendirilerek yapılır.",
+    "priorityEmpty": "Şu an öne çıkan bir konu yok. Birkaç soru çözdüğünüzde liste dolacak.",
+    "actionWatch": "Videoyu izle",
+    "actionOpenTopic": "Konuyu aç",
+    "actionPractice": "Hızlı pratik",
+    "actionCards": "Kartları tekrar et",
+    "priorityRowLabel": "{topic} konusu için işlemler",
+
+    "trendTitle": "Zaman serisi",
+    "trendDescription": "Son 8 haftanın yetkinlik ortalaması.",
+    "trendEmpty": "Grafiğin oluşması için en az bir haftalık kayıt gerekir. Ölçümler her hafta otomatik alınır.",
+    "trendTableCaption": "Haftalık yetkinlik ortalaması tablosu",
+    "trendSummary": "Son {weeks} haftada ortalama yetkinliğiniz {first} puandan {last} puana geldi.",
+    "trendSummarySingle": "Şu ana kadar tek haftalık kayıt var: {last} puan.",
+    "weekLabel": "Hafta",
+    "averageLabel": "Ortalama",
+    "sampleLabel": "Kayıt sayısı",
+
+    "radarTitle": "Ders bazlı yetkinlik",
+    "radarDescription": "Derslerinizin ortalama yetkinliği; dışa doğru genişleyen alan güçlü olduğunuz dersleri gösterir.",
+    "radarEmpty": "Ders ortalaması hesaplanacak konu bulunamadı.",
+    "radarTableCaption": "Ders bazlı yetkinlik ortalaması tablosu",
+    "radarSummary": "En güçlü dersiniz {best} ({bestScore} puan), en düşük dersiniz {worst} ({worstScore} puan).",
+    "subjectLabel": "Ders",
+
+    "emptyTitle": "Isı haritası henüz boş.",
+    "emptyDescription": "Soru çözdükçe her konu kendi rengini alır: puanınız, çözüm sayınız ve durumunuz burada birikir. Başlamak için kısa bir seviye tespit testi çözebilir ya da doğrudan derslere göz atabilirsiniz.",
+    "emptyPrimary": "Seviye tespit testine başla",
+    "emptySecondary": "Derslere göz at",
+
+    "noExamTitle": "Önce hedef sınavınızı seçin.",
+    "noExamDescription": "Isı haritası, seçtiğiniz sınavın müfredatı üzerinden kurulur.",
+    "noExamAction": "Başlangıç adımlarına dön"
+  }
+}

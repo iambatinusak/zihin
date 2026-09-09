@@ -1,0 +1,118 @@
+# ---------------------------------------------------------------------------
+# Supabase API ağ geçidi.
+#
+# supabase-js tek bir kök adres bekler ve yol öneklerini kendisi ekler:
+#   /auth/v1/...     → GoTrue
+#   /rest/v1/...     → PostgREST
+#   /storage/v1/...  → storage-api
+# Bu dosya o üç öneki ilgili servise yönlendirir. Resmî yığın burada Kong
+# kullanır; nginx tercih edildi çünkü yapılandırması tek dosyada okunabilir
+# ve env-substitution'a bağlı sessiz kırılmalar üretmez.
+#
+# `.template` uzantısı bilinçli: nginx imajı, /etc/nginx/templates altındaki
+# dosyalarda ortam değişkenlerini genişletip /etc/nginx/conf.d altına yazar.
+# ---------------------------------------------------------------------------
+
+# Tarayıcı uygulamayı :14000'den, API'yi :14001'den çağırır — farklı köken.
+# CORS başlıkları bu yüzden zorunlu. Origin'i yansıtıyoruz çünkü kimlik
+# bilgisi taşıyan istekler `*` kabul etmez.
+map $http_origin $cors_origin {
+    default "";
+    "~.*"   $http_origin;
+}
+
+server {
+    listen 80;
+    server_name _;
+
+    # Video ve soru görselleri yüklenir; varsayılan 1 MB yetmez.
+    client_max_body_size 512m;
+
+    # Uzun süren yüklemeler ve storage indirmeleri için.
+    proxy_read_timeout 300s;
+    proxy_send_timeout 300s;
+    proxy_http_version 1.1;
+
+    proxy_set_header Host              $host;
+    proxy_set_header X-Real-IP         $remote_addr;
+    proxy_set_header X-Forwarded-For   $proxy_add_x_forwarded_for;
+    proxy_set_header X-Forwarded-Proto $scheme;
+
+    # --- CORS ön kontrolü (preflight) --------------------------------------
+    # Her konumda tekrarlamamak için tek yerde tanımlanıp include ediliyor.
+    location / {
+        return 404 '{"error":"not_found","message":"Bilinmeyen yol."}';
+        add_header Content-Type application/json always;
+    }
+
+    # --- GoTrue (kimlik doğrulama) -----------------------------------------
+    location /auth/v1/ {
+        if ($request_method = OPTIONS) {
+            add_header Access-Control-Allow-Origin      $cors_origin always;
+            add_header Access-Control-Allow-Credentials true always;
+            add_header Access-Control-Allow-Methods     "GET, POST, PUT, PATCH, DELETE, OPTIONS" always;
+            add_header Access-Control-Allow-Headers     "Authorization, apikey, Content-Type, X-Client-Info, Accept, Accept-Profile, Content-Profile, Prefer, Range, X-Supabase-Api-Version" always;
+            add_header Access-Control-Max-Age           7200 always;
+            add_header Content-Length 0;
+            return 204;
+        }
+
+        add_header Access-Control-Allow-Origin      $cors_origin always;
+        add_header Access-Control-Allow-Credentials true always;
+        add_header Access-Control-Expose-Headers    "Content-Range, X-Supabase-Api-Version" always;
+
+        proxy_pass http://auth:9999/;
+    }
+
+    # --- PostgREST (veri) ---------------------------------------------------
+    location /rest/v1/ {
+        if ($request_method = OPTIONS) {
+            add_header Access-Control-Allow-Origin      $cors_origin always;
+            add_header Access-Control-Allow-Credentials true always;
+            add_header Access-Control-Allow-Methods     "GET, POST, PUT, PATCH, DELETE, OPTIONS, HEAD" always;
+            add_header Access-Control-Allow-Headers     "Authorization, apikey, Content-Type, X-Client-Info, Accept, Accept-Profile, Content-Profile, Prefer, Range, Range-Unit" always;
+            add_header Access-Control-Max-Age           7200 always;
+            add_header Content-Length 0;
+            return 204;
+        }
+
+        add_header Access-Control-Allow-Origin   $cors_origin always;
+        add_header Access-Control-Allow-Credentials true always;
+        # PostgREST sayfalama bilgisini Content-Range ile döner; tarayıcının
+        # okuyabilmesi için açıkça ifşa edilmeli.
+        add_header Access-Control-Expose-Headers "Content-Range, Content-Location, Range-Unit" always;
+
+        proxy_pass http://rest:3000/;
+    }
+
+    # --- PostgREST RPC (fonksiyon çağrıları) --------------------------------
+    # supabase-js `.rpc()` çağrılarını /rest/v1/rpc/ altına yollar; yukarıdaki
+    # kural onu zaten kapsıyor. Ayrı bir blok gerekmiyor.
+
+    # --- Storage ------------------------------------------------------------
+    location /storage/v1/ {
+        if ($request_method = OPTIONS) {
+            add_header Access-Control-Allow-Origin      $cors_origin always;
+            add_header Access-Control-Allow-Credentials true always;
+            add_header Access-Control-Allow-Methods     "GET, POST, PUT, DELETE, OPTIONS, HEAD" always;
+            add_header Access-Control-Allow-Headers     "Authorization, apikey, Content-Type, X-Client-Info, Cache-Control, X-Upsert" always;
+            add_header Access-Control-Max-Age           7200 always;
+            add_header Content-Length 0;
+            return 204;
+        }
+
+        add_header Access-Control-Allow-Origin      $cors_origin always;
+        add_header Access-Control-Allow-Credentials true always;
+
+        proxy_pass http://storage:5000/;
+    }
+
+    # --- Sağlık kontrolü ----------------------------------------------------
+    # `docker compose ps` sağlıklı görünse bile ağ geçidinin gerçekten
+    # yönlendirdiğini doğrulamak için: curl http://localhost:14001/health
+    location = /health {
+        access_log off;
+        add_header Content-Type application/json always;
+        return 200 '{"status":"ok","gateway":"nginx"}';
+    }
+}

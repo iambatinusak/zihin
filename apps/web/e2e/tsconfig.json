@@ -1,0 +1,20 @@
+{
+  "//": "Uygulamanın tsconfig'i `e2e`yi dışlar (Next.js derlemesi Playwright dosyalarını görmemeli). Uçtan uca dosyalar yine de tip denetiminden geçsin diye kendi yapılandırmaları burada durur: `pnpm --filter @zihin/web test:e2e:typecheck`.",
+  "extends": "../../../tsconfig.base.json",
+  "compilerOptions": {
+    "target": "ES2022",
+    "lib": ["ES2022", "DOM", "DOM.Iterable"],
+    "module": "ESNext",
+    "moduleResolution": "Bundler",
+    "types": ["node"],
+    "noEmit": true,
+    "declaration": false,
+    "declarationMap": false,
+    "sourceMap": false,
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["../*"]
+    }
+  },
+  "include": ["**/*.ts", "../playwright.config.ts"]
+}

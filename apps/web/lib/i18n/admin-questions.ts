@@ -1,0 +1,14 @@
+import base from '@/i18n/tr.json'
+import adminQuestionsSection from '@/i18n/tr/admin-questions.json'
+import { createDictionary, type Section } from './core'
+
+/**
+ * Admin soru editörü ve toplu import sözlüğü.
+ *
+ * Bölüm sırası `lib/i18n.ts` içindeki kanonik sırayla aynıdır.
+ */
+const dictionary = createDictionary([base, adminQuestionsSection] as Section[])
+
+export const t = dictionary.t
+export const section = dictionary.section
+export { fill } from './core'

@@ -1,0 +1,24 @@
+{
+  "mastery": {
+    "panelTitle": "Yetkinlik panelim",
+    "panelDescription": "Konularınızdaki güncel durumunuz; her test ve video sorusundan sonra tazelenir.",
+    "score": "Puan",
+    "average": "Ortalama",
+    "subjectAverage": "Ders ortalaması",
+    "unitAverage": "Ünite ortalaması",
+    "overallAverage": "Genel ortalama",
+    "attemptsCount": "Çözüm sayısı",
+    "lastCalculatedAt": "Son hesaplama",
+    "neverCalculated": "Henüz hesaplanmadı",
+    "measuredTopics": "Ölçülen konu",
+    "priorityTitle": "Öncelikli konular",
+    "priorityDescription": "Yetkinliğiniz, konunun sınav ağırlığı ve zorluğu birlikte değerlendirilerek sıralanır.",
+    "timelineTitle": "Gelişim grafiği",
+    "timelineDescription": "Haftalık yetkinlik ortalamanız.",
+    "radarTitle": "Ders dağılımı",
+    "emptyTitle": "Henüz ölçecek veri yok.",
+    "emptyDescription": "Birkaç soru çözdüğünüzde yetkinlik puanınız burada görünecek.",
+    "minAttemptsHint": "Bir konunun bandı belirlenmesi için en az 3 çözüm gerekir.",
+    "weakToStrong": "Bu konuyu zayıftan güçlüye taşıdınız."
+  }
+}

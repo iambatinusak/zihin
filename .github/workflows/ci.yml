@@ -1,0 +1,137 @@
+# Zihin — sürekli entegrasyon.
+#
+# İki iş var ve sınırları bilerek çizilmiştir:
+#
+#   verify — biçim · lint · tip · birim testi · üretim derlemesi.
+#            Hiçbir servise ihtiyaç duymaz.
+#   db     — şema ve tohum denetimleri. Docker İSTEMEZ: `packages/db/scripts`
+#            altındaki koşum gömülü bir PostgreSQL 17 başlatır ve Supabase'in
+#            şema/rol/fonksiyon yüzeyini `supabase-shim.sql` ile taklit eder
+#            (CONVENTIONS §7).
+#
+# E2E BURADA YOK — VE OLMAYACAK. Playwright yolculukları çalışan bir uygulama,
+# gerçek bir Supabase (auth + storage), Postgres ve Mailpit ister; bunlar
+# `docker/docker-compose.yml` ile ayağa kalkar. Bu yığını her PR'da kurmak
+# koşumu dakikalarca uzatır ve testleri ağ oynaklığına bağlar. E2E, yığının
+# ayakta olduğu bir VM'de elle (ya da ayrı bir workflow ile) koşulur; bkz.
+# `apps/web/e2e/README.md`.
+
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+env:
+  # CI'da gerçek bir Supabase örneği yok; biçim doğrulaması için yer tutucular.
+  NEXT_PUBLIC_APP_NAME: Zihin
+  NEXT_PUBLIC_APP_URL: http://localhost:3000
+  NEXT_PUBLIC_SUPABASE_URL: http://127.0.0.1:54321
+  NEXT_PUBLIC_SUPABASE_ANON_KEY: ci-anon-key
+  CRON_SECRET: ci-cron-secret
+
+jobs:
+  verify:
+    name: Biçim · Lint · Tip · Test · Derleme
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: pnpm/action-setup@v4
+        with:
+          version: 9.15.4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: pnpm
+
+      - name: Bağımlılıkları kur
+        run: pnpm install --frozen-lockfile
+
+      # Sıra CONVENTIONS §10 ile birebir aynı: yerelde geçmeyen uzakta da geçmez.
+      - name: Biçim kontrolü
+        run: pnpm format:check
+
+      - name: Lint
+        run: pnpm lint
+
+      - name: Tip kontrolü
+        run: pnpm typecheck
+
+      - name: Birim testleri
+        run: pnpm test
+
+      - name: Üretim derlemesi
+        run: pnpm build
+
+  db:
+    name: Şema · RLS · Tohum (gömülü Postgres)
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: pnpm/action-setup@v4
+        with:
+          version: 9.15.4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: pnpm
+
+      - name: Bağımlılıkları kur
+        run: pnpm install --frozen-lockfile
+
+      # Her adım kendi veritabanını kurar ve yıkar; biri diğerini kirletmez.
+      - name: Migration'lar + RLS kapsamı
+        run: pnpm --filter @zihin/db verify
+
+      - name: Şema davranış testleri
+        run: pnpm --filter @zihin/db smoke
+
+      - name: RLS rol matrisi
+        run: pnpm --filter @zihin/db test:rls
+
+      - name: Tohum uçtan uca
+        run: pnpm --filter @zihin/db test:seed
+
+      # Docker yığınının migration koşucusu. `verify` her seferinde sıfırdan
+      # uygular; bu ise KALICI bir veritabanı senaryosunu ve idempotency'yi
+      # sınar — `docker compose up` tekrarında şema bozulmamalı.
+      - name: Migration koşucusu (docker yolu)
+        run: pnpm --filter @zihin/db test:migrate
+
+      - name: İçerik kural denetimi
+        run: pnpm --filter @zihin/db check:content
+
+  # Supabase'in kendi şema denetleyicisi. DANIŞMA NİTELİĞİNDE (bloklamaz):
+  # `security definer` işaretli RLS yardımcılarımızı uyarı olarak bildirir,
+  # oysa bunlar bilinçli — `is_admin()` gibi fonksiyonlar `profiles` tablosunu
+  # onu koruyan politikanın içinden okur ve definer olmasalar Postgres
+  # "infinite recursion in policy" verirdi (gerekçe 0010_rls_helpers.sql'de).
+  # Yine de çalıştırıyoruz: indekssiz yabancı anahtar, birincil anahtarı
+  # olmayan tablo gibi gerçek bulguları erken görmek için.
+  #
+  # Zorunlu denetim `db` işidir; o Docker'sız çalışır ve kırmızı olabilir.
+  sql:
+    name: SQL lint (Supabase CLI — danışma)
+    runs-on: ubuntu-latest
+    continue-on-error: true
+    steps:
+      - uses: actions/checkout@v4
+      - uses: supabase/setup-cli@v1
+        with:
+          version: latest
+      - name: Yerel veritabanını ayağa kaldır ve migration'ları uygula
+        run: |
+          supabase start --exclude studio,realtime,storage-api,imgproxy,inbucket
+          supabase db lint --level warning
+      - name: Kapat
+        if: always()
+        run: supabase stop --no-backup || true

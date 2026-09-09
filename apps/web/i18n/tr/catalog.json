@@ -1,0 +1,57 @@
+{
+  "catalog": {
+    "title": "Dersler",
+    "description": "Sınavınızın derslerini, ünitelerini ve konularını buradan gezin.",
+    "breadcrumbRoot": "Dersler",
+    "noExamTitle": "Önce hangi sınava hazırlandığınızı seçmelisiniz.",
+    "noExamDescription": "Başlangıç adımlarını tamamladığınızda dersler burada listelenecek.",
+    "noExamAction": "Başlangıç adımlarına git",
+    "noSubjectsTitle": "Bu sınav için henüz ders eklenmemiş.",
+    "noSubjectsDescription": "Müfredat yayımlandığında dersler bu sayfada görünecek.",
+    "noUnitsTitle": "Bu dersin üniteleri hazırlanıyor.",
+    "noUnitsDescription": "Üniteler eklendiğinde bu sayfada listelenecek.",
+    "noTopicsTitle": "Bu ünitenin konuları hazırlanıyor.",
+    "unitCount": "ünite",
+    "topicCount": "konu",
+    "subjectMeta": "{units} ünite · {topics} konu",
+    "topicHeaderMeta": "Konu bilgileri",
+    "progress": "İlerleme",
+    "progressHint": "Öğrenilmiş konu oranı",
+    "learnedOfTotal": "{learned} / {total} konu öğrenildi",
+    "unitTopicCount": "konu",
+    "unitMinutes": "dk",
+    "locked": "Kilitli",
+    "lockedHint": "Bu içerik abonelik gerektiriyor.",
+    "freePreview": "Ücretsiz",
+    "estimatedMinutes": "Tahmini süre",
+    "difficulty": "Zorluk",
+    "examWeight": "Sınav ağırlığı",
+    "tabs": {
+      "videos": "Videolar",
+      "memoryNote": "Hafıza Notu",
+      "tests": "Testler",
+      "flashcards": "Kartlar"
+    },
+    "videoTypes": {
+      "lecture": "Konu anlatımı",
+      "solution": "Soru çözümü",
+      "summary": "Özet"
+    },
+    "testTypes": {
+      "topic_test": "Konu testi",
+      "unit_test": "Ünite testi",
+      "quick_practice": "Hızlı pratik",
+      "mock_exam": "Deneme"
+    },
+    "watchVideo": "Videoyu izle",
+    "solveTest": "Testi çöz",
+    "openCards": "Kartlara git",
+    "flashcardCount": "{count} hafıza kartı",
+    "questionCount": "{count} soru",
+    "emptyContentTitle": "Bu konunun içeriği hazırlanıyor.",
+    "emptyVideos": "Konu videoları yayımlandığında bu sekmede görünecek.",
+    "emptyMemoryNote": "Hafıza notu yazıldığında bu sekmede görünecek.",
+    "emptyTests": "Konu testleri hazırlandığında bu sekmede görünecek.",
+    "emptyFlashcards": "Hafıza kartları hazırlandığında bu sekmede görünecek."
+  }
+}

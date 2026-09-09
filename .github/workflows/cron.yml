@@ -1,0 +1,58 @@
+# Zamanlanmış işler (spec §M6, §M8, §M9, §M12).
+#
+# NEDEN VERCEL CRON DEĞİL: Vercel'in cron'u uçları GET ile çağırır; bizim
+# `/api/cron/*` rotalarımız yalnızca POST dışa aktarır (GET 405 alır) çünkü bu
+# uçlar yan etkili. Bu yüzden zamanlayıcı GitHub Actions'tır ve sırrı
+# `Authorization: Bearer` başlığıyla taşır — sorgu dizesinde değil, kayıtlara
+# düşmesin diye.
+#
+# Gerekli secret'lar: APP_BASE_URL (ör. https://zihin.app), CRON_SECRET.
+name: Zamanlanmış işler
+
+on:
+  schedule:
+    # Saatler UTC'dir; Türkiye UTC+3 (yaz saati yok).
+    - cron: '0 0 * * 0' # Pazar 03:00 TR — haftalık program üretimi
+    - cron: '30 0 * * 0' # Pazar 03:30 TR — yetkinlik fotoğrafı
+    - cron: '0 15 * * *' # Her gün 18:00 TR — tekrar hatırlatıcısı
+    - cron: '0 5 * * 1' # Pazartesi 08:00 TR — veliye haftalık özet
+    - cron: '0 6 * * *' # Her gün 09:00 TR — abonelik bitiş uyarısı
+  workflow_dispatch:
+    inputs:
+      job:
+        description: 'Elle çalıştırılacak iş'
+        required: true
+        type: choice
+        options: [weekly-plans, mastery-snapshot, reminders, parent-summary, subscription-warnings]
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Hangi iş?
+        id: pick
+        env:
+          SCHEDULE: ${{ github.event.schedule }}
+          MANUAL: ${{ inputs.job }}
+        run: |
+          case "${SCHEDULE:-}" in
+            '0 0 * * 0')  echo "job=weekly-plans"    >> "$GITHUB_OUTPUT" ;;
+            '30 0 * * 0') echo "job=mastery-snapshot" >> "$GITHUB_OUTPUT" ;;
+            '0 15 * * *') echo "job=reminders"        >> "$GITHUB_OUTPUT" ;;
+            '0 5 * * 1')  echo "job=parent-summary"   >> "$GITHUB_OUTPUT" ;;
+            '0 6 * * *')  echo "job=subscription-warnings" >> "$GITHUB_OUTPUT" ;;
+            *)            echo "job=${MANUAL}"        >> "$GITHUB_OUTPUT" ;;
+          esac
+
+      - name: Ucu çağır
+        env:
+          BASE_URL: ${{ secrets.APP_BASE_URL }}
+          CRON_SECRET: ${{ secrets.CRON_SECRET }}
+          JOB: ${{ steps.pick.outputs.job }}
+        run: |
+          set -euo pipefail
+          # --fail-with-body: 500 dönerse adım kırmızı olsun ama gövde loglansın.
+          curl --fail-with-body --silent --show-error \
+            --request POST "${BASE_URL}/api/cron/${JOB}" \
+            --header "Authorization: Bearer ${CRON_SECRET}" \
+            --max-time 600

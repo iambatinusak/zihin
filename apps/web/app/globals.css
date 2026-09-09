@@ -1,0 +1,55 @@
+/* Paylasilan tasarim belirtecleri. Goreli yol kullaniyoruz: postcss-import
+   paket "exports" haritasini degil, dosya sistemini cozer. */
+@import '../../../packages/ui/src/styles.css';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  /* Test ekraninda soru navigasyon izgarasi ve isi haritasi icin */
+  .grid-auto-fill-10 {
+    grid-template-columns: repeat(auto-fill, minmax(2.5rem, 1fr));
+  }
+  .text-balance {
+    text-wrap: balance;
+  }
+  /* Ekran okuyucuya gizli olmayan ama gorsel olarak gizli baslik */
+  .sr-only-focusable:not(:focus):not(:focus-within) {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    clip: rect(0 0 0 0);
+    white-space: nowrap;
+  }
+}
+
+/* Kart cevirme animasyonu (hafiza kartlari) */
+.flip-card {
+  perspective: 1200px;
+}
+.flip-card-inner {
+  transform-style: preserve-3d;
+  transition: transform 0.45s cubic-bezier(0.4, 0, 0.2, 1);
+}
+.flip-card.is-flipped .flip-card-inner {
+  transform: rotateY(180deg);
+}
+.flip-face {
+  backface-visibility: hidden;
+}
+.flip-face-back {
+  transform: rotateY(180deg);
+}
+
+/* Hareket azaltma tercihi olan kullanicilar icin animasyonlari kis */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}

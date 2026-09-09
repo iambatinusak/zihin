@@ -1,0 +1,37 @@
+# ---------------------------------------------------------------------------
+# Şema + seed koşucusu (tek seferlik servis).
+#
+# Ayrı bir imaj, çünkü işi bittiğinde çıkması gerekiyor: `web` servisi
+# `service_completed_successfully` ile buna bağlı. Uygulama imajına
+# gömülseydi, migration hatası ya sessiz kalırdı ya da uygulamayı da
+# ayağa kaldırmazdı.
+#
+# Geliştirme bağımlılıklarına ihtiyaç var (tsx, TypeScript seed dosyaları),
+# bu yüzden `--prod` kurulum yapılmıyor. Bu imaj dışarı açılmaz.
+# ---------------------------------------------------------------------------
+
+FROM node:22-alpine
+WORKDIR /app
+
+RUN npm install -g pnpm@9.15.4
+
+COPY package.json pnpm-lock.yaml pnpm-workspace.yaml .npmrc ./
+COPY apps/web/package.json       apps/web/
+COPY packages/core/package.json  packages/core/
+COPY packages/db/package.json    packages/db/
+COPY packages/ui/package.json    packages/ui/
+
+# Yalnızca db paketi ve bağımlılığı olan core kuruluyor; web'in ~1 GB'lık
+# ağacı bu imaja girmiyor. `--ignore-scripts`: husky git deposu bekler.
+RUN pnpm install --frozen-lockfile --ignore-scripts \
+      --filter @zihin/db... \
+ && pnpm store prune
+
+# Migration'lar ve seed. Uygulama kaynağı kopyalanmıyor.
+COPY supabase/migrations   ./supabase/migrations
+COPY packages/db           ./packages/db
+COPY packages/core/src     ./packages/core/src
+COPY packages/core/package.json ./packages/core/package.json
+
+# Varsayılan komut compose tarafından geçersiz kılınır (--seed eklenir).
+CMD ["node", "packages/db/scripts/migrate.mjs"]

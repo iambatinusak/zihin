@@ -1,0 +1,75 @@
+{
+  "legal": {
+    "title": "KVKK aydınlatma ve açık rıza metni",
+    "updated": "Son güncelleme: 1 Ocak 2026",
+    "intro": "6698 sayılı Kişisel Verilerin Korunması Kanunu kapsamında, Zihin platformunu kullanırken hangi kişisel verilerinizin işlendiğini, bu verilerin hangi amaçla kullanıldığını ve haklarınızı aşağıda bulabilirsiniz. Kayıt formundaki onay kutusunu işaretlemeniz, bu metinde tanımlanan işleme faaliyetlerine açık rıza verdiğiniz anlamına gelir.",
+    "backToRegister": "Kayıt sayfasına dön",
+    "sections": [
+      {
+        "heading": "1. İşlenen kişisel verileriniz",
+        "paragraphs": ["Platform yalnızca hizmetin çalışması için gereken verileri toplar:"],
+        "items": [
+          "Kimlik ve iletişim: ad soyad, görünen ad, e-posta adresi, varsa profil görseli adresi.",
+          "Eğitim bilgisi: sınıf ya da aday durumu, hedef sınav ve hedeflenen sınav tarihi.",
+          "Çalışma tercihi: günlük çalışma süresi ve seçtiğiniz çalışma günleri.",
+          "Kullanım verisi: izlediğiniz videolar, çözdüğünüz sorular ve testler, konu bazlı yetkinlik puanları, çalışma seriniz ve kazandığınız puanlar.",
+          "Bağlantı verisi: veli-öğrenci bağı kurulduğunda bağın tarafları ve kurulma tarihi.",
+          "Teknik veri: oturum çerezi ve hata kayıtları."
+        ]
+      },
+      {
+        "heading": "2. İşleme amaçları",
+        "items": [
+          "Hesabınızı oluşturmak ve oturumunuzu güvenli biçimde sürdürmek.",
+          "Size özel çalışma programı ve konu önceliklendirmesi üretmek.",
+          "İlerlemenizi ölçmek, yetkinlik haritanızı ve raporlarınızı oluşturmak.",
+          "Açık rızanızla bağladığınız velinize ilerleme özetinizi göstermek.",
+          "Seçtiğiniz bildirim tercihlerine göre hatırlatma ve özet iletileri göndermek.",
+          "Hizmetin güvenliğini sağlamak ve kötüye kullanımı önlemek."
+        ]
+      },
+      {
+        "heading": "3. Hukuki sebep",
+        "paragraphs": [
+          "Hesabınızın oluşturulması ve hizmetin sunulması, KVKK m.5/2-c uyarınca sözleşmenin kurulması ve ifası için gerekli olması sebebine dayanır. Veli bağlantısı, liderlik tablosunda görünme ve pazarlama niteliği taşıyan e-postalar ise yalnızca KVKK m.5/1 uyarınca açık rızanıza dayanır; bu rızaları ayarlar sayfanızdan istediğiniz an geri çekebilirsiniz."
+        ]
+      },
+      {
+        "heading": "4. Veli erişimi",
+        "paragraphs": [
+          "Davet kodunuzu paylaştığınız kişi, veli hesabıyla yalnızca çalışma sürenizi, serinizi, test ve deneme sonuçlarınızı ve konu bazlı güçlü/zayıf alanlarınızı görebilir. Şifreniz, hesap giriş bilgileriniz, öğretmene sorduğunuz soruların içeriği ve hafıza kartlarına yazdığınız kişisel notlar veliye kapalıdır. Bir öğrenciye en fazla iki veli bağlanabilir. Bağlantıyı ayarlar sayfanızdan tek taraflı olarak kesebilirsiniz; kesildiği anda velinin erişimi biter."
+        ]
+      },
+      {
+        "heading": "5. Aktarım",
+        "paragraphs": [
+          "Verileriniz, hizmetin sunulabilmesi için barındırma, e-posta gönderimi, video dağıtımı ve ödeme altyapısı sağlayıcılarımızla, yalnızca ilgili hizmetin gerektirdiği ölçüde paylaşılır. Verileriniz reklam amacıyla üçüncü taraflara satılmaz veya kiralanmaz. Yasal olarak yetkili kamu kurumlarının talepleri saklıdır."
+        ]
+      },
+      {
+        "heading": "6. Saklama süresi",
+        "paragraphs": [
+          "Hesabınız açık kaldığı sürece verileriniz saklanır. Hesabınızı sildirdiğinizde kimlik ve iletişim verileriniz anonimleştirilir; çözdüğünüz sorulara ait istatistikler kimliğinizden koparılmış biçimde saklanmaya devam eder. Mevzuatın öngördüğü zorunlu saklama süreleri saklıdır."
+        ]
+      },
+      {
+        "heading": "7. On sekiz yaşından küçük kullanıcılar",
+        "paragraphs": [
+          "On sekiz yaşından küçükseniz platformu bir ebeveyninizin ya da yasal temsilcinizin bilgisi dâhilinde kullanmanız gerekir. Veli bağlantısı kurulması bu bilgilendirmenin yerine geçmez."
+        ]
+      },
+      {
+        "heading": "8. Haklarınız",
+        "paragraphs": [
+          "KVKK m.11 uyarınca kişisel verilerinizin işlenip işlenmediğini öğrenme, işlenmişse buna ilişkin bilgi talep etme, işlenme amacını ve amacına uygun kullanılıp kullanılmadığını öğrenme, eksik veya yanlış işlenmiş verilerin düzeltilmesini, silinmesini veya yok edilmesini isteme ve işlemenin zararına yol açması hâlinde zararın giderilmesini talep etme haklarına sahipsiniz."
+        ]
+      },
+      {
+        "heading": "9. Başvuru",
+        "paragraphs": [
+          "Taleplerinizi ayarlar sayfanızdaki \"Verilerinizin silinmesi (KVKK)\" bölümünde belirtilen adrese iletebilirsiniz. Başvurular en geç otuz gün içinde sonuçlandırılır."
+        ]
+      }
+    ]
+  }
+}

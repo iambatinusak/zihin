@@ -1,0 +1,11 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "zihin-web",
+      "runtimeExecutable": "pnpm",
+      "runtimeArgs": ["--filter", "@zihin/web", "dev"],
+      "port": 3000
+    }
+  ]
+}

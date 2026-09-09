@@ -1,0 +1,84 @@
+{
+  "parentPanel": {
+    "title": "Haftalık Özet",
+    "description": "Öğrencinizin haftalık çalışmasını, zayıf konularını ve deneme sonuçlarını görüntüleyin.",
+    "reportsTitle": "Raporlar",
+    "reportsDescription": "Haftalar arasında gezinerek çalışma geçmişini karşılaştırın.",
+    "studentsTitle": "Öğrencilerim",
+    "studentsDescription": "Bağlı öğrencilerinizi görüntüleyin ve yeni bir öğrenci ekleyin.",
+    "readOnlyNotice": "Bu panel salt okunurdur. Veli hesabıyla ders izlenemez, test çözülemez ve program değiştirilemez.",
+    "selector": {
+      "label": "Öğrenci",
+      "hint": "Birden fazla öğrenciniz varsa buradan geçiş yapın.",
+      "submit": "Göster",
+      "nameless": "Adı belirtilmemiş öğrenci"
+    },
+    "noStudentTitle": "Henüz bağlı bir öğrenciniz yok.",
+    "noStudentDescription": "Öğrencinizin ayarlar sayfasındaki 8 haneli davet kodunu girdiğinizde haftalık özet burada görünür.",
+    "noStudentAction": "Öğrenci ekle",
+    "noExamTitle": "Öğrencinin sınav tercihi belirlenmemiş.",
+    "noExamDescription": "Öğrenci başlangıç adımlarını tamamladığında konu yetkinlikleri burada görünecek.",
+    "week": {
+      "previous": "Önceki hafta",
+      "next": "Sonraki hafta",
+      "current": "Bu hafta",
+      "label": "Hafta",
+      "thisWeekBadge": "Bu hafta"
+    },
+    "summary": {
+      "title": "Haftalık özet",
+      "studyTime": "Toplam çalışma süresi",
+      "videos": "İzlenen video",
+      "questions": "Çözülen soru",
+      "accuracy": "Doğruluk",
+      "blocks": "Tamamlanan program bloğu",
+      "blocksValue": "{completed} / {planned}",
+      "minuteUnit": "dk",
+      "videoUnit": "video",
+      "questionUnit": "soru",
+      "hourMinute": "{hours} sa {minutes} dk",
+      "noData": "Bu hafta kayıtlı çalışma yok.",
+      "accuracyEmpty": "Soru çözülmedi",
+      "blocksEmpty": "Planlanmış blok yok"
+    },
+    "delta": {
+      "up": "Geçen haftaya göre {value} arttı",
+      "down": "Geçen haftaya göre {value} azaldı",
+      "flat": "Geçen haftaya göre değişmedi",
+      "new": "Geçen hafta kayıt yoktu",
+      "newShort": "yeni",
+      "none": "Karşılaştırılacak veri yok",
+      "caption": "geçen haftaya göre"
+    },
+    "weakTopics": {
+      "title": "Zayıf konular",
+      "description": "En düşük yetkinlikli konular. Öğrenciniz bunlara öncelik vermeli.",
+      "emptyTitle": "Zayıf görünen bir konu yok.",
+      "emptyDescription": "Yeterli ölçüm biriktiğinde öncelikli konular burada listelenir.",
+      "attempts": "{count} çözüm",
+      "scoreLabel": "Yetkinlik"
+    },
+    "mocks": {
+      "title": "Son denemeler",
+      "description": "Bitmiş deneme sınavlarının ders bazlı netleri.",
+      "emptyTitle": "Henüz tamamlanmış bir deneme yok.",
+      "emptyDescription": "Öğrenciniz bir deneme sınavını bitirdiğinde sonucu burada görünür.",
+      "net": "net",
+      "totalNet": "Toplam net",
+      "correct": "doğru",
+      "wrong": "yanlış",
+      "blank": "boş",
+      "percentile": "Yüzdelik: %{percent}",
+      "percentileEmpty": "Yüzdelik için yeterli katılım yok",
+      "subjectsTitle": "Ders bazlı net",
+      "subjectColumn": "Ders",
+      "netColumn": "Net"
+    },
+    "notification": {
+      "title": "{name} için haftalık özet hazır",
+      "body": "{week}: {minutes} dk çalışma, {questions} soru, {videos} video. Doğruluk: {accuracy}. Ayrıntılar veli panelinde.",
+      "accuracyUnknown": "ölçülmedi",
+      "studentFallback": "öğrenciniz"
+    }
+  }
+}

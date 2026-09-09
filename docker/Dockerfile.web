@@ -1,0 +1,93 @@
+# ---------------------------------------------------------------------------
+# Zihin uygulaması (Next.js 15, standalone çıktı).
+#
+# Bağlam depo KÖKÜdür, apps/web değil: pnpm workspace'i olduğu için
+# packages/* paketleri de kurulum ağacına girmek zorunda.
+#   docker build -f docker/Dockerfile.web ..
+#
+# Çok aşamalı: son imaj derleyici, kaynak kod ve geliştirme bağımlılıkları
+# taşımaz — yalnızca `.next/standalone` çıktısı ve statik dosyalar.
+# ---------------------------------------------------------------------------
+
+# --- 1) Bağımlılıklar ------------------------------------------------------
+FROM node:22-alpine AS deps
+WORKDIR /app
+
+# corepack yerine doğrudan kurulum: corepack imza doğrulaması ağ kesintisinde
+# derlemeyi kırıyor ve sürümü zaten burada sabitliyoruz.
+RUN npm install -g pnpm@9.15.4
+
+# Yalnızca manifest'ler kopyalanır; kaynak değişince bağımlılık katmanı
+# yeniden kurulmasın diye.
+COPY package.json pnpm-lock.yaml pnpm-workspace.yaml .npmrc ./
+COPY apps/web/package.json           apps/web/
+COPY packages/core/package.json      packages/core/
+COPY packages/db/package.json        packages/db/
+COPY packages/ui/package.json        packages/ui/
+
+# `--ignore-scripts`: husky kurulum betiği git deposu bekler, imajda yok.
+RUN pnpm install --frozen-lockfile --ignore-scripts
+
+# --- 2) Derleme ------------------------------------------------------------
+FROM node:22-alpine AS builder
+WORKDIR /app
+RUN npm install -g pnpm@9.15.4
+
+COPY --from=deps /app/node_modules                   ./node_modules
+COPY --from=deps /app/apps/web/node_modules          ./apps/web/node_modules
+COPY --from=deps /app/packages/core/node_modules     ./packages/core/node_modules
+COPY --from=deps /app/packages/db/node_modules       ./packages/db/node_modules
+COPY --from=deps /app/packages/ui/node_modules       ./packages/ui/node_modules
+COPY . .
+
+# NEXT_PUBLIC_* değerleri derleme sırasında paketlenir; runtime env ile
+# değiştirilemezler. Bu yüzden build arg olarak geliyorlar.
+ARG NEXT_PUBLIC_SUPABASE_URL
+ARG NEXT_PUBLIC_SUPABASE_ANON_KEY
+ARG NEXT_PUBLIC_APP_URL
+ARG NEXT_PUBLIC_APP_NAME=Zihin
+ARG NEXT_PUBLIC_BRAND_HUE=243
+
+ENV NEXT_PUBLIC_SUPABASE_URL=$NEXT_PUBLIC_SUPABASE_URL \
+    NEXT_PUBLIC_SUPABASE_ANON_KEY=$NEXT_PUBLIC_SUPABASE_ANON_KEY \
+    NEXT_PUBLIC_APP_URL=$NEXT_PUBLIC_APP_URL \
+    NEXT_PUBLIC_APP_NAME=$NEXT_PUBLIC_APP_NAME \
+    NEXT_PUBLIC_BRAND_HUE=$NEXT_PUBLIC_BRAND_HUE \
+    NEXT_TELEMETRY_DISABLED=1 \
+    NODE_ENV=production \
+    DOCKER_BUILD=1
+
+# DOCKER_BUILD=1, next.config.mjs içindeki `output: 'standalone'` çıktısını
+# açar. Yerelde kapalı tutuluyor: Windows sembolik bağ kuramadığı için
+# (EPERM) geliştiricinin `pnpm build` komutunu kırardı.
+RUN pnpm --filter @zihin/web build
+
+# Çıktının gerçekten oluştuğunu burada doğruluyoruz. Aksi hâlde bir sonraki
+# aşama boş bir dizin kopyalar ve hata ancak konteyner ilk isteği alınca,
+# "module not found" olarak ortaya çıkar.
+RUN test -f apps/web/.next/standalone/apps/web/server.js \
+ || (echo "HATA: standalone çıktı oluşmadı (DOCKER_BUILD ayarlı mı?)" && exit 1)
+
+# --- 3) Çalıştırma ---------------------------------------------------------
+FROM node:22-alpine AS runner
+WORKDIR /app
+
+ENV NODE_ENV=production \
+    NEXT_TELEMETRY_DISABLED=1 \
+    PORT=3000 \
+    HOSTNAME=0.0.0.0
+
+# Root olarak çalıştırmayın: konteyner kaçışı hâlinde fark yaratan tek şey bu.
+RUN addgroup --system --gid 1001 nodejs \
+ && adduser  --system --uid 1001 nextjs
+
+# standalone çıktı, workspace kökünü koruyarak gelir (outputFileTracingRoot).
+COPY --from=builder --chown=nextjs:nodejs /app/apps/web/.next/standalone ./
+COPY --from=builder --chown=nextjs:nodejs /app/apps/web/.next/static     ./apps/web/.next/static
+COPY --from=builder --chown=nextjs:nodejs /app/apps/web/public           ./apps/web/public
+
+USER nextjs
+EXPOSE 3000
+
+# Sunucu, izleme kökü nedeniyle apps/web altında oluşur.
+CMD ["node", "apps/web/server.js"]

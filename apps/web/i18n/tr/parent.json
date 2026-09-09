@@ -1,0 +1,29 @@
+{
+  "parent": {
+    "title": "Veli Paneli",
+    "description": "Bağlı olduğunuz öğrencilerin ilerlemesini buradan izleyin.",
+    "studentsTitle": "Öğrencilerim",
+    "emptyTitle": "Henüz bağlı bir öğrenciniz yok.",
+    "emptyDescription": "Öğrencinizin ayarlar sayfasındaki 8 haneli davet kodunu girdiğinizde ilerleme özeti burada görünür.",
+    "addTitle": "Öğrenci ekle",
+    "gradeLabel": "Sınıf",
+    "gradeUnknown": "Belirtilmemiş",
+    "levelLabel": "Seviye",
+    "streakLabel": "Seri",
+    "streakUnit": "gün",
+    "xpLabel": "Puan",
+    "linkedSince": "Bağlantı tarihi",
+    "nameless": "Adı belirtilmemiş öğrenci",
+    "limitNote": "Bir öğrenciye en fazla 2 veli bağlanabilir.",
+    "reportsPending": "Haftalık özet, zayıf konular ve deneme sonuçları raporları hazırlanıyor.",
+    "grades": {
+      "8": "8. sınıf",
+      "9": "9. sınıf",
+      "10": "10. sınıf",
+      "11": "11. sınıf",
+      "12": "12. sınıf",
+      "mezun": "Mezun",
+      "yetiskin": "Yetişkin aday"
+    }
+  }
+}

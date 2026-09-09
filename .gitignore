@@ -1,0 +1,26 @@
+node_modules/
+.pnpm-store/
+.turbo/
+dist/
+.next/
+out/
+coverage/
+*.tsbuildinfo
+.env
+.env.local
+.env*.local
+!.env.example
+.DS_Store
+Thumbs.db
+playwright-report/
+test-results/
+blob-report/
+.playwright/
+apps/web/e2e/.auth/
+supabase/.branches/
+supabase/.temp/
+.vercel
+*.log
+
+# Docker compose sirlari — asla surum kontrolune girmez
+docker/.env

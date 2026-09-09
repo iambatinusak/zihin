@@ -1,0 +1,3071 @@
+[
+  {
+    "examCode": "LGS",
+    "examName": "LGS — Liselere Geçiş Sınavı",
+    "subjectName": "Türkçe",
+    "subjectSlug": "turkce",
+    "unitName": "Sözcükte Anlam",
+    "unitSlug": "sozcukte-anlam",
+    "topics": [
+      {
+        "slug": "gercek-mecaz-ve-terim-anlam",
+        "title": "Gerçek, Mecaz ve Terim Anlam",
+        "difficulty": 2,
+        "estimatedMinutes": 40,
+        "examWeight": 0.7
+      },
+      {
+        "slug": "somut-ve-soyut-anlam",
+        "title": "Somut ve Soyut Anlam",
+        "difficulty": 2,
+        "estimatedMinutes": 25,
+        "examWeight": 0.3
+      },
+      {
+        "slug": "sozcukler-arasindaki-anlam-iliskileri",
+        "title": "Sözcükler Arasındaki Anlam İlişkileri",
+        "difficulty": 2,
+        "estimatedMinutes": 35,
+        "examWeight": 0.55
+      }
+    ]
+  },
+  {
+    "examCode": "LGS",
+    "examName": "LGS — Liselere Geçiş Sınavı",
+    "subjectName": "Türkçe",
+    "subjectSlug": "turkce",
+    "unitName": "Cümlede Anlam",
+    "unitSlug": "cumlede-anlam",
+    "topics": [
+      {
+        "slug": "cumlede-anlam-iliskileri",
+        "title": "Cümlede Anlam İlişkileri",
+        "difficulty": 3,
+        "estimatedMinutes": 45,
+        "examWeight": 0.65
+      },
+      {
+        "slug": "oznel-ve-nesnel-yargilar",
+        "title": "Öznel ve Nesnel Yargılar",
+        "difficulty": 2,
+        "estimatedMinutes": 25,
+        "examWeight": 0.5
+      },
+      {
+        "slug": "ortulu-anlam-ve-kesin-yargi",
+        "title": "Örtülü Anlam ve Kesin Yargı",
+        "difficulty": 4,
+        "estimatedMinutes": 40,
+        "examWeight": 0.55
+      }
+    ]
+  },
+  {
+    "examCode": "LGS",
+    "examName": "LGS — Liselere Geçiş Sınavı",
+    "subjectName": "Türkçe",
+    "subjectSlug": "turkce",
+    "unitName": "Parçada Anlam",
+    "unitSlug": "parcada-anlam",
+    "topics": [
+      {
+        "slug": "paragrafta-konu-ve-ana-dusunce",
+        "title": "Paragrafta Konu ve Ana Düşünce",
+        "difficulty": 3,
+        "estimatedMinutes": 50,
+        "examWeight": 0.95
+      },
+      {
+        "slug": "paragrafta-yardimci-dusunce",
+        "title": "Paragrafta Yardımcı Düşünce",
+        "difficulty": 3,
+        "estimatedMinutes": 45,
+        "examWeight": 0.85
+      },
+      {
+        "slug": "paragrafta-yapi-bolme-tamamlama-ve-akis",
+        "title": "Paragrafta Yapı: Bölme, Tamamlama ve Akış",
+        "difficulty": 4,
+        "estimatedMinutes": 55,
+        "examWeight": 0.8
+      }
+    ]
+  },
+  {
+    "examCode": "LGS",
+    "examName": "LGS — Liselere Geçiş Sınavı",
+    "subjectName": "Matematik",
+    "subjectSlug": "matematik",
+    "unitName": "Çarpanlar ve Katlar",
+    "unitSlug": "carpanlar-ve-katlar",
+    "topics": [
+      {
+        "slug": "asal-carpanlara-ayirma",
+        "title": "Asal Çarpanlara Ayırma",
+        "difficulty": 2,
+        "estimatedMinutes": 40,
+        "examWeight": 0.7
+      },
+      {
+        "slug": "bolunebilme-kurallari",
+        "title": "Bölünebilme Kuralları",
+        "difficulty": 3,
+        "estimatedMinutes": 45,
+        "examWeight": 0.6
+      },
+      {
+        "slug": "pozitif-tam-sayilarin-carpanlari",
+        "title": "Pozitif Tam Sayıların Çarpanları",
+        "difficulty": 3,
+        "estimatedMinutes": 35,
+        "examWeight": 0.55
+      }
+    ]
+  },
+  {
+    "examCode": "LGS",
+    "examName": "LGS — Liselere Geçiş Sınavı",
+    "subjectName": "Matematik",
+    "subjectSlug": "matematik",
+    "unitName": "Üslü İfadeler",
+    "unitSlug": "uslu-ifadeler",
+    "topics": [
+      {
+        "slug": "uslu-ifadeler-ve-tam-sayi-kuvvetleri",
+        "title": "Üslü İfadeler ve Tam Sayı Kuvvetleri",
+        "difficulty": 2,
+        "estimatedMinutes": 45,
+        "examWeight": 0.7
+      },
+      {
+        "slug": "uslu-ifadelerin-ozellikleri",
+        "title": "Üslü İfadelerin Özellikleri",
+        "difficulty": 3,
+        "estimatedMinutes": 50,
+        "examWeight": 0.75
+      },
+      {
+        "slug": "uslu-ifadelerle-islemler",
+        "title": "Üslü İfadelerle İşlemler",
+        "difficulty": 4,
+        "estimatedMinutes": 55,
+        "examWeight": 0.7
+      }
+    ]
+  },
+  {
+    "examCode": "LGS",
+    "examName": "LGS — Liselere Geçiş Sınavı",
+    "subjectName": "Matematik",
+    "subjectSlug": "matematik",
+    "unitName": "Kareköklü İfadeler",
+    "unitSlug": "karekoklu-ifadeler",
+    "topics": [
+      {
+        "slug": "tam-kare-sayilar-ve-karekok",
+        "title": "Tam Kare Sayılar ve Karekök",
+        "difficulty": 2,
+        "estimatedMinutes": 40,
+        "examWeight": 0.7
+      },
+      {
+        "slug": "karekoklu-ifadelerde-carpma-ve-bolme",
+        "title": "Kareköklü İfadelerde Çarpma ve Bölme",
+        "difficulty": 3,
+        "estimatedMinutes": 45,
+        "examWeight": 0.7
+      },
+      {
+        "slug": "karekoklu-ifadelerde-toplama-ve-cikarma",
+        "title": "Kareköklü İfadelerde Toplama ve Çıkarma",
+        "difficulty": 3,
+        "estimatedMinutes": 45,
+        "examWeight": 0.7
+      }
+    ]
+  },
+  {
+    "examCode": "LGS",
+    "examName": "LGS — Liselere Geçiş Sınavı",
+    "subjectName": "Fen Bilimleri",
+    "subjectSlug": "fen-bilimleri",
+    "unitName": "Mevsimler ve İklim",
+    "unitSlug": "mevsimler-ve-iklim",
+    "topics": [
+      {
+        "slug": "dunyanin-hareketleri-ve-eksen-egikligi",
+        "title": "Dünya'nın Hareketleri ve Eksen Eğikliği",
+        "difficulty": 3,
+        "estimatedMinutes": 40,
+        "examWeight": 0.55
+      },
+      {
+        "slug": "mevsimlerin-olusumu",
+        "title": "Mevsimlerin Oluşumu",
+        "difficulty": 3,
+        "estimatedMinutes": 45,
+        "examWeight": 0.6
+      },
+      {
+        "slug": "iklim-ve-hava-olaylari",
+        "title": "İklim ve Hava Olayları",
+        "difficulty": 2,
+        "estimatedMinutes": 35,
+        "examWeight": 0.5
+      }
+    ]
+  },
+  {
+    "examCode": "LGS",
+    "examName": "LGS — Liselere Geçiş Sınavı",
+    "subjectName": "Fen Bilimleri",
+    "subjectSlug": "fen-bilimleri",
+    "unitName": "DNA ve Genetik Kod",
+    "unitSlug": "dna-ve-genetik-kod",
+    "topics": [
+      {
+        "slug": "dnanin-yapisi-ve-eslenmesi",
+        "title": "DNA'nın Yapısı ve Eşlenmesi",
+        "difficulty": 3,
+        "estimatedMinutes": 50,
+        "examWeight": 0.8
+      },
+      {
+        "slug": "kalitim-ve-kalitsal-ozellikler",
+        "title": "Kalıtım ve Kalıtsal Özellikler",
+        "difficulty": 3,
+        "estimatedMinutes": 55,
+        "examWeight": 0.85
+      },
+      {
+        "slug": "caprazlama-problemleri",
+        "title": "Çaprazlama Problemleri",
+        "difficulty": 4,
+        "estimatedMinutes": 65,
+        "examWeight": 0.85
+      }
+    ]
+  },
+  {
+    "examCode": "LGS",
+    "examName": "LGS — Liselere Geçiş Sınavı",
+    "subjectName": "Fen Bilimleri",
+    "subjectSlug": "fen-bilimleri",
+    "unitName": "Basınç",
+    "unitSlug": "basinc",
+    "topics": [
+      {
+        "slug": "kati-basinci",
+        "title": "Katı Basıncı",
+        "difficulty": 3,
+        "estimatedMinutes": 45,
+        "examWeight": 0.75
+      },
+      {
+        "slug": "sivi-basinci",
+        "title": "Sıvı Basıncı",
+        "difficulty": 4,
+        "estimatedMinutes": 50,
+        "examWeight": 0.75
+      },
+      {
+        "slug": "gaz-basinci-ve-acik-hava-basinci",
+        "title": "Gaz Basıncı ve Açık Hava Basıncı",
+        "difficulty": 3,
+        "estimatedMinutes": 40,
+        "examWeight": 0.65
+      }
+    ]
+  },
+  {
+    "examCode": "LGS",
+    "examName": "LGS — Liselere Geçiş Sınavı",
+    "subjectName": "T.C. İnkılap Tarihi",
+    "subjectSlug": "tc-inkilap-tarihi",
+    "unitName": "Bir Kahraman Doğuyor",
+    "unitSlug": "bir-kahraman-doguyor",
+    "topics": [
+      {
+        "slug": "yirminci-yuzyil-baslarinda-osmanli-devleti",
+        "title": "20. Yüzyıl Başlarında Osmanlı Devleti",
+        "difficulty": 2,
+        "estimatedMinutes": 35,
+        "examWeight": 0.45
+      },
+      {
+        "slug": "mustafa-kemalin-cocuklugu-ve-ogrenim-hayati",
+        "title": "Mustafa Kemal'in Çocukluğu ve Öğrenim Hayatı",
+        "difficulty": 1,
+        "estimatedMinutes": 30,
+        "examWeight": 0.5
+      },
+      {
+        "slug": "mustafa-kemali-etkileyen-olaylar-ve-fikir-akimlari",
+        "title": "Mustafa Kemal'i Etkileyen Olaylar ve Fikir Akımları",
+        "difficulty": 3,
+        "estimatedMinutes": 40,
+        "examWeight": 0.55
+      }
+    ]
+  },
+  {
+    "examCode": "LGS",
+    "examName": "LGS — Liselere Geçiş Sınavı",
+    "subjectName": "T.C. İnkılap Tarihi",
+    "subjectSlug": "tc-inkilap-tarihi",
+    "unitName": "Millî Uyanış: Bağımsızlık Yolunda Atılan Adımlar",
+    "unitSlug": "milli-uyanis-bagimsizlik-yolunda-atilan-adimlar",
+    "topics": [
+      {
+        "slug": "birinci-dunya-savasi-ve-osmanli-cepheleri",
+        "title": "I. Dünya Savaşı ve Osmanlı Cepheleri",
+        "difficulty": 3,
+        "estimatedMinutes": 55,
+        "examWeight": 0.75
+      },
+      {
+        "slug": "mondros-ateskes-antlasmasi-ve-isgaller",
+        "title": "Mondros Ateşkes Antlaşması ve İşgaller",
+        "difficulty": 3,
+        "estimatedMinutes": 45,
+        "examWeight": 0.8
+      },
+      {
+        "slug": "cemiyetler-ve-kuva-yi-milliye",
+        "title": "Cemiyetler ve Kuvâ-yı Millîye",
+        "difficulty": 3,
+        "estimatedMinutes": 40,
+        "examWeight": 0.7
+      }
+    ]
+  },
+  {
+    "examCode": "LGS",
+    "examName": "LGS — Liselere Geçiş Sınavı",
+    "subjectName": "T.C. İnkılap Tarihi",
+    "subjectSlug": "tc-inkilap-tarihi",
+    "unitName": "Millî Bir Destan: Ya İstiklal Ya Ölüm",
+    "unitSlug": "milli-bir-destan-ya-istiklal-ya-olum",
+    "topics": [
+      {
+        "slug": "dogu-ve-guney-cephesi",
+        "title": "Doğu ve Güney Cephesi",
+        "difficulty": 3,
+        "estimatedMinutes": 40,
+        "examWeight": 0.65
+      },
+      {
+        "slug": "bati-cephesi-ve-inonu-muharebeleri",
+        "title": "Batı Cephesi ve İnönü Muharebeleri",
+        "difficulty": 3,
+        "estimatedMinutes": 45,
+        "examWeight": 0.8
+      },
+      {
+        "slug": "kutahya-eskisehir-muharebeleri-ve-tekalif-i-milliye-emirleri",
+        "title": "Kütahya-Eskişehir Muharebeleri ve Tekâlif-i Millîye Emirleri",
+        "difficulty": 4,
+        "estimatedMinutes": 45,
+        "examWeight": 0.75
+      }
+    ]
+  },
+  {
+    "examCode": "LGS",
+    "examName": "LGS — Liselere Geçiş Sınavı",
+    "subjectName": "Din Kültürü",
+    "subjectSlug": "din-kulturu",
+    "unitName": "Kader İnancı",
+    "unitSlug": "kader-inanci",
+    "topics": [
+      {
+        "slug": "kader-ve-kaza-inanci",
+        "title": "Kader ve Kaza İnancı",
+        "difficulty": 3,
+        "estimatedMinutes": 35,
+        "examWeight": 0.85
+      },
+      {
+        "slug": "evrendeki-yasalar",
+        "title": "Evrendeki Yasalar",
+        "difficulty": 3,
+        "estimatedMinutes": 40,
+        "examWeight": 0.8
+      },
+      {
+        "slug": "insanin-iradesi-ve-sorumlulugu",
+        "title": "İnsanın İradesi ve Sorumluluğu",
+        "difficulty": 3,
+        "estimatedMinutes": 35,
+        "examWeight": 0.75
+      }
+    ]
+  },
+  {
+    "examCode": "LGS",
+    "examName": "LGS — Liselere Geçiş Sınavı",
+    "subjectName": "Din Kültürü",
+    "subjectSlug": "din-kulturu",
+    "unitName": "Zekât ve Sadaka",
+    "unitSlug": "zekat-ve-sadaka",
+    "topics": [
+      {
+        "slug": "islamin-paylasma-ve-yardimlasmaya-verdigi-onem",
+        "title": "İslam'ın Paylaşma ve Yardımlaşmaya Verdiği Önem",
+        "difficulty": 2,
+        "estimatedMinutes": 30,
+        "examWeight": 0.7
+      },
+      {
+        "slug": "zekat-ve-sadaka-ibadeti",
+        "title": "Zekât ve Sadaka İbadeti",
+        "difficulty": 3,
+        "estimatedMinutes": 40,
+        "examWeight": 0.8
+      },
+      {
+        "slug": "zekat-ve-sadakanin-bireysel-ve-toplumsal-faydalari",
+        "title": "Zekât ve Sadakanın Bireysel ve Toplumsal Faydaları",
+        "difficulty": 2,
+        "estimatedMinutes": 30,
+        "examWeight": 0.7
+      }
+    ]
+  },
+  {
+    "examCode": "LGS",
+    "examName": "LGS — Liselere Geçiş Sınavı",
+    "subjectName": "Din Kültürü",
+    "subjectSlug": "din-kulturu",
+    "unitName": "Din ve Hayat",
+    "unitSlug": "din-ve-hayat",
+    "topics": [
+      {
+        "slug": "din-birey-ve-toplum",
+        "title": "Din, Birey ve Toplum",
+        "difficulty": 3,
+        "estimatedMinutes": 35,
+        "examWeight": 0.7
+      },
+      {
+        "slug": "dinin-temel-gayesi",
+        "title": "Dinin Temel Gayesi",
+        "difficulty": 3,
+        "estimatedMinutes": 30,
+        "examWeight": 0.65
+      },
+      {
+        "slug": "islam-dininin-aile-ve-topluma-verdigi-deger",
+        "title": "İslam Dininin Aile ve Topluma Verdiği Değer",
+        "difficulty": 2,
+        "estimatedMinutes": 30,
+        "examWeight": 0.6
+      }
+    ]
+  },
+  {
+    "examCode": "LGS",
+    "examName": "LGS — Liselere Geçiş Sınavı",
+    "subjectName": "İngilizce",
+    "subjectSlug": "ingilizce",
+    "unitName": "Friendship",
+    "unitSlug": "friendship",
+    "topics": [
+      {
+        "slug": "describing-people-and-personality",
+        "title": "Describing People and Personality",
+        "difficulty": 2,
+        "estimatedMinutes": 35,
+        "examWeight": 0.8
+      },
+      {
+        "slug": "asking-for-and-giving-opinions",
+        "title": "Asking for and Giving Opinions",
+        "difficulty": 3,
+        "estimatedMinutes": 35,
+        "examWeight": 0.8
+      },
+      {
+        "slug": "accepting-and-refusing-invitations",
+        "title": "Accepting and Refusing Invitations",
+        "difficulty": 3,
+        "estimatedMinutes": 40,
+        "examWeight": 0.85
+      }
+    ]
+  },
+  {
+    "examCode": "LGS",
+    "examName": "LGS — Liselere Geçiş Sınavı",
+    "subjectName": "İngilizce",
+    "subjectSlug": "ingilizce",
+    "unitName": "Teen Life",
+    "unitSlug": "teen-life",
+    "topics": [
+      {
+        "slug": "daily-routines-and-free-time-activities",
+        "title": "Daily Routines and Free Time Activities",
+        "difficulty": 2,
+        "estimatedMinutes": 35,
+        "examWeight": 0.75
+      },
+      {
+        "slug": "making-simple-suggestions",
+        "title": "Making Simple Suggestions",
+        "difficulty": 3,
+        "estimatedMinutes": 30,
+        "examWeight": 0.75
+      },
+      {
+        "slug": "expressing-preferences",
+        "title": "Expressing Preferences",
+        "difficulty": 3,
+        "estimatedMinutes": 30,
+        "examWeight": 0.7
+      }
+    ]
+  },
+  {
+    "examCode": "LGS",
+    "examName": "LGS — Liselere Geçiş Sınavı",
+    "subjectName": "İngilizce",
+    "subjectSlug": "ingilizce",
+    "unitName": "In the Kitchen",
+    "unitSlug": "in-the-kitchen",
+    "topics": [
+      {
+        "slug": "food-and-kitchen-vocabulary",
+        "title": "Food and Kitchen Vocabulary",
+        "difficulty": 2,
+        "estimatedMinutes": 30,
+        "examWeight": 0.7
+      },
+      {
+        "slug": "describing-a-process-recipes",
+        "title": "Describing a Process: Recipes",
+        "difficulty": 3,
+        "estimatedMinutes": 40,
+        "examWeight": 0.75
+      },
+      {
+        "slug": "sequence-adverbs",
+        "title": "Sequence Adverbs",
+        "difficulty": 2,
+        "estimatedMinutes": 25,
+        "examWeight": 0.65
+      }
+    ]
+  },
+  {
+    "examCode": "TYT",
+    "examName": "TYT — Temel Yeterlilik Testi",
+    "subjectName": "Türkçe",
+    "subjectSlug": "turkce",
+    "unitName": "Sözcükte Anlam",
+    "unitSlug": "sozcukte-anlam",
+    "topics": [
+      {
+        "slug": "gercek-mecaz-terim-anlam",
+        "title": "Gerçek, Mecaz ve Terim Anlam",
+        "difficulty": 2,
+        "estimatedMinutes": 40,
+        "examWeight": 0.8
+      },
+      {
+        "slug": "sozcukler-arasi-anlam-iliskileri",
+        "title": "Sözcükler Arası Anlam İlişkileri",
+        "difficulty": 2,
+        "estimatedMinutes": 35,
+        "examWeight": 0.6
+      },
+      {
+        "slug": "sozcukte-anlam-olaylari",
+        "title": "Sözcükte Anlam Olayları",
+        "difficulty": 3,
+        "estimatedMinutes": 30,
+        "examWeight": 0.35
+      }
+    ]
+  },
+  {
+    "examCode": "TYT",
+    "examName": "TYT — Temel Yeterlilik Testi",
+    "subjectName": "Türkçe",
+    "subjectSlug": "turkce",
+    "unitName": "Cümlede Anlam",
+    "unitSlug": "cumlede-anlam",
+    "topics": [
+      {
+        "slug": "cumlede-anlam-iliskileri",
+        "title": "Cümlede Anlam İlişkileri",
+        "difficulty": 3,
+        "estimatedMinutes": 45,
+        "examWeight": 0.75
+      },
+      {
+        "slug": "cumle-yorumlama-ve-ortulu-anlam",
+        "title": "Cümle Yorumlama ve Örtülü Anlam",
+        "difficulty": 4,
+        "estimatedMinutes": 50,
+        "examWeight": 0.7
+      },
+      {
+        "slug": "duygu-ve-dusunce-bildiren-cumleler",
+        "title": "Duygu ve Düşünce Bildiren Cümleler",
+        "difficulty": 3,
+        "estimatedMinutes": 35,
+        "examWeight": 0.5
+      }
+    ]
+  },
+  {
+    "examCode": "TYT",
+    "examName": "TYT — Temel Yeterlilik Testi",
+    "subjectName": "Türkçe",
+    "subjectSlug": "turkce",
+    "unitName": "Paragraf",
+    "unitSlug": "paragraf",
+    "topics": [
+      {
+        "slug": "paragrafta-konu-ana-dusunce",
+        "title": "Paragrafta Konu, Ana Düşünce ve Yardımcı Düşünce",
+        "difficulty": 3,
+        "estimatedMinutes": 60,
+        "examWeight": 0.95
+      },
+      {
+        "slug": "paragrafta-yapi",
+        "title": "Paragrafta Yapı",
+        "difficulty": 3,
+        "estimatedMinutes": 55,
+        "examWeight": 0.9
+      },
+      {
+        "slug": "anlatim-bicimleri",
+        "title": "Anlatım Biçimleri",
+        "difficulty": 3,
+        "estimatedMinutes": 45,
+        "examWeight": 0.7
+      }
+    ]
+  },
+  {
+    "examCode": "TYT",
+    "examName": "TYT — Temel Yeterlilik Testi",
+    "subjectName": "Matematik",
+    "subjectSlug": "matematik",
+    "unitName": "Temel Kavramlar",
+    "unitSlug": "temel-kavramlar",
+    "topics": [
+      {
+        "slug": "temel-kavramlar-ve-sayi-kumeleri",
+        "title": "Temel Kavramlar ve Sayı Kümeleri",
+        "difficulty": 2,
+        "estimatedMinutes": 60,
+        "examWeight": 0.7
+      },
+      {
+        "slug": "sayi-basamaklari",
+        "title": "Sayı Basamakları",
+        "difficulty": 3,
+        "estimatedMinutes": 45,
+        "examWeight": 0.55
+      },
+      {
+        "slug": "bolme-ve-bolunebilme",
+        "title": "Bölme ve Bölünebilme",
+        "difficulty": 4,
+        "estimatedMinutes": 65,
+        "examWeight": 0.65
+      }
+    ]
+  },
+  {
+    "examCode": "TYT",
+    "examName": "TYT — Temel Yeterlilik Testi",
+    "subjectName": "Matematik",
+    "subjectSlug": "matematik",
+    "unitName": "Üslü Sayılar, Köklü Sayılar ve Çarpanlara Ayırma",
+    "unitSlug": "uslu-koklu-sayilar-ve-carpanlara-ayirma",
+    "topics": [
+      {
+        "slug": "uslu-sayilar",
+        "title": "Üslü Sayılar",
+        "difficulty": 3,
+        "estimatedMinutes": 55,
+        "examWeight": 0.6
+      },
+      {
+        "slug": "koklu-sayilar",
+        "title": "Köklü Sayılar",
+        "difficulty": 3,
+        "estimatedMinutes": 50,
+        "examWeight": 0.55
+      },
+      {
+        "slug": "carpanlara-ayirma",
+        "title": "Çarpanlara Ayırma ve Özdeşlikler",
+        "difficulty": 4,
+        "estimatedMinutes": 60,
+        "examWeight": 0.6
+      }
+    ]
+  },
+  {
+    "examCode": "TYT",
+    "examName": "TYT — Temel Yeterlilik Testi",
+    "subjectName": "Matematik",
+    "subjectSlug": "matematik",
+    "unitName": "Problemler",
+    "unitSlug": "problemler",
+    "topics": [
+      {
+        "slug": "sayi-problemleri",
+        "title": "Sayı Problemleri",
+        "difficulty": 3,
+        "estimatedMinutes": 50,
+        "examWeight": 0.85
+      },
+      {
+        "slug": "kesir-problemleri",
+        "title": "Kesir Problemleri",
+        "difficulty": 3,
+        "estimatedMinutes": 45,
+        "examWeight": 0.7
+      },
+      {
+        "slug": "yas-problemleri",
+        "title": "Yaş Problemleri",
+        "difficulty": 2,
+        "estimatedMinutes": 30,
+        "examWeight": 0.55
+      }
+    ]
+  },
+  {
+    "examCode": "TYT",
+    "examName": "TYT — Temel Yeterlilik Testi",
+    "subjectName": "Geometri",
+    "subjectSlug": "geometri",
+    "unitName": "Doğruda ve Üçgende Açılar",
+    "unitSlug": "dogruda-ve-ucgende-acilar",
+    "topics": [
+      {
+        "slug": "temel-geometrik-kavramlar",
+        "title": "Temel Geometrik Kavramlar",
+        "difficulty": 2,
+        "estimatedMinutes": 30,
+        "examWeight": 0.3
+      },
+      {
+        "slug": "dogruda-acilar",
+        "title": "Doğruda Açılar",
+        "difficulty": 2,
+        "estimatedMinutes": 40,
+        "examWeight": 0.45
+      },
+      {
+        "slug": "ucgende-acilar",
+        "title": "Üçgende Açılar",
+        "difficulty": 3,
+        "estimatedMinutes": 55,
+        "examWeight": 0.7
+      }
+    ]
+  },
+  {
+    "examCode": "TYT",
+    "examName": "TYT — Temel Yeterlilik Testi",
+    "subjectName": "Geometri",
+    "subjectSlug": "geometri",
+    "unitName": "Üçgenler",
+    "unitSlug": "ucgenler",
+    "topics": [
+      {
+        "slug": "ucgende-aciortay-kenarortay-yukseklik",
+        "title": "Üçgende Açıortay, Kenarortay ve Yükseklik",
+        "difficulty": 4,
+        "estimatedMinutes": 55,
+        "examWeight": 0.6
+      },
+      {
+        "slug": "dik-ucgen-ve-oklid-bagintilari",
+        "title": "Dik Üçgen ve Öklid Bağıntıları",
+        "difficulty": 3,
+        "estimatedMinutes": 50,
+        "examWeight": 0.65
+      },
+      {
+        "slug": "ozel-ucgenler",
+        "title": "Özel Üçgenler",
+        "difficulty": 3,
+        "estimatedMinutes": 45,
+        "examWeight": 0.6
+      }
+    ]
+  },
+  {
+    "examCode": "TYT",
+    "examName": "TYT — Temel Yeterlilik Testi",
+    "subjectName": "Geometri",
+    "subjectSlug": "geometri",
+    "unitName": "Çokgenler ve Dörtgenler",
+    "unitSlug": "cokgenler-ve-dortgenler",
+    "topics": [
+      {
+        "slug": "cokgenler",
+        "title": "Çokgenler",
+        "difficulty": 2,
+        "estimatedMinutes": 35,
+        "examWeight": 0.35
+      },
+      {
+        "slug": "paralelkenar-ve-eskenar-dortgen",
+        "title": "Paralelkenar ve Eşkenar Dörtgen",
+        "difficulty": 3,
+        "estimatedMinutes": 50,
+        "examWeight": 0.6
+      },
+      {
+        "slug": "dikdortgen-kare-ve-deltoid",
+        "title": "Dikdörtgen, Kare ve Deltoid",
+        "difficulty": 3,
+        "estimatedMinutes": 45,
+        "examWeight": 0.55
+      }
+    ]
+  },
+  {
+    "examCode": "TYT",
+    "examName": "TYT — Temel Yeterlilik Testi",
+    "subjectName": "Fizik",
+    "subjectSlug": "fizik",
+    "unitName": "Fizik Bilimine Giriş ve Madde",
+    "unitSlug": "fizik-bilimine-giris-ve-madde",
+    "topics": [
+      {
+        "slug": "fizik-bilimine-giris",
+        "title": "Fizik Bilimine Giriş",
+        "difficulty": 1,
+        "estimatedMinutes": 30,
+        "examWeight": 0.35
+      },
+      {
+        "slug": "fiziksel-nicelikler-ve-vektorler",
+        "title": "Fiziksel Nicelikler, Birimler ve Vektörler",
+        "difficulty": 3,
+        "estimatedMinutes": 45,
+        "examWeight": 0.35
+      },
+      {
+        "slug": "madde-ve-ozellikleri",
+        "title": "Madde ve Özellikleri",
+        "difficulty": 3,
+        "estimatedMinutes": 50,
+        "examWeight": 0.55
+      }
+    ]
+  },
+  {
+    "examCode": "TYT",
+    "examName": "TYT — Temel Yeterlilik Testi",
+    "subjectName": "Fizik",
+    "subjectSlug": "fizik",
+    "unitName": "Basınç ve Kaldırma Kuvveti",
+    "unitSlug": "basinc-ve-kaldirma-kuvveti",
+    "topics": [
+      {
+        "slug": "kati-basinci",
+        "title": "Katı Basıncı",
+        "difficulty": 2,
+        "estimatedMinutes": 35,
+        "examWeight": 0.45
+      },
+      {
+        "slug": "sivi-basinci",
+        "title": "Sıvı Basıncı ve Bileşik Kaplar",
+        "difficulty": 3,
+        "estimatedMinutes": 45,
+        "examWeight": 0.5
+      },
+      {
+        "slug": "gaz-basinci",
+        "title": "Gaz Basıncı ve Açık Hava Basıncı",
+        "difficulty": 3,
+        "estimatedMinutes": 40,
+        "examWeight": 0.4
+      }
+    ]
+  },
+  {
+    "examCode": "TYT",
+    "examName": "TYT — Temel Yeterlilik Testi",
+    "subjectName": "Fizik",
+    "subjectSlug": "fizik",
+    "unitName": "Isı, Sıcaklık ve Genleşme",
+    "unitSlug": "isi-sicaklik-ve-genlesme",
+    "topics": [
+      {
+        "slug": "isi-ve-sicaklik",
+        "title": "Isı ve Sıcaklık",
+        "difficulty": 2,
+        "estimatedMinutes": 40,
+        "examWeight": 0.5
+      },
+      {
+        "slug": "isi-alisverisi-ve-hal-degisimi",
+        "title": "Isı Alışverişi ve Hâl Değişimi",
+        "difficulty": 4,
+        "estimatedMinutes": 55,
+        "examWeight": 0.55
+      },
+      {
+        "slug": "isinin-yayilma-yollari",
+        "title": "Isının Yayılma Yolları",
+        "difficulty": 2,
+        "estimatedMinutes": 25,
+        "examWeight": 0.3
+      }
+    ]
+  },
+  {
+    "examCode": "TYT",
+    "examName": "TYT — Temel Yeterlilik Testi",
+    "subjectName": "Kimya",
+    "subjectSlug": "kimya",
+    "unitName": "Kimya Bilimi",
+    "unitSlug": "kimya-bilimi",
+    "topics": [
+      {
+        "slug": "kimyanin-alt-bilim-dallari",
+        "title": "Kimyanın Alt Bilim Dalları ve Uygulama Alanları",
+        "difficulty": 1,
+        "estimatedMinutes": 25,
+        "examWeight": 0.35
+      },
+      {
+        "slug": "kimyanin-sembolik-dili",
+        "title": "Kimyanın Sembolik Dili",
+        "difficulty": 2,
+        "estimatedMinutes": 40,
+        "examWeight": 0.4
+      },
+      {
+        "slug": "guvenligimiz-ve-kimya",
+        "title": "Güvenliğimiz ve Kimya",
+        "difficulty": 1,
+        "estimatedMinutes": 20,
+        "examWeight": 0.25
+      }
+    ]
+  },
+  {
+    "examCode": "TYT",
+    "examName": "TYT — Temel Yeterlilik Testi",
+    "subjectName": "Kimya",
+    "subjectSlug": "kimya",
+    "unitName": "Atom ve Periyodik Sistem",
+    "unitSlug": "atom-ve-periyodik-sistem",
+    "topics": [
+      {
+        "slug": "atom-modelleri-ve-atomun-yapisi",
+        "title": "Atom Modelleri ve Atomun Yapısı",
+        "difficulty": 3,
+        "estimatedMinutes": 45,
+        "examWeight": 0.55
+      },
+      {
+        "slug": "atomun-tanecikleri-ve-izotoplar",
+        "title": "Atomun Yapı Taşları ve İzotop Kavramı",
+        "difficulty": 3,
+        "estimatedMinutes": 40,
+        "examWeight": 0.45
+      },
+      {
+        "slug": "periyodik-sistem-ve-elektron-dizilimi",
+        "title": "Periyodik Sistem ve Elektron Dizilimi",
+        "difficulty": 4,
+        "estimatedMinutes": 55,
+        "examWeight": 0.6
+      }
+    ]
+  },
+  {
+    "examCode": "TYT",
+    "examName": "TYT — Temel Yeterlilik Testi",
+    "subjectName": "Kimya",
+    "subjectSlug": "kimya",
+    "unitName": "Kimyasal Türler Arası Etkileşimler",
+    "unitSlug": "kimyasal-turler-arasi-etkilesimler",
+    "topics": [
+      {
+        "slug": "kimyasal-turler-ve-etkilesim-cesitleri",
+        "title": "Kimyasal Türler ve Etkileşim Çeşitleri",
+        "difficulty": 2,
+        "estimatedMinutes": 30,
+        "examWeight": 0.35
+      },
+      {
+        "slug": "guclu-etkilesimler",
+        "title": "Güçlü Etkileşimler: İyonik, Kovalent ve Metalik Bağ",
+        "difficulty": 4,
+        "estimatedMinutes": 50,
+        "examWeight": 0.55
+      },
+      {
+        "slug": "zayif-etkilesimler",
+        "title": "Zayıf Etkileşimler ve Hidrojen Bağı",
+        "difficulty": 3,
+        "estimatedMinutes": 40,
+        "examWeight": 0.4
+      }
+    ]
+  },
+  {
+    "examCode": "TYT",
+    "examName": "TYT — Temel Yeterlilik Testi",
+    "subjectName": "Biyoloji",
+    "subjectSlug": "biyoloji",
+    "unitName": "Yaşam Bilimi Biyoloji",
+    "unitSlug": "yasam-bilimi-biyoloji",
+    "topics": [
+      {
+        "slug": "canlilarin-ortak-ozellikleri",
+        "title": "Canlıların Ortak Özellikleri",
+        "difficulty": 1,
+        "estimatedMinutes": 30,
+        "examWeight": 0.45
+      },
+      {
+        "slug": "inorganik-bilesikler",
+        "title": "Canlıların Yapısındaki İnorganik Bileşikler",
+        "difficulty": 2,
+        "estimatedMinutes": 35,
+        "examWeight": 0.45
+      },
+      {
+        "slug": "organik-bilesikler",
+        "title": "Canlıların Yapısındaki Organik Bileşikler",
+        "difficulty": 4,
+        "estimatedMinutes": 65,
+        "examWeight": 0.7
+      }
+    ]
+  },
+  {
+    "examCode": "TYT",
+    "examName": "TYT — Temel Yeterlilik Testi",
+    "subjectName": "Biyoloji",
+    "subjectSlug": "biyoloji",
+    "unitName": "Hücre",
+    "unitSlug": "hucre",
+    "topics": [
+      {
+        "slug": "hucrenin-kesfi-ve-hucre-teorisi",
+        "title": "Hücrenin Keşfi ve Hücre Teorisi",
+        "difficulty": 1,
+        "estimatedMinutes": 25,
+        "examWeight": 0.3
+      },
+      {
+        "slug": "hucre-zari",
+        "title": "Hücre Zarı ve Yapısı",
+        "difficulty": 2,
+        "estimatedMinutes": 30,
+        "examWeight": 0.4
+      },
+      {
+        "slug": "sitoplazma-ve-organeller",
+        "title": "Sitoplazma ve Organeller",
+        "difficulty": 3,
+        "estimatedMinutes": 60,
+        "examWeight": 0.65
+      }
+    ]
+  },
+  {
+    "examCode": "TYT",
+    "examName": "TYT — Temel Yeterlilik Testi",
+    "subjectName": "Biyoloji",
+    "subjectSlug": "biyoloji",
+    "unitName": "Canlılar Dünyası",
+    "unitSlug": "canlilar-dunyasi",
+    "topics": [
+      {
+        "slug": "canlilarin-siniflandirilmasi",
+        "title": "Canlıların Sınıflandırılması",
+        "difficulty": 3,
+        "estimatedMinutes": 40,
+        "examWeight": 0.5
+      },
+      {
+        "slug": "bakteriler-ve-arkeler",
+        "title": "Bakteriler ve Arkeler",
+        "difficulty": 3,
+        "estimatedMinutes": 35,
+        "examWeight": 0.4
+      },
+      {
+        "slug": "protista-ve-mantarlar",
+        "title": "Protista ve Mantarlar Âlemi",
+        "difficulty": 3,
+        "estimatedMinutes": 35,
+        "examWeight": 0.35
+      }
+    ]
+  },
+  {
+    "examCode": "TYT",
+    "examName": "TYT — Temel Yeterlilik Testi",
+    "subjectName": "Tarih",
+    "subjectSlug": "tarih",
+    "unitName": "Tarih Bilimi ve İlk Çağ Uygarlıkları",
+    "unitSlug": "tarih-bilimi-ve-ilk-cag",
+    "topics": [
+      {
+        "slug": "tarih-bilimine-giris",
+        "title": "Tarih Bilimine Giriş",
+        "difficulty": 2,
+        "estimatedMinutes": 35,
+        "examWeight": 0.45
+      },
+      {
+        "slug": "insanligin-ilk-donemleri",
+        "title": "İnsanlığın İlk Dönemleri",
+        "difficulty": 2,
+        "estimatedMinutes": 30,
+        "examWeight": 0.35
+      },
+      {
+        "slug": "ilk-cag-uygarliklari",
+        "title": "İlk Çağ Uygarlıkları",
+        "difficulty": 3,
+        "estimatedMinutes": 45,
+        "examWeight": 0.4
+      }
+    ]
+  },
+  {
+    "examCode": "TYT",
+    "examName": "TYT — Temel Yeterlilik Testi",
+    "subjectName": "Tarih",
+    "subjectSlug": "tarih",
+    "unitName": "İlk Türk Devletleri ve İslam Tarihi",
+    "unitSlug": "ilk-turk-devletleri-ve-islam-tarihi",
+    "topics": [
+      {
+        "slug": "ilk-turk-devletleri",
+        "title": "Orta Asya’da Kurulan İlk Türk Devletleri",
+        "difficulty": 3,
+        "estimatedMinutes": 50,
+        "examWeight": 0.55
+      },
+      {
+        "slug": "islamiyetin-dogusu",
+        "title": "İslamiyet’in Doğuşu ve İlk İslam Devletleri",
+        "difficulty": 3,
+        "estimatedMinutes": 45,
+        "examWeight": 0.45
+      },
+      {
+        "slug": "ilk-musluman-turk-devletleri",
+        "title": "Türklerin İslamiyet’i Kabulü ve İlk Müslüman Türk Devletleri",
+        "difficulty": 3,
+        "estimatedMinutes": 45,
+        "examWeight": 0.5
+      }
+    ]
+  },
+  {
+    "examCode": "TYT",
+    "examName": "TYT — Temel Yeterlilik Testi",
+    "subjectName": "Tarih",
+    "subjectSlug": "tarih",
+    "unitName": "Osmanlı Devleti",
+    "unitSlug": "osmanli-devleti",
+    "topics": [
+      {
+        "slug": "osmanli-devletinin-kurulusu",
+        "title": "Osmanlı Devleti’nin Kuruluşu",
+        "difficulty": 3,
+        "estimatedMinutes": 45,
+        "examWeight": 0.55
+      },
+      {
+        "slug": "osmanli-yukselme-donemi",
+        "title": "Osmanlı Devleti’nin Yükselme Dönemi",
+        "difficulty": 3,
+        "estimatedMinutes": 50,
+        "examWeight": 0.6
+      },
+      {
+        "slug": "osmanli-kultur-ve-medeniyeti",
+        "title": "Osmanlı Kültür ve Medeniyeti",
+        "difficulty": 3,
+        "estimatedMinutes": 40,
+        "examWeight": 0.4
+      }
+    ]
+  },
+  {
+    "examCode": "TYT",
+    "examName": "TYT — Temel Yeterlilik Testi",
+    "subjectName": "Coğrafya",
+    "subjectSlug": "cografya",
+    "unitName": "Doğa ve İnsan, Harita Bilgisi",
+    "unitSlug": "doga-insan-ve-harita-bilgisi",
+    "topics": [
+      {
+        "slug": "cografyanin-konusu",
+        "title": "Coğrafyanın Konusu ve Bölümleri",
+        "difficulty": 1,
+        "estimatedMinutes": 25,
+        "examWeight": 0.35
+      },
+      {
+        "slug": "dunyanin-sekli-ve-hareketleri",
+        "title": "Dünya’nın Şekli ve Hareketleri",
+        "difficulty": 4,
+        "estimatedMinutes": 50,
+        "examWeight": 0.55
+      },
+      {
+        "slug": "cografi-konum",
+        "title": "Coğrafi Konum",
+        "difficulty": 3,
+        "estimatedMinutes": 40,
+        "examWeight": 0.55
+      }
+    ]
+  },
+  {
+    "examCode": "TYT",
+    "examName": "TYT — Temel Yeterlilik Testi",
+    "subjectName": "Coğrafya",
+    "subjectSlug": "cografya",
+    "unitName": "İklim Bilgisi",
+    "unitSlug": "iklim-bilgisi",
+    "topics": [
+      {
+        "slug": "atmosfer-ve-sicaklik",
+        "title": "Atmosfer ve Sıcaklık",
+        "difficulty": 3,
+        "estimatedMinutes": 45,
+        "examWeight": 0.55
+      },
+      {
+        "slug": "basinc-ve-ruzgarlar",
+        "title": "Basınç ve Rüzgârlar",
+        "difficulty": 4,
+        "estimatedMinutes": 45,
+        "examWeight": 0.5
+      },
+      {
+        "slug": "nem-ve-yagis",
+        "title": "Nem ve Yağış",
+        "difficulty": 3,
+        "estimatedMinutes": 40,
+        "examWeight": 0.45
+      }
+    ]
+  },
+  {
+    "examCode": "TYT",
+    "examName": "TYT — Temel Yeterlilik Testi",
+    "subjectName": "Coğrafya",
+    "subjectSlug": "cografya",
+    "unitName": "İç ve Dış Kuvvetler",
+    "unitSlug": "ic-ve-dis-kuvvetler",
+    "topics": [
+      {
+        "slug": "yerin-yapisi-ve-ic-kuvvetler",
+        "title": "Yerin Yapısı ve İç Kuvvetler",
+        "difficulty": 3,
+        "estimatedMinutes": 45,
+        "examWeight": 0.5
+      },
+      {
+        "slug": "dis-kuvvetler",
+        "title": "Dış Kuvvetler ve Oluşturduğu Yer Şekilleri",
+        "difficulty": 3,
+        "estimatedMinutes": 50,
+        "examWeight": 0.5
+      },
+      {
+        "slug": "turkiyenin-yer-sekilleri",
+        "title": "Türkiye’nin Yer Şekilleri",
+        "difficulty": 3,
+        "estimatedMinutes": 45,
+        "examWeight": 0.5
+      }
+    ]
+  },
+  {
+    "examCode": "TYT",
+    "examName": "TYT — Temel Yeterlilik Testi",
+    "subjectName": "Felsefe",
+    "subjectSlug": "felsefe",
+    "unitName": "Felsefeyi Tanıma",
+    "unitSlug": "felsefeyi-tanima",
+    "topics": [
+      {
+        "slug": "felsefenin-anlami-ve-konusu",
+        "title": "Felsefenin Anlamı ve Konusu",
+        "difficulty": 2,
+        "estimatedMinutes": 30,
+        "examWeight": 0.5
+      },
+      {
+        "slug": "felsefi-dusuncenin-ozellikleri",
+        "title": "Felsefi Düşüncenin Özellikleri",
+        "difficulty": 2,
+        "estimatedMinutes": 30,
+        "examWeight": 0.5
+      },
+      {
+        "slug": "felsefenin-rolu",
+        "title": "Felsefenin İnsan ve Toplum Hayatındaki Rolü",
+        "difficulty": 2,
+        "estimatedMinutes": 25,
+        "examWeight": 0.35
+      }
+    ]
+  },
+  {
+    "examCode": "TYT",
+    "examName": "TYT — Temel Yeterlilik Testi",
+    "subjectName": "Felsefe",
+    "subjectSlug": "felsefe",
+    "unitName": "Felsefenin Temel Konuları",
+    "unitSlug": "felsefenin-temel-konulari",
+    "topics": [
+      {
+        "slug": "bilgi-felsefesi",
+        "title": "Bilgi Felsefesi",
+        "difficulty": 4,
+        "estimatedMinutes": 50,
+        "examWeight": 0.65
+      },
+      {
+        "slug": "varlik-felsefesi",
+        "title": "Varlık Felsefesi",
+        "difficulty": 4,
+        "estimatedMinutes": 45,
+        "examWeight": 0.55
+      },
+      {
+        "slug": "ahlak-felsefesi",
+        "title": "Ahlak Felsefesi",
+        "difficulty": 3,
+        "estimatedMinutes": 40,
+        "examWeight": 0.55
+      }
+    ]
+  },
+  {
+    "examCode": "TYT",
+    "examName": "TYT — Temel Yeterlilik Testi",
+    "subjectName": "Felsefe",
+    "subjectSlug": "felsefe",
+    "unitName": "MÖ 6. Yüzyıl - MS 2. Yüzyıl Felsefesi",
+    "unitSlug": "ilk-cag-felsefesi",
+    "topics": [
+      {
+        "slug": "felsefenin-ortaya-cikisi",
+        "title": "Felsefenin Ortaya Çıkışı ve İlk Filozoflar",
+        "difficulty": 3,
+        "estimatedMinutes": 40,
+        "examWeight": 0.45
+      },
+      {
+        "slug": "sokrates-platon-aristoteles",
+        "title": "Sokrates, Platon ve Aristoteles",
+        "difficulty": 4,
+        "estimatedMinutes": 55,
+        "examWeight": 0.55
+      },
+      {
+        "slug": "helenistik-donem-felsefesi",
+        "title": "Helenistik Dönem Felsefesi",
+        "difficulty": 3,
+        "estimatedMinutes": 30,
+        "examWeight": 0.35
+      }
+    ]
+  },
+  {
+    "examCode": "TYT",
+    "examName": "TYT — Temel Yeterlilik Testi",
+    "subjectName": "Din Kültürü ve Ahlak Bilgisi",
+    "subjectSlug": "din-kulturu-ve-ahlak-bilgisi",
+    "unitName": "Bilgi, İnanç ve İslam",
+    "unitSlug": "bilgi-inanc-ve-islam",
+    "topics": [
+      {
+        "slug": "bilgi-ve-inanc",
+        "title": "Bilgi ve İnanç",
+        "difficulty": 2,
+        "estimatedMinutes": 30,
+        "examWeight": 0.45
+      },
+      {
+        "slug": "din-ve-islam",
+        "title": "Din ve İslam",
+        "difficulty": 2,
+        "estimatedMinutes": 30,
+        "examWeight": 0.5
+      },
+      {
+        "slug": "allah-insan-iliskisi",
+        "title": "Allah - İnsan İlişkisi",
+        "difficulty": 3,
+        "estimatedMinutes": 35,
+        "examWeight": 0.45
+      }
+    ]
+  },
+  {
+    "examCode": "TYT",
+    "examName": "TYT — Temel Yeterlilik Testi",
+    "subjectName": "Din Kültürü ve Ahlak Bilgisi",
+    "subjectSlug": "din-kulturu-ve-ahlak-bilgisi",
+    "unitName": "İbadet ve Ahlak",
+    "unitSlug": "ibadet-ve-ahlak",
+    "topics": [
+      {
+        "slug": "islam-ve-ibadet",
+        "title": "İslam ve İbadet",
+        "difficulty": 2,
+        "estimatedMinutes": 35,
+        "examWeight": 0.5
+      },
+      {
+        "slug": "din-ve-hayat",
+        "title": "Din ve Hayat",
+        "difficulty": 2,
+        "estimatedMinutes": 30,
+        "examWeight": 0.4
+      },
+      {
+        "slug": "ahlaki-tutum-ve-davranislar",
+        "title": "Ahlaki Tutum ve Davranışlar",
+        "difficulty": 2,
+        "estimatedMinutes": 30,
+        "examWeight": 0.45
+      }
+    ]
+  },
+  {
+    "examCode": "TYT",
+    "examName": "TYT — Temel Yeterlilik Testi",
+    "subjectName": "Din Kültürü ve Ahlak Bilgisi",
+    "subjectSlug": "din-kulturu-ve-ahlak-bilgisi",
+    "unitName": "Hz. Muhammed ve Kur’an-ı Kerim",
+    "unitSlug": "hz-muhammed-ve-kuran",
+    "topics": [
+      {
+        "slug": "kurana-gore-hz-muhammed",
+        "title": "Kur’an’a Göre Hz. Muhammed",
+        "difficulty": 3,
+        "estimatedMinutes": 35,
+        "examWeight": 0.45
+      },
+      {
+        "slug": "hz-muhammed-ve-genclik",
+        "title": "Hz. Muhammed ve Gençlik",
+        "difficulty": 2,
+        "estimatedMinutes": 25,
+        "examWeight": 0.35
+      },
+      {
+        "slug": "kuranda-bazi-kavramlar",
+        "title": "Kur’an’da Bazı Kavramlar",
+        "difficulty": 3,
+        "estimatedMinutes": 30,
+        "examWeight": 0.4
+      }
+    ]
+  },
+  {
+    "examCode": "AYT",
+    "examName": "AYT — Alan Yeterlilik Testleri",
+    "subjectName": "Matematik",
+    "subjectSlug": "matematik",
+    "unitName": "Fonksiyonlar",
+    "unitSlug": "fonksiyonlar",
+    "topics": [
+      {
+        "slug": "fonksiyon-kavrami-ve-gosterimi",
+        "title": "Fonksiyon Kavramı ve Gösterimi",
+        "difficulty": 2,
+        "estimatedMinutes": 25,
+        "examWeight": 0.55
+      },
+      {
+        "slug": "fonksiyon-cesitleri-bire-bir-orten-ve-icine",
+        "title": "Fonksiyon Çeşitleri: Bire Bir, Örten ve İçine",
+        "difficulty": 3,
+        "estimatedMinutes": 35,
+        "examWeight": 0.5
+      },
+      {
+        "slug": "fonksiyonlarda-islemler",
+        "title": "Fonksiyonlarda İşlemler",
+        "difficulty": 2,
+        "estimatedMinutes": 30,
+        "examWeight": 0.55
+      }
+    ]
+  },
+  {
+    "examCode": "AYT",
+    "examName": "AYT — Alan Yeterlilik Testleri",
+    "subjectName": "Matematik",
+    "subjectSlug": "matematik",
+    "unitName": "Polinomlar",
+    "unitSlug": "polinomlar",
+    "topics": [
+      {
+        "slug": "polinom-kavrami-ve-derecesi",
+        "title": "Polinom Kavramı ve Derecesi",
+        "difficulty": 2,
+        "estimatedMinutes": 25,
+        "examWeight": 0.45
+      },
+      {
+        "slug": "polinomlarda-dort-islem",
+        "title": "Polinomlarda Dört İşlem",
+        "difficulty": 2,
+        "estimatedMinutes": 30,
+        "examWeight": 0.5
+      },
+      {
+        "slug": "polinomlarda-bolme-ve-kalan-bulma",
+        "title": "Polinomlarda Bölme ve Kalan Bulma",
+        "difficulty": 4,
+        "estimatedMinutes": 50,
+        "examWeight": 0.75
+      }
+    ]
+  },
+  {
+    "examCode": "AYT",
+    "examName": "AYT — Alan Yeterlilik Testleri",
+    "subjectName": "Matematik",
+    "subjectSlug": "matematik",
+    "unitName": "İkinci Dereceden Denklemler ve Eşitsizlikler",
+    "unitSlug": "ikinci-dereceden-denklemler-ve-esitsizlikler",
+    "topics": [
+      {
+        "slug": "ikinci-dereceden-denklemlerin-cozumu-ve-diskriminant",
+        "title": "İkinci Dereceden Denklemlerin Çözümü ve Diskriminant",
+        "difficulty": 3,
+        "estimatedMinutes": 40,
+        "examWeight": 0.7
+      },
+      {
+        "slug": "kokler-ile-katsayilar-arasindaki-bagintilar",
+        "title": "Kökler ile Katsayılar Arasındaki Bağıntılar",
+        "difficulty": 3,
+        "estimatedMinutes": 40,
+        "examWeight": 0.7
+      },
+      {
+        "slug": "ikinci-dereceden-fonksiyonlar-ve-parabol",
+        "title": "İkinci Dereceden Fonksiyonlar ve Parabol",
+        "difficulty": 4,
+        "estimatedMinutes": 55,
+        "examWeight": 0.8
+      }
+    ]
+  },
+  {
+    "examCode": "AYT",
+    "examName": "AYT — Alan Yeterlilik Testleri",
+    "subjectName": "Fizik",
+    "subjectSlug": "fizik",
+    "unitName": "Kuvvet ve Hareket",
+    "unitSlug": "kuvvet-ve-hareket",
+    "topics": [
+      {
+        "slug": "vektorler",
+        "title": "Vektörler",
+        "difficulty": 3,
+        "estimatedMinutes": 40,
+        "examWeight": 0.55
+      },
+      {
+        "slug": "bagil-hareket",
+        "title": "Bağıl Hareket",
+        "difficulty": 4,
+        "estimatedMinutes": 45,
+        "examWeight": 0.6
+      },
+      {
+        "slug": "newtonun-hareket-yasalari",
+        "title": "Newton'un Hareket Yasaları",
+        "difficulty": 4,
+        "estimatedMinutes": 55,
+        "examWeight": 0.85
+      }
+    ]
+  },
+  {
+    "examCode": "AYT",
+    "examName": "AYT — Alan Yeterlilik Testleri",
+    "subjectName": "Fizik",
+    "subjectSlug": "fizik",
+    "unitName": "İş, Güç ve Enerji",
+    "unitSlug": "is-guc-ve-enerji",
+    "topics": [
+      {
+        "slug": "is-guc-ve-enerji-kavramlari",
+        "title": "İş, Güç ve Enerji Kavramları",
+        "difficulty": 3,
+        "estimatedMinutes": 40,
+        "examWeight": 0.65
+      },
+      {
+        "slug": "enerjinin-korunumu-ve-donusumu",
+        "title": "Enerjinin Korunumu ve Dönüşümü",
+        "difficulty": 4,
+        "estimatedMinutes": 45,
+        "examWeight": 0.75
+      },
+      {
+        "slug": "surtunmeli-yuzeylerde-enerji-ve-verim",
+        "title": "Sürtünmeli Yüzeylerde Enerji ve Verim",
+        "difficulty": 4,
+        "estimatedMinutes": 40,
+        "examWeight": 0.55
+      }
+    ]
+  },
+  {
+    "examCode": "AYT",
+    "examName": "AYT — Alan Yeterlilik Testleri",
+    "subjectName": "Fizik",
+    "subjectSlug": "fizik",
+    "unitName": "İtme ve Momentum",
+    "unitSlug": "itme-ve-momentum",
+    "topics": [
+      {
+        "slug": "itme-ve-cizgisel-momentum",
+        "title": "İtme ve Çizgisel Momentum",
+        "difficulty": 3,
+        "estimatedMinutes": 35,
+        "examWeight": 0.6
+      },
+      {
+        "slug": "momentumun-korunumu",
+        "title": "Momentumun Korunumu",
+        "difficulty": 4,
+        "estimatedMinutes": 40,
+        "examWeight": 0.65
+      },
+      {
+        "slug": "esnek-ve-esnek-olmayan-carpismalar",
+        "title": "Esnek ve Esnek Olmayan Çarpışmalar",
+        "difficulty": 4,
+        "estimatedMinutes": 40,
+        "examWeight": 0.55
+      }
+    ]
+  },
+  {
+    "examCode": "AYT",
+    "examName": "AYT — Alan Yeterlilik Testleri",
+    "subjectName": "Kimya",
+    "subjectSlug": "kimya",
+    "unitName": "Modern Atom Teorisi",
+    "unitSlug": "modern-atom-teorisi",
+    "topics": [
+      {
+        "slug": "atomun-kuantum-modeli",
+        "title": "Atomun Kuantum Modeli",
+        "difficulty": 4,
+        "estimatedMinutes": 40,
+        "examWeight": 0.6
+      },
+      {
+        "slug": "kuantum-sayilari-ve-orbitaller",
+        "title": "Kuantum Sayıları ve Orbitaller",
+        "difficulty": 4,
+        "estimatedMinutes": 45,
+        "examWeight": 0.7
+      },
+      {
+        "slug": "elektron-dizilimleri-ve-periyodik-sistem",
+        "title": "Elektron Dizilimleri ve Periyodik Sistem",
+        "difficulty": 3,
+        "estimatedMinutes": 45,
+        "examWeight": 0.75
+      }
+    ]
+  },
+  {
+    "examCode": "AYT",
+    "examName": "AYT — Alan Yeterlilik Testleri",
+    "subjectName": "Kimya",
+    "subjectSlug": "kimya",
+    "unitName": "Gazlar",
+    "unitSlug": "gazlar",
+    "topics": [
+      {
+        "slug": "gazlarin-genel-ozellikleri-ve-gaz-yasalari",
+        "title": "Gazların Genel Özellikleri ve Gaz Yasaları",
+        "difficulty": 3,
+        "estimatedMinutes": 45,
+        "examWeight": 0.7
+      },
+      {
+        "slug": "ideal-gaz-denklemi",
+        "title": "İdeal Gaz Denklemi",
+        "difficulty": 3,
+        "estimatedMinutes": 40,
+        "examWeight": 0.75
+      },
+      {
+        "slug": "gaz-karisimlari-ve-kismi-basinc",
+        "title": "Gaz Karışımları ve Kısmi Basınç",
+        "difficulty": 4,
+        "estimatedMinutes": 40,
+        "examWeight": 0.6
+      }
+    ]
+  },
+  {
+    "examCode": "AYT",
+    "examName": "AYT — Alan Yeterlilik Testleri",
+    "subjectName": "Kimya",
+    "subjectSlug": "kimya",
+    "unitName": "Sıvı Çözeltiler ve Çözünürlük",
+    "unitSlug": "sivi-cozeltiler-ve-cozunurluk",
+    "topics": [
+      {
+        "slug": "cozucu-cozunen-etkilesimleri",
+        "title": "Çözücü-Çözünen Etkileşimleri",
+        "difficulty": 2,
+        "estimatedMinutes": 30,
+        "examWeight": 0.45
+      },
+      {
+        "slug": "derisim-birimleri",
+        "title": "Derişim Birimleri",
+        "difficulty": 3,
+        "estimatedMinutes": 45,
+        "examWeight": 0.7
+      },
+      {
+        "slug": "koligatif-ozellikler",
+        "title": "Koligatif Özellikler",
+        "difficulty": 4,
+        "estimatedMinutes": 40,
+        "examWeight": 0.6
+      }
+    ]
+  },
+  {
+    "examCode": "AYT",
+    "examName": "AYT — Alan Yeterlilik Testleri",
+    "subjectName": "Biyoloji",
+    "subjectSlug": "biyoloji",
+    "unitName": "Sinir Sistemi ve Endokrin Sistem",
+    "unitSlug": "sinir-sistemi-ve-endokrin-sistem",
+    "topics": [
+      {
+        "slug": "sinir-sisteminin-yapisi-ve-noronlar",
+        "title": "Sinir Sisteminin Yapısı ve Nöronlar",
+        "difficulty": 3,
+        "estimatedMinutes": 40,
+        "examWeight": 0.7
+      },
+      {
+        "slug": "merkezi-sinir-sistemi",
+        "title": "Merkezî Sinir Sistemi",
+        "difficulty": 3,
+        "estimatedMinutes": 40,
+        "examWeight": 0.65
+      },
+      {
+        "slug": "cevresel-sinir-sistemi-ve-refleks",
+        "title": "Çevresel Sinir Sistemi ve Refleks",
+        "difficulty": 3,
+        "estimatedMinutes": 35,
+        "examWeight": 0.55
+      }
+    ]
+  },
+  {
+    "examCode": "AYT",
+    "examName": "AYT — Alan Yeterlilik Testleri",
+    "subjectName": "Biyoloji",
+    "subjectSlug": "biyoloji",
+    "unitName": "Duyu Organları",
+    "unitSlug": "duyu-organlari",
+    "topics": [
+      {
+        "slug": "goz-ve-gorme",
+        "title": "Göz ve Görme",
+        "difficulty": 3,
+        "estimatedMinutes": 35,
+        "examWeight": 0.55
+      },
+      {
+        "slug": "kulak-isitme-ve-denge",
+        "title": "Kulak, İşitme ve Denge",
+        "difficulty": 3,
+        "estimatedMinutes": 30,
+        "examWeight": 0.5
+      },
+      {
+        "slug": "deri-dil-ve-burun",
+        "title": "Deri, Dil ve Burun",
+        "difficulty": 2,
+        "estimatedMinutes": 25,
+        "examWeight": 0.4
+      }
+    ]
+  },
+  {
+    "examCode": "AYT",
+    "examName": "AYT — Alan Yeterlilik Testleri",
+    "subjectName": "Biyoloji",
+    "subjectSlug": "biyoloji",
+    "unitName": "Destek ve Hareket Sistemi",
+    "unitSlug": "destek-ve-hareket-sistemi",
+    "topics": [
+      {
+        "slug": "iskelet-sistemi",
+        "title": "İskelet Sistemi",
+        "difficulty": 2,
+        "estimatedMinutes": 30,
+        "examWeight": 0.45
+      },
+      {
+        "slug": "kemik-yapisi-ve-gelisimi",
+        "title": "Kemik Yapısı ve Gelişimi",
+        "difficulty": 3,
+        "estimatedMinutes": 30,
+        "examWeight": 0.45
+      },
+      {
+        "slug": "kas-sistemi-ve-kasilma-mekanizmasi",
+        "title": "Kas Sistemi ve Kasılma Mekanizması",
+        "difficulty": 4,
+        "estimatedMinutes": 40,
+        "examWeight": 0.55
+      }
+    ]
+  },
+  {
+    "examCode": "AYT",
+    "examName": "AYT — Alan Yeterlilik Testleri",
+    "subjectName": "Edebiyat",
+    "subjectSlug": "edebiyat",
+    "unitName": "Şiir Bilgisi",
+    "unitSlug": "siir-bilgisi",
+    "topics": [
+      {
+        "slug": "siirde-ahenk-olcu-uyak-ve-redif",
+        "title": "Şiirde Ahenk: Ölçü, Uyak ve Redif",
+        "difficulty": 3,
+        "estimatedMinutes": 45,
+        "examWeight": 0.75
+      },
+      {
+        "slug": "nazim-birimi-ve-nazim-bicimleri",
+        "title": "Nazım Birimi ve Nazım Biçimleri",
+        "difficulty": 3,
+        "estimatedMinutes": 40,
+        "examWeight": 0.65
+      },
+      {
+        "slug": "siirde-yapi-tema-ve-soyleyici",
+        "title": "Şiirde Yapı, Tema ve Söyleyici",
+        "difficulty": 3,
+        "estimatedMinutes": 35,
+        "examWeight": 0.55
+      }
+    ]
+  },
+  {
+    "examCode": "AYT",
+    "examName": "AYT — Alan Yeterlilik Testleri",
+    "subjectName": "Edebiyat",
+    "subjectSlug": "edebiyat",
+    "unitName": "Edebî Türler ve Metin Bilgisi",
+    "unitSlug": "edebi-turler-ve-metin-bilgisi",
+    "topics": [
+      {
+        "slug": "hikaye-oyku",
+        "title": "Hikâye (Öykü)",
+        "difficulty": 3,
+        "estimatedMinutes": 35,
+        "examWeight": 0.6
+      },
+      {
+        "slug": "roman",
+        "title": "Roman",
+        "difficulty": 3,
+        "estimatedMinutes": 35,
+        "examWeight": 0.6
+      },
+      {
+        "slug": "tiyatro",
+        "title": "Tiyatro",
+        "difficulty": 3,
+        "estimatedMinutes": 30,
+        "examWeight": 0.5
+      }
+    ]
+  },
+  {
+    "examCode": "AYT",
+    "examName": "AYT — Alan Yeterlilik Testleri",
+    "subjectName": "Edebiyat",
+    "subjectSlug": "edebiyat",
+    "unitName": "İslamiyet Öncesi Türk Edebiyatı ve Geçiş Dönemi",
+    "unitSlug": "islamiyet-oncesi-turk-edebiyati-ve-gecis-donemi",
+    "topics": [
+      {
+        "slug": "sozlu-edebiyat-kosuk-sagu-sav-ve-destan",
+        "title": "Sözlü Edebiyat: Koşuk, Sagu, Sav ve Destan",
+        "difficulty": 2,
+        "estimatedMinutes": 35,
+        "examWeight": 0.6
+      },
+      {
+        "slug": "yazili-edebiyat-orhun-yazitlari-ve-uygur-metinleri",
+        "title": "Yazılı Edebiyat: Orhun Yazıtları ve Uygur Metinleri",
+        "difficulty": 2,
+        "estimatedMinutes": 30,
+        "examWeight": 0.5
+      },
+      {
+        "slug": "gecis-donemi-eserleri",
+        "title": "Geçiş Dönemi Eserleri",
+        "difficulty": 3,
+        "estimatedMinutes": 40,
+        "examWeight": 0.65
+      }
+    ]
+  },
+  {
+    "examCode": "AYT",
+    "examName": "AYT — Alan Yeterlilik Testleri",
+    "subjectName": "Tarih-1",
+    "subjectSlug": "tarih-1",
+    "unitName": "Tarih Bilimi ve İlk Çağ Uygarlıkları",
+    "unitSlug": "tarih-bilimi-ve-ilk-cag-uygarliklari",
+    "topics": [
+      {
+        "slug": "tarih-ve-zaman",
+        "title": "Tarih ve Zaman",
+        "difficulty": 2,
+        "estimatedMinutes": 25,
+        "examWeight": 0.5
+      },
+      {
+        "slug": "insanligin-ilk-donemleri",
+        "title": "İnsanlığın İlk Dönemleri",
+        "difficulty": 2,
+        "estimatedMinutes": 30,
+        "examWeight": 0.55
+      },
+      {
+        "slug": "ilk-cagda-anadolu-ve-mezopotamya-uygarliklari",
+        "title": "İlk Çağ'da Anadolu ve Mezopotamya Uygarlıkları",
+        "difficulty": 3,
+        "estimatedMinutes": 40,
+        "examWeight": 0.65
+      }
+    ]
+  },
+  {
+    "examCode": "AYT",
+    "examName": "AYT — Alan Yeterlilik Testleri",
+    "subjectName": "Tarih-1",
+    "subjectSlug": "tarih-1",
+    "unitName": "Orta Çağ'da Dünya ve İlk Türk Devletleri",
+    "unitSlug": "orta-cagda-dunya-ve-ilk-turk-devletleri",
+    "topics": [
+      {
+        "slug": "orta-cagda-siyasi-yapilar",
+        "title": "Orta Çağ'da Siyasi Yapılar",
+        "difficulty": 3,
+        "estimatedMinutes": 30,
+        "examWeight": 0.5
+      },
+      {
+        "slug": "ilk-turk-devletleri-hunlar-gokturkler-ve-uygurlar",
+        "title": "İlk Türk Devletleri: Hunlar, Göktürkler ve Uygurlar",
+        "difficulty": 3,
+        "estimatedMinutes": 45,
+        "examWeight": 0.75
+      },
+      {
+        "slug": "diger-turk-devlet-ve-topluluklari",
+        "title": "Diğer Türk Devlet ve Toplulukları",
+        "difficulty": 3,
+        "estimatedMinutes": 30,
+        "examWeight": 0.5
+      }
+    ]
+  },
+  {
+    "examCode": "AYT",
+    "examName": "AYT — Alan Yeterlilik Testleri",
+    "subjectName": "Tarih-1",
+    "subjectSlug": "tarih-1",
+    "unitName": "İslam Medeniyeti ve İlk Türk-İslam Devletleri",
+    "unitSlug": "islam-medeniyeti-ve-ilk-turk-islam-devletleri",
+    "topics": [
+      {
+        "slug": "islamiyetin-dogusu-ve-yayilisi",
+        "title": "İslamiyet'in Doğuşu ve Yayılışı",
+        "difficulty": 3,
+        "estimatedMinutes": 35,
+        "examWeight": 0.6
+      },
+      {
+        "slug": "emeviler-ve-abbasiler",
+        "title": "Emeviler ve Abbasiler",
+        "difficulty": 3,
+        "estimatedMinutes": 30,
+        "examWeight": 0.55
+      },
+      {
+        "slug": "turklerin-islamiyeti-kabulu",
+        "title": "Türklerin İslamiyet'i Kabulü",
+        "difficulty": 3,
+        "estimatedMinutes": 30,
+        "examWeight": 0.6
+      }
+    ]
+  },
+  {
+    "examCode": "AYT",
+    "examName": "AYT — Alan Yeterlilik Testleri",
+    "subjectName": "Coğrafya-1",
+    "subjectSlug": "cografya-1",
+    "unitName": "Ekosistem ve Biyoçeşitlilik",
+    "unitSlug": "ekosistem-ve-biyocesitlilik",
+    "topics": [
+      {
+        "slug": "ekosistemin-yapisi-ve-isleyisi",
+        "title": "Ekosistemin Yapısı ve İşleyişi",
+        "difficulty": 3,
+        "estimatedMinutes": 35,
+        "examWeight": 0.65
+      },
+      {
+        "slug": "enerji-akisi-ve-madde-donguleri",
+        "title": "Enerji Akışı ve Madde Döngüleri",
+        "difficulty": 3,
+        "estimatedMinutes": 35,
+        "examWeight": 0.6
+      },
+      {
+        "slug": "biyocesitlilik-ve-biyomlar",
+        "title": "Biyoçeşitlilik ve Biyomlar",
+        "difficulty": 3,
+        "estimatedMinutes": 35,
+        "examWeight": 0.65
+      }
+    ]
+  },
+  {
+    "examCode": "AYT",
+    "examName": "AYT — Alan Yeterlilik Testleri",
+    "subjectName": "Coğrafya-1",
+    "subjectSlug": "cografya-1",
+    "unitName": "Nüfus Politikaları ve Yerleşme",
+    "unitSlug": "nufus-politikalari-ve-yerlesme",
+    "topics": [
+      {
+        "slug": "dunyada-nufus-politikalari",
+        "title": "Dünyada Nüfus Politikaları",
+        "difficulty": 2,
+        "estimatedMinutes": 30,
+        "examWeight": 0.55
+      },
+      {
+        "slug": "turkiyede-nufus-politikalari",
+        "title": "Türkiye'de Nüfus Politikaları",
+        "difficulty": 2,
+        "estimatedMinutes": 30,
+        "examWeight": 0.6
+      },
+      {
+        "slug": "turkiyede-nufusun-yapisi-ve-dagilisi",
+        "title": "Türkiye'de Nüfusun Yapısı ve Dağılışı",
+        "difficulty": 3,
+        "estimatedMinutes": 35,
+        "examWeight": 0.65
+      }
+    ]
+  },
+  {
+    "examCode": "AYT",
+    "examName": "AYT — Alan Yeterlilik Testleri",
+    "subjectName": "Coğrafya-1",
+    "subjectSlug": "cografya-1",
+    "unitName": "Ekonomik Faaliyetler ve Doğal Kaynaklar",
+    "unitSlug": "ekonomik-faaliyetler-ve-dogal-kaynaklar",
+    "topics": [
+      {
+        "slug": "ekonomik-faaliyetlerin-siniflandirilmasi",
+        "title": "Ekonomik Faaliyetlerin Sınıflandırılması",
+        "difficulty": 2,
+        "estimatedMinutes": 25,
+        "examWeight": 0.5
+      },
+      {
+        "slug": "dogal-kaynaklar-ve-kullanimi",
+        "title": "Doğal Kaynaklar ve Kullanımı",
+        "difficulty": 2,
+        "estimatedMinutes": 30,
+        "examWeight": 0.5
+      },
+      {
+        "slug": "turkiyede-tarim-ve-hayvancilik",
+        "title": "Türkiye'de Tarım ve Hayvancılık",
+        "difficulty": 3,
+        "estimatedMinutes": 40,
+        "examWeight": 0.7
+      }
+    ]
+  },
+  {
+    "examCode": "AYT",
+    "examName": "AYT — Alan Yeterlilik Testleri",
+    "subjectName": "Tarih-2",
+    "subjectSlug": "tarih-2",
+    "unitName": "Değişim Çağında Avrupa ve Osmanlı",
+    "unitSlug": "degisim-caginda-avrupa-ve-osmanli",
+    "topics": [
+      {
+        "slug": "avrupada-ronesans-reform-ve-cografi-kesifler",
+        "title": "Avrupa'da Rönesans, Reform ve Coğrafi Keşifler",
+        "difficulty": 3,
+        "estimatedMinutes": 35,
+        "examWeight": 0.6
+      },
+      {
+        "slug": "osmanli-devletinde-degisim-ve-duraklama-1595-1699",
+        "title": "Osmanlı Devleti'nde Değişim ve Duraklama (1595-1699)",
+        "difficulty": 3,
+        "estimatedMinutes": 40,
+        "examWeight": 0.65
+      },
+      {
+        "slug": "xvii-yuzyil-islahatlari",
+        "title": "XVII. Yüzyıl Islahatları",
+        "difficulty": 3,
+        "estimatedMinutes": 30,
+        "examWeight": 0.55
+      }
+    ]
+  },
+  {
+    "examCode": "AYT",
+    "examName": "AYT — Alan Yeterlilik Testleri",
+    "subjectName": "Tarih-2",
+    "subjectSlug": "tarih-2",
+    "unitName": "Devrimler Çağında Osmanlı",
+    "unitSlug": "devrimler-caginda-osmanli",
+    "topics": [
+      {
+        "slug": "fransiz-ihtilali-ve-sanayi-inkilabinin-etkileri",
+        "title": "Fransız İhtilali ve Sanayi İnkılabı'nın Etkileri",
+        "difficulty": 3,
+        "estimatedMinutes": 30,
+        "examWeight": 0.6
+      },
+      {
+        "slug": "iii-selim-ve-ii-mahmut-donemi-islahatlari",
+        "title": "III. Selim ve II. Mahmut Dönemi Islahatları",
+        "difficulty": 3,
+        "estimatedMinutes": 35,
+        "examWeight": 0.65
+      },
+      {
+        "slug": "tanzimat-ve-islahat-fermanlari",
+        "title": "Tanzimat ve Islahat Fermanları",
+        "difficulty": 3,
+        "estimatedMinutes": 30,
+        "examWeight": 0.65
+      }
+    ]
+  },
+  {
+    "examCode": "AYT",
+    "examName": "AYT — Alan Yeterlilik Testleri",
+    "subjectName": "Tarih-2",
+    "subjectSlug": "tarih-2",
+    "unitName": "Uluslararası İlişkilerde Denge Stratejisi (1774-1914)",
+    "unitSlug": "uluslararasi-iliskilerde-denge-stratejisi-1774-1914",
+    "topics": [
+      {
+        "slug": "osmanli-rus-ve-osmanli-fransiz-iliskileri",
+        "title": "Osmanlı-Rus ve Osmanlı-Fransız İlişkileri",
+        "difficulty": 3,
+        "estimatedMinutes": 30,
+        "examWeight": 0.55
+      },
+      {
+        "slug": "misir-ve-bogazlar-meselesi",
+        "title": "Mısır ve Boğazlar Meselesi",
+        "difficulty": 4,
+        "estimatedMinutes": 30,
+        "examWeight": 0.6
+      },
+      {
+        "slug": "kirim-savasi-ve-sonuclari",
+        "title": "Kırım Savaşı ve Sonuçları",
+        "difficulty": 3,
+        "estimatedMinutes": 25,
+        "examWeight": 0.55
+      }
+    ]
+  },
+  {
+    "examCode": "AYT",
+    "examName": "AYT — Alan Yeterlilik Testleri",
+    "subjectName": "Coğrafya-2",
+    "subjectSlug": "cografya-2",
+    "unitName": "Doğal Sistemler ve Doğadaki Değişimler",
+    "unitSlug": "dogal-sistemler-ve-dogadaki-degisimler",
+    "topics": [
+      {
+        "slug": "ekstrem-doga-olaylari",
+        "title": "Ekstrem Doğa Olayları",
+        "difficulty": 3,
+        "estimatedMinutes": 30,
+        "examWeight": 0.55
+      },
+      {
+        "slug": "dogal-sistemlerdeki-degisimler-ve-insana-etkileri",
+        "title": "Doğal Sistemlerdeki Değişimler ve İnsana Etkileri",
+        "difficulty": 3,
+        "estimatedMinutes": 30,
+        "examWeight": 0.55
+      },
+      {
+        "slug": "kuresel-iklim-degisikligi-ve-etkileri",
+        "title": "Küresel İklim Değişikliği ve Etkileri",
+        "difficulty": 3,
+        "estimatedMinutes": 30,
+        "examWeight": 0.6
+      }
+    ]
+  },
+  {
+    "examCode": "AYT",
+    "examName": "AYT — Alan Yeterlilik Testleri",
+    "subjectName": "Coğrafya-2",
+    "subjectSlug": "cografya-2",
+    "unitName": "Şehirler ve Fonksiyonları",
+    "unitSlug": "sehirler-ve-fonksiyonlari",
+    "topics": [
+      {
+        "slug": "sehirlerin-fonksiyonel-siniflandirilmasi",
+        "title": "Şehirlerin Fonksiyonel Sınıflandırılması",
+        "difficulty": 3,
+        "estimatedMinutes": 30,
+        "examWeight": 0.6
+      },
+      {
+        "slug": "kuresel-etkiye-sahip-sehirler",
+        "title": "Küresel Etkiye Sahip Şehirler",
+        "difficulty": 2,
+        "estimatedMinutes": 25,
+        "examWeight": 0.45
+      },
+      {
+        "slug": "turkiyede-sehirlesme-ve-sehirlerin-fonksiyonlari",
+        "title": "Türkiye'de Şehirleşme ve Şehirlerin Fonksiyonları",
+        "difficulty": 3,
+        "estimatedMinutes": 30,
+        "examWeight": 0.6
+      }
+    ]
+  },
+  {
+    "examCode": "AYT",
+    "examName": "AYT — Alan Yeterlilik Testleri",
+    "subjectName": "Coğrafya-2",
+    "subjectSlug": "cografya-2",
+    "unitName": "Türkiye'de Ekonomi, Ulaşım ve Turizm",
+    "unitSlug": "turkiyede-ekonomi-ulasim-ve-turizm",
+    "topics": [
+      {
+        "slug": "turkiyede-ulasim-sistemleri",
+        "title": "Türkiye'de Ulaşım Sistemleri",
+        "difficulty": 3,
+        "estimatedMinutes": 30,
+        "examWeight": 0.6
+      },
+      {
+        "slug": "turkiyede-ticaret-ve-dis-ticaret",
+        "title": "Türkiye'de Ticaret ve Dış Ticaret",
+        "difficulty": 3,
+        "estimatedMinutes": 30,
+        "examWeight": 0.55
+      },
+      {
+        "slug": "turkiyede-turizm-ve-turizm-potansiyeli",
+        "title": "Türkiye'de Turizm ve Turizm Potansiyeli",
+        "difficulty": 3,
+        "estimatedMinutes": 30,
+        "examWeight": 0.6
+      }
+    ]
+  },
+  {
+    "examCode": "AYT",
+    "examName": "AYT — Alan Yeterlilik Testleri",
+    "subjectName": "Felsefe Grubu",
+    "subjectSlug": "felsefe-grubu",
+    "unitName": "Felsefeye Giriş",
+    "unitSlug": "felsefeye-giris",
+    "topics": [
+      {
+        "slug": "felsefenin-anlami-ve-konusu",
+        "title": "Felsefenin Anlamı ve Konusu",
+        "difficulty": 2,
+        "estimatedMinutes": 30,
+        "examWeight": 0.6
+      },
+      {
+        "slug": "felsefi-dusuncenin-ozellikleri",
+        "title": "Felsefi Düşüncenin Özellikleri",
+        "difficulty": 2,
+        "estimatedMinutes": 25,
+        "examWeight": 0.55
+      },
+      {
+        "slug": "felsefenin-diger-disiplinlerle-iliskisi",
+        "title": "Felsefenin Diğer Disiplinlerle İlişkisi",
+        "difficulty": 2,
+        "estimatedMinutes": 25,
+        "examWeight": 0.45
+      }
+    ]
+  },
+  {
+    "examCode": "AYT",
+    "examName": "AYT — Alan Yeterlilik Testleri",
+    "subjectName": "Felsefe Grubu",
+    "subjectSlug": "felsefe-grubu",
+    "unitName": "Bilgi Felsefesi",
+    "unitSlug": "bilgi-felsefesi",
+    "topics": [
+      {
+        "slug": "bilginin-dogasi-ve-dogruluk-olcutleri",
+        "title": "Bilginin Doğası ve Doğruluk Ölçütleri",
+        "difficulty": 3,
+        "estimatedMinutes": 35,
+        "examWeight": 0.65
+      },
+      {
+        "slug": "dogru-bilginin-imkani-suphecilik-ve-dogmatizm",
+        "title": "Doğru Bilginin İmkânı: Şüphecilik ve Dogmatizm",
+        "difficulty": 4,
+        "estimatedMinutes": 40,
+        "examWeight": 0.7
+      },
+      {
+        "slug": "bilgi-turleri",
+        "title": "Bilgi Türleri",
+        "difficulty": 2,
+        "estimatedMinutes": 25,
+        "examWeight": 0.5
+      }
+    ]
+  },
+  {
+    "examCode": "AYT",
+    "examName": "AYT — Alan Yeterlilik Testleri",
+    "subjectName": "Felsefe Grubu",
+    "subjectSlug": "felsefe-grubu",
+    "unitName": "Varlık Felsefesi",
+    "unitSlug": "varlik-felsefesi",
+    "topics": [
+      {
+        "slug": "varligin-var-olup-olmadigi-problemi",
+        "title": "Varlığın Var Olup Olmadığı Problemi",
+        "difficulty": 3,
+        "estimatedMinutes": 30,
+        "examWeight": 0.55
+      },
+      {
+        "slug": "varligin-ne-oldugu-problemi-idealizm-ve-materyalizm",
+        "title": "Varlığın Ne Olduğu Problemi: İdealizm ve Materyalizm",
+        "difficulty": 4,
+        "estimatedMinutes": 35,
+        "examWeight": 0.65
+      },
+      {
+        "slug": "varlik-felsefesinin-temel-kavramlari",
+        "title": "Varlık Felsefesinin Temel Kavramları",
+        "difficulty": 3,
+        "estimatedMinutes": 25,
+        "examWeight": 0.45
+      }
+    ]
+  },
+  {
+    "examCode": "AYT",
+    "examName": "AYT — Alan Yeterlilik Testleri",
+    "subjectName": "Din Kültürü ve Ahlak Bilgisi",
+    "subjectSlug": "din-kulturu-ve-ahlak-bilgisi",
+    "unitName": "İnanç ve Bilgi",
+    "unitSlug": "inanc-ve-bilgi",
+    "topics": [
+      {
+        "slug": "bilgi-turleri-ve-din",
+        "title": "Bilgi Türleri ve Din",
+        "difficulty": 2,
+        "estimatedMinutes": 25,
+        "examWeight": 0.5
+      },
+      {
+        "slug": "islamda-inanc-esaslari",
+        "title": "İslam'da İnanç Esasları",
+        "difficulty": 2,
+        "estimatedMinutes": 30,
+        "examWeight": 0.65
+      },
+      {
+        "slug": "kaza-ve-kader-inanci",
+        "title": "Kaza ve Kader İnancı",
+        "difficulty": 3,
+        "estimatedMinutes": 30,
+        "examWeight": 0.6
+      }
+    ]
+  },
+  {
+    "examCode": "AYT",
+    "examName": "AYT — Alan Yeterlilik Testleri",
+    "subjectName": "Din Kültürü ve Ahlak Bilgisi",
+    "subjectSlug": "din-kulturu-ve-ahlak-bilgisi",
+    "unitName": "İslam ve İbadet",
+    "unitSlug": "islam-ve-ibadet",
+    "topics": [
+      {
+        "slug": "ibadetin-anlami-ve-kapsami",
+        "title": "İbadetin Anlamı ve Kapsamı",
+        "difficulty": 2,
+        "estimatedMinutes": 25,
+        "examWeight": 0.55
+      },
+      {
+        "slug": "namaz-oruc-zekat-ve-hac",
+        "title": "Namaz, Oruç, Zekât ve Hac",
+        "difficulty": 3,
+        "estimatedMinutes": 35,
+        "examWeight": 0.65
+      },
+      {
+        "slug": "ibadetlerin-bireysel-ve-toplumsal-faydalari",
+        "title": "İbadetlerin Bireysel ve Toplumsal Faydaları",
+        "difficulty": 2,
+        "estimatedMinutes": 25,
+        "examWeight": 0.5
+      }
+    ]
+  },
+  {
+    "examCode": "AYT",
+    "examName": "AYT — Alan Yeterlilik Testleri",
+    "subjectName": "Din Kültürü ve Ahlak Bilgisi",
+    "subjectSlug": "din-kulturu-ve-ahlak-bilgisi",
+    "unitName": "Ahlak ve Değerler",
+    "unitSlug": "ahlak-ve-degerler",
+    "topics": [
+      {
+        "slug": "islam-ahlakinin-temel-kavramlari",
+        "title": "İslam Ahlakının Temel Kavramları",
+        "difficulty": 2,
+        "estimatedMinutes": 25,
+        "examWeight": 0.55
+      },
+      {
+        "slug": "bireysel-ve-toplumsal-ahlaki-degerler",
+        "title": "Bireysel ve Toplumsal Ahlaki Değerler",
+        "difficulty": 2,
+        "estimatedMinutes": 25,
+        "examWeight": 0.55
+      },
+      {
+        "slug": "genclik-ve-degerler-egitimi",
+        "title": "Gençlik ve Değerler Eğitimi",
+        "difficulty": 2,
+        "estimatedMinutes": 20,
+        "examWeight": 0.4
+      }
+    ]
+  },
+  {
+    "examCode": "KPSS_LISANS",
+    "examName": "KPSS Lisans (Genel Yetenek - Genel Kültür)",
+    "subjectName": "Türkçe",
+    "subjectSlug": "turkce",
+    "unitName": "Sözcükte Anlam",
+    "unitSlug": "sozcukte-anlam",
+    "topics": [
+      {
+        "slug": "gercek-mecaz-ve-terim-anlam",
+        "title": "Gerçek, Mecaz ve Terim Anlam",
+        "difficulty": 2,
+        "estimatedMinutes": 30,
+        "examWeight": 0.75
+      },
+      {
+        "slug": "sozcukler-arasi-anlam-iliskileri",
+        "title": "Sözcükler Arası Anlam İlişkileri",
+        "difficulty": 2,
+        "estimatedMinutes": 25,
+        "examWeight": 0.6
+      },
+      {
+        "slug": "deyimler-ve-atasozleri",
+        "title": "Deyimler ve Atasözleri",
+        "difficulty": 2,
+        "estimatedMinutes": 35,
+        "examWeight": 0.65
+      }
+    ]
+  },
+  {
+    "examCode": "KPSS_LISANS",
+    "examName": "KPSS Lisans (Genel Yetenek - Genel Kültür)",
+    "subjectName": "Türkçe",
+    "subjectSlug": "turkce",
+    "unitName": "Cümlede Anlam",
+    "unitSlug": "cumlede-anlam",
+    "topics": [
+      {
+        "slug": "cumlede-anlam-iliskileri",
+        "title": "Cümlede Anlam İlişkileri",
+        "difficulty": 3,
+        "estimatedMinutes": 40,
+        "examWeight": 0.8
+      },
+      {
+        "slug": "cumle-yorumlama-ve-kesin-yargi",
+        "title": "Cümle Yorumlama ve Kesin Yargı",
+        "difficulty": 4,
+        "estimatedMinutes": 35,
+        "examWeight": 0.7
+      },
+      {
+        "slug": "cumlede-anlatim-bicimleri-ve-duygular",
+        "title": "Cümlede Anlatım Biçimleri ve Duygular",
+        "difficulty": 3,
+        "estimatedMinutes": 30,
+        "examWeight": 0.55
+      }
+    ]
+  },
+  {
+    "examCode": "KPSS_LISANS",
+    "examName": "KPSS Lisans (Genel Yetenek - Genel Kültür)",
+    "subjectName": "Türkçe",
+    "subjectSlug": "turkce",
+    "unitName": "Paragraf",
+    "unitSlug": "paragraf",
+    "topics": [
+      {
+        "slug": "paragrafta-konu-ana-dusunce-ve-yardimci-dusunce",
+        "title": "Paragrafta Konu, Ana Düşünce ve Yardımcı Düşünce",
+        "difficulty": 3,
+        "estimatedMinutes": 60,
+        "examWeight": 0.9
+      },
+      {
+        "slug": "paragrafta-yapi-giris-gelisme-sonuc",
+        "title": "Paragrafta Yapı: Giriş, Gelişme, Sonuç",
+        "difficulty": 3,
+        "estimatedMinutes": 35,
+        "examWeight": 0.75
+      },
+      {
+        "slug": "paragraf-tamamlama",
+        "title": "Paragraf Tamamlama",
+        "difficulty": 4,
+        "estimatedMinutes": 40,
+        "examWeight": 0.8
+      }
+    ]
+  },
+  {
+    "examCode": "KPSS_LISANS",
+    "examName": "KPSS Lisans (Genel Yetenek - Genel Kültür)",
+    "subjectName": "Matematik",
+    "subjectSlug": "matematik",
+    "unitName": "Temel Kavramlar ve Sayılar",
+    "unitSlug": "temel-kavramlar-ve-sayilar",
+    "topics": [
+      {
+        "slug": "temel-kavramlar",
+        "title": "Temel Kavramlar",
+        "difficulty": 2,
+        "estimatedMinutes": 30,
+        "examWeight": 0.7
+      },
+      {
+        "slug": "sayi-basamaklari",
+        "title": "Sayı Basamakları",
+        "difficulty": 3,
+        "estimatedMinutes": 30,
+        "examWeight": 0.6
+      },
+      {
+        "slug": "bolme-ve-bolunebilme-kurallari",
+        "title": "Bölme ve Bölünebilme Kuralları",
+        "difficulty": 3,
+        "estimatedMinutes": 50,
+        "examWeight": 0.7
+      }
+    ]
+  },
+  {
+    "examCode": "KPSS_LISANS",
+    "examName": "KPSS Lisans (Genel Yetenek - Genel Kültür)",
+    "subjectName": "Matematik",
+    "subjectSlug": "matematik",
+    "unitName": "Cebir",
+    "unitSlug": "cebir",
+    "topics": [
+      {
+        "slug": "birinci-dereceden-denklemler",
+        "title": "Birinci Dereceden Denklemler",
+        "difficulty": 3,
+        "estimatedMinutes": 35,
+        "examWeight": 0.65
+      },
+      {
+        "slug": "basit-esitsizlikler",
+        "title": "Basit Eşitsizlikler",
+        "difficulty": 3,
+        "estimatedMinutes": 35,
+        "examWeight": 0.55
+      },
+      {
+        "slug": "mutlak-deger",
+        "title": "Mutlak Değer",
+        "difficulty": 4,
+        "estimatedMinutes": 35,
+        "examWeight": 0.5
+      }
+    ]
+  },
+  {
+    "examCode": "KPSS_LISANS",
+    "examName": "KPSS Lisans (Genel Yetenek - Genel Kültür)",
+    "subjectName": "Matematik",
+    "subjectSlug": "matematik",
+    "unitName": "Problemler",
+    "unitSlug": "problemler",
+    "topics": [
+      {
+        "slug": "sayi-ve-kesir-problemleri",
+        "title": "Sayı ve Kesir Problemleri",
+        "difficulty": 3,
+        "estimatedMinutes": 60,
+        "examWeight": 0.85
+      },
+      {
+        "slug": "yas-problemleri",
+        "title": "Yaş Problemleri",
+        "difficulty": 2,
+        "estimatedMinutes": 25,
+        "examWeight": 0.6
+      },
+      {
+        "slug": "isci-ve-havuz-problemleri",
+        "title": "İşçi ve Havuz Problemleri",
+        "difficulty": 4,
+        "estimatedMinutes": 45,
+        "examWeight": 0.7
+      }
+    ]
+  },
+  {
+    "examCode": "KPSS_LISANS",
+    "examName": "KPSS Lisans (Genel Yetenek - Genel Kültür)",
+    "subjectName": "Tarih",
+    "subjectSlug": "tarih",
+    "unitName": "İslamiyet Öncesi Türk Tarihi",
+    "unitSlug": "islamiyet-oncesi-turk-tarihi",
+    "topics": [
+      {
+        "slug": "turklerin-anayurdu-ve-orta-asyadan-gocler",
+        "title": "Türklerin Anayurdu ve Orta Asya'dan Göçler",
+        "difficulty": 2,
+        "estimatedMinutes": 30,
+        "examWeight": 0.5
+      },
+      {
+        "slug": "ilk-turk-devletleri-asya-hun-gokturk-ve-uygurlar",
+        "title": "İlk Türk Devletleri: Asya Hun, Göktürk ve Uygurlar",
+        "difficulty": 3,
+        "estimatedMinutes": 65,
+        "examWeight": 0.7
+      },
+      {
+        "slug": "diger-turk-devlet-ve-topluluklari",
+        "title": "Diğer Türk Devlet ve Toplulukları",
+        "difficulty": 3,
+        "estimatedMinutes": 35,
+        "examWeight": 0.55
+      }
+    ]
+  },
+  {
+    "examCode": "KPSS_LISANS",
+    "examName": "KPSS Lisans (Genel Yetenek - Genel Kültür)",
+    "subjectName": "Tarih",
+    "subjectSlug": "tarih",
+    "unitName": "İlk Türk-İslam Devletleri",
+    "unitSlug": "ilk-turk-islam-devletleri",
+    "topics": [
+      {
+        "slug": "turklerin-islamiyeti-kabulu-ve-talas-savasi",
+        "title": "Türklerin İslamiyet'i Kabulü ve Talas Savaşı",
+        "difficulty": 2,
+        "estimatedMinutes": 30,
+        "examWeight": 0.6
+      },
+      {
+        "slug": "tolunogullari-karahanlilar-ve-gazneliler",
+        "title": "Tolunoğulları, Karahanlılar ve Gazneliler",
+        "difficulty": 3,
+        "estimatedMinutes": 40,
+        "examWeight": 0.65
+      },
+      {
+        "slug": "buyuk-selcuklu-devleti",
+        "title": "Büyük Selçuklu Devleti",
+        "difficulty": 3,
+        "estimatedMinutes": 55,
+        "examWeight": 0.75
+      }
+    ]
+  },
+  {
+    "examCode": "KPSS_LISANS",
+    "examName": "KPSS Lisans (Genel Yetenek - Genel Kültür)",
+    "subjectName": "Tarih",
+    "subjectSlug": "tarih",
+    "unitName": "Osmanlı Devleti: Kuruluş ve Yükselme Dönemi",
+    "unitSlug": "osmanli-devleti-kurulus-ve-yukselme-donemi",
+    "topics": [
+      {
+        "slug": "osmanli-devletinin-kurulusu-ve-beylikten-devlete-gecis",
+        "title": "Osmanlı Devleti'nin Kuruluşu ve Beylikten Devlete Geçiş",
+        "difficulty": 3,
+        "estimatedMinutes": 40,
+        "examWeight": 0.7
+      },
+      {
+        "slug": "fetret-devri-ve-toparlanma-sureci",
+        "title": "Fetret Devri ve Toparlanma Süreci",
+        "difficulty": 3,
+        "estimatedMinutes": 30,
+        "examWeight": 0.55
+      },
+      {
+        "slug": "istanbulun-fethi-ve-fatih-sultan-mehmet-donemi",
+        "title": "İstanbul'un Fethi ve Fatih Sultan Mehmet Dönemi",
+        "difficulty": 2,
+        "estimatedMinutes": 40,
+        "examWeight": 0.75
+      }
+    ]
+  },
+  {
+    "examCode": "KPSS_LISANS",
+    "examName": "KPSS Lisans (Genel Yetenek - Genel Kültür)",
+    "subjectName": "Coğrafya",
+    "subjectSlug": "cografya",
+    "unitName": "Türkiye'nin Coğrafi Konumu",
+    "unitSlug": "turkiyenin-cografi-konumu",
+    "topics": [
+      {
+        "slug": "matematik-konum-ve-sonuclari",
+        "title": "Matematik Konum ve Sonuçları",
+        "difficulty": 3,
+        "estimatedMinutes": 35,
+        "examWeight": 0.85
+      },
+      {
+        "slug": "ozel-konum-ve-sonuclari",
+        "title": "Özel Konum ve Sonuçları",
+        "difficulty": 2,
+        "estimatedMinutes": 30,
+        "examWeight": 0.8
+      },
+      {
+        "slug": "turkiyenin-sinirlari-ve-komsulari",
+        "title": "Türkiye'nin Sınırları ve Komşuları",
+        "difficulty": 2,
+        "estimatedMinutes": 25,
+        "examWeight": 0.55
+      }
+    ]
+  },
+  {
+    "examCode": "KPSS_LISANS",
+    "examName": "KPSS Lisans (Genel Yetenek - Genel Kültür)",
+    "subjectName": "Coğrafya",
+    "subjectSlug": "cografya",
+    "unitName": "Türkiye'nin Yer Şekilleri",
+    "unitSlug": "turkiyenin-yer-sekilleri",
+    "topics": [
+      {
+        "slug": "turkiyenin-jeolojik-yapisi-ve-olusumu",
+        "title": "Türkiye'nin Jeolojik Yapısı ve Oluşumu",
+        "difficulty": 3,
+        "estimatedMinutes": 35,
+        "examWeight": 0.55
+      },
+      {
+        "slug": "daglar-ovalar-ve-platolar",
+        "title": "Dağlar, Ovalar ve Platolar",
+        "difficulty": 3,
+        "estimatedMinutes": 50,
+        "examWeight": 0.75
+      },
+      {
+        "slug": "turkiyenin-akarsulari-ve-golleri",
+        "title": "Türkiye'nin Akarsuları ve Gölleri",
+        "difficulty": 3,
+        "estimatedMinutes": 40,
+        "examWeight": 0.75
+      }
+    ]
+  },
+  {
+    "examCode": "KPSS_LISANS",
+    "examName": "KPSS Lisans (Genel Yetenek - Genel Kültür)",
+    "subjectName": "Coğrafya",
+    "subjectSlug": "cografya",
+    "unitName": "Türkiye'nin İklimi ve Bitki Örtüsü",
+    "unitSlug": "turkiyenin-iklimi-ve-bitki-ortusu",
+    "topics": [
+      {
+        "slug": "turkiyenin-iklimini-etkileyen-faktorler",
+        "title": "Türkiye'nin İklimini Etkileyen Faktörler",
+        "difficulty": 3,
+        "estimatedMinutes": 35,
+        "examWeight": 0.75
+      },
+      {
+        "slug": "turkiyede-gorulen-iklim-tipleri",
+        "title": "Türkiye'de Görülen İklim Tipleri",
+        "difficulty": 3,
+        "estimatedMinutes": 60,
+        "examWeight": 0.85
+      },
+      {
+        "slug": "sicaklik-basinc-ve-ruzgarlar",
+        "title": "Sıcaklık, Basınç ve Rüzgârlar",
+        "difficulty": 3,
+        "estimatedMinutes": 35,
+        "examWeight": 0.6
+      }
+    ]
+  },
+  {
+    "examCode": "KPSS_LISANS",
+    "examName": "KPSS Lisans (Genel Yetenek - Genel Kültür)",
+    "subjectName": "Vatandaşlık",
+    "subjectSlug": "vatandaslik",
+    "unitName": "Hukuk Başlangıcı",
+    "unitSlug": "hukuk-baslangici",
+    "topics": [
+      {
+        "slug": "hukukun-tanimi-kaynaklari-ve-dallari",
+        "title": "Hukukun Tanımı, Kaynakları ve Dalları",
+        "difficulty": 3,
+        "estimatedMinutes": 45,
+        "examWeight": 0.7
+      },
+      {
+        "slug": "sosyal-duzen-kurallari-ve-yaptirim-turleri",
+        "title": "Sosyal Düzen Kuralları ve Yaptırım Türleri",
+        "difficulty": 2,
+        "estimatedMinutes": 25,
+        "examWeight": 0.55
+      },
+      {
+        "slug": "kisilik-hak-ehliyeti-ve-fiil-ehliyeti",
+        "title": "Kişilik, Hak Ehliyeti ve Fiil Ehliyeti",
+        "difficulty": 3,
+        "estimatedMinutes": 35,
+        "examWeight": 0.6
+      }
+    ]
+  },
+  {
+    "examCode": "KPSS_LISANS",
+    "examName": "KPSS Lisans (Genel Yetenek - Genel Kültür)",
+    "subjectName": "Vatandaşlık",
+    "subjectSlug": "vatandaslik",
+    "unitName": "Anayasa Hukuku ve Türk Anayasa Tarihi",
+    "unitSlug": "anayasa-hukuku-ve-turk-anayasa-tarihi",
+    "topics": [
+      {
+        "slug": "anayasa-kavrami-ve-anayasa-turleri",
+        "title": "Anayasa Kavramı ve Anayasa Türleri",
+        "difficulty": 3,
+        "estimatedMinutes": 25,
+        "examWeight": 0.55
+      },
+      {
+        "slug": "osmanli-donemi-anayasal-gelismeler",
+        "title": "Osmanlı Dönemi Anayasal Gelişmeler",
+        "difficulty": 3,
+        "estimatedMinutes": 30,
+        "examWeight": 0.6
+      },
+      {
+        "slug": "1921-ve-1924-anayasalari",
+        "title": "1921 ve 1924 Anayasaları",
+        "difficulty": 3,
+        "estimatedMinutes": 30,
+        "examWeight": 0.65
+      }
+    ]
+  },
+  {
+    "examCode": "KPSS_LISANS",
+    "examName": "KPSS Lisans (Genel Yetenek - Genel Kültür)",
+    "subjectName": "Vatandaşlık",
+    "subjectSlug": "vatandaslik",
+    "unitName": "1982 Anayasası'nın Genel Esasları",
+    "unitSlug": "1982-anayasasinin-genel-esaslari",
+    "topics": [
+      {
+        "slug": "cumhuriyetin-nitelikleri",
+        "title": "Cumhuriyetin Nitelikleri",
+        "difficulty": 3,
+        "estimatedMinutes": 55,
+        "examWeight": 0.85
+      },
+      {
+        "slug": "devletin-temel-amac-ve-gorevleri-egemenlik",
+        "title": "Devletin Temel Amaç ve Görevleri, Egemenlik",
+        "difficulty": 3,
+        "estimatedMinutes": 25,
+        "examWeight": 0.65
+      },
+      {
+        "slug": "baslangic-ilkeleri-ve-anayasanin-ustunlugu",
+        "title": "Başlangıç İlkeleri ve Anayasanın Üstünlüğü",
+        "difficulty": 3,
+        "estimatedMinutes": 25,
+        "examWeight": 0.6
+      }
+    ]
+  },
+  {
+    "examCode": "KPSS_LISANS",
+    "examName": "KPSS Lisans (Genel Yetenek - Genel Kültür)",
+    "subjectName": "Güncel Bilgiler",
+    "subjectSlug": "guncel-bilgiler",
+    "unitName": "Türkiye ve Dünya Kuruluşları",
+    "unitSlug": "turkiye-ve-dunya-kuruluslari",
+    "topics": [
+      {
+        "slug": "uluslararasi-kuruluslarin-merkezleri-ve-yoneticileri",
+        "title": "Uluslararası Kuruluşların Merkezleri ve Yöneticileri",
+        "difficulty": 3,
+        "estimatedMinutes": 30,
+        "examWeight": 0.7
+      },
+      {
+        "slug": "turkiyenin-uyesi-oldugu-kuruluslar-ve-donem-baskanliklari",
+        "title": "Türkiye'nin Üyesi Olduğu Kuruluşlar ve Dönem Başkanlıkları",
+        "difficulty": 3,
+        "estimatedMinutes": 25,
+        "examWeight": 0.6
+      },
+      {
+        "slug": "turkiyedeki-kamu-kurumlari-ve-duzenleyici-ust-kurullar",
+        "title": "Türkiye'deki Kamu Kurumları ve Düzenleyici Üst Kurullar",
+        "difficulty": 3,
+        "estimatedMinutes": 25,
+        "examWeight": 0.55
+      }
+    ]
+  },
+  {
+    "examCode": "KPSS_LISANS",
+    "examName": "KPSS Lisans (Genel Yetenek - Genel Kültür)",
+    "subjectName": "Güncel Bilgiler",
+    "subjectSlug": "guncel-bilgiler",
+    "unitName": "Ödüller, Kültür ve Sanat",
+    "unitSlug": "oduller-kultur-ve-sanat",
+    "topics": [
+      {
+        "slug": "nobel-odulleri-ve-bilim-odulleri",
+        "title": "Nobel Ödülleri ve Bilim Ödülleri",
+        "difficulty": 3,
+        "estimatedMinutes": 30,
+        "examWeight": 0.65
+      },
+      {
+        "slug": "sinema-odulleri-ve-film-festivalleri",
+        "title": "Sinema Ödülleri ve Film Festivalleri",
+        "difficulty": 2,
+        "estimatedMinutes": 25,
+        "examWeight": 0.55
+      },
+      {
+        "slug": "edebiyat-odulleri-ve-guncel-turk-edebiyati",
+        "title": "Edebiyat Ödülleri ve Güncel Türk Edebiyatı",
+        "difficulty": 3,
+        "estimatedMinutes": 25,
+        "examWeight": 0.5
+      }
+    ]
+  },
+  {
+    "examCode": "KPSS_LISANS",
+    "examName": "KPSS Lisans (Genel Yetenek - Genel Kültür)",
+    "subjectName": "Güncel Bilgiler",
+    "subjectSlug": "guncel-bilgiler",
+    "unitName": "Spor Organizasyonları",
+    "unitSlug": "spor-organizasyonlari",
+    "topics": [
+      {
+        "slug": "olimpiyat-ve-paralimpik-oyunlar",
+        "title": "Olimpiyat ve Paralimpik Oyunlar",
+        "difficulty": 2,
+        "estimatedMinutes": 25,
+        "examWeight": 0.55
+      },
+      {
+        "slug": "dunya-ve-avrupa-sampiyonalari",
+        "title": "Dünya ve Avrupa Şampiyonaları",
+        "difficulty": 2,
+        "estimatedMinutes": 25,
+        "examWeight": 0.55
+      },
+      {
+        "slug": "turk-sporcularin-uluslararasi-basarilari",
+        "title": "Türk Sporcuların Uluslararası Başarıları",
+        "difficulty": 3,
+        "estimatedMinutes": 25,
+        "examWeight": 0.45
+      }
+    ]
+  }
+]

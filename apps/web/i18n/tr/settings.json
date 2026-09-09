@@ -1,0 +1,143 @@
+{
+  "settings": {
+    "title": "Ayarlar",
+    "description": "Profilinizi, çalışma tercihlerinizi ve veli bağlantılarınızı buradan yönetirsiniz.",
+    "nav": "Ayar bölümleri",
+    "saved": "Değişiklikler kaydedildi.",
+    "saving": "Kaydediliyor...",
+    "save": "Kaydet",
+    "genericError": "Kaydedilemedi. Lütfen tekrar deneyin.",
+    "profile": {
+      "title": "Profil",
+      "description": "Adınız ve görünen adınız uygulamanın her yerinde bu bilgilerden okunur.",
+      "fullName": "Ad Soyad",
+      "fullNameHint": "Sertifika ve raporlarda bu ad kullanılır.",
+      "displayName": "Görünen ad",
+      "displayNameHint": "Liderlik tablosunda ve rozetlerde yalnızca bu takma ad gösterilir.",
+      "avatarUrl": "Profil görseli bağlantısı",
+      "avatarUrlHint": "https:// ile başlayan bir görsel adresi. Boş bırakırsanız baş harfleriniz gösterilir.",
+      "grade": "Sınıf / durum",
+      "gradePlaceholder": "Seçiniz",
+      "gradeNone": "Belirtmek istemiyorum",
+      "avatarPreview": "Profil görseli önizlemesi"
+    },
+    "grades": {
+      "8": "8. sınıf",
+      "9": "9. sınıf",
+      "10": "10. sınıf",
+      "11": "11. sınıf",
+      "12": "12. sınıf",
+      "mezun": "Mezun",
+      "yetiskin": "Yetişkin aday (KPSS/DGS/ALES)"
+    },
+    "study": {
+      "title": "Sınav ve program",
+      "description": "Çalışma programınız bu tercihlere göre kurulur.",
+      "exam": "Hedef sınav",
+      "examPlaceholder": "Sınav seçiniz",
+      "examNone": "Henüz karar vermedim",
+      "examDate": "Sınav tarihi",
+      "examDateHint": "Geri sayım ve program yoğunluğu bu tarihe göre hesaplanır.",
+      "dailyMinutes": "Günlük çalışma süresi (dakika)",
+      "dailyMinutesHint": "15 ile 720 dakika arasında bir değer girin.",
+      "studyDays": "Çalışma günleri",
+      "studyDaysHint": "En az bir gün seçmelisiniz.",
+      "planNote": "Tercihleriniz, programınızı yeniden ürettiğinizde ya da haftalık program yenilendiğinde geçerli olur."
+    },
+    "days": {
+      "1": "Pazartesi",
+      "2": "Salı",
+      "3": "Çarşamba",
+      "4": "Perşembe",
+      "5": "Cuma",
+      "6": "Cumartesi",
+      "7": "Pazar",
+      "short1": "Pzt",
+      "short2": "Sal",
+      "short3": "Çar",
+      "short4": "Per",
+      "short5": "Cum",
+      "short6": "Cmt",
+      "short7": "Paz"
+    },
+    "notifications": {
+      "title": "Bildirim tercihleri",
+      "description": "Hangi durumlarda sizinle iletişime geçeceğimizi siz belirlersiniz.",
+      "emailReminders": "E-posta hatırlatmaları",
+      "emailRemindersHint": "Günlük programınızı tamamlamadığınızda kısa bir hatırlatma göndeririz.",
+      "emailWeeklySummary": "Haftalık e-posta özeti",
+      "emailWeeklySummaryHint": "Her pazar, haftanın çalışma özetini ve ilerlemenizi göndeririz.",
+      "appNotifications": "Uygulama içi bildirimler",
+      "appNotificationsHint": "Rozet, cevaplanan soru ve program bildirimleri zil simgesinde görünür."
+    },
+    "leaderboard": {
+      "title": "Liderlik tablosu",
+      "description": "Sıralamada yer alıp almayacağınıza siz karar verirsiniz.",
+      "optIn": "Liderlik tablosunda görün",
+      "optInHint": "Sıralamada yalnızca görünen adınız gösterilir; gerçek adınız, e-postanız ve sınıfınız hiçbir zaman paylaşılmaz.",
+      "optInOffNote": "Kapalıyken hiçbir sıralamada yer almazsınız; kendi puanınızı görmeye devam edersiniz."
+    },
+    "subscription": {
+      "title": "Abonelik",
+      "description": "Aktif paketinizin özeti.",
+      "package": "Paket",
+      "endsAt": "Bitiş tarihi",
+      "daysLeft": "Kalan süre",
+      "dayUnit": "gün",
+      "lastDay": "Bugün son gün",
+      "emptyTitle": "Aktif aboneliğiniz yok",
+      "emptyDescription": "Video derslere, akıllı testlere ve denemelere erişmek için bir paket seçebilirsiniz.",
+      "emptyAction": "Paketleri incele"
+    },
+    "account": {
+      "title": "Hesap",
+      "description": "Giriş bilgileriniz ve kişisel verileriniz.",
+      "email": "E-posta",
+      "changePassword": "Şifremi değiştir",
+      "changePasswordHint": "Şifre sıfırlama bağlantısını e-posta adresinize göndereceğiz.",
+      "kvkkTitle": "Verilerinizin silinmesi (KVKK)",
+      "kvkkBody": "KVKK kapsamında hesabınızın ve çalışma verilerinizin silinmesini isteme hakkınız var. Talebinizi aşağıdaki adrese ilettiğinizde hesabınız anonimleştirilir; çözdüğünüz sorular kimliğinizden koparılarak yalnızca istatistik olarak kalır.",
+      "kvkkContact": "Silme talebi gönder",
+      "kvkkNote": "Talepler en geç 30 gün içinde sonuçlandırılır."
+    }
+  },
+  "link": {
+    "title": "Veli daveti",
+    "description": "Bu kodu paylaştığınız kişi, veli hesabıyla ilerlemenizi takip edebilir.",
+    "codeLabel": "Davet kodunuz",
+    "copy": "Kopyala",
+    "copied": "Davet kodu kopyalandı.",
+    "copyFailed": "Kod kopyalanamadı. Kodu elle yazabilirsiniz.",
+    "noCode": "Davet kodunuz henüz oluşturulmamış. Destek ekibiyle iletişime geçin.",
+    "canSeeTitle": "Veliniz şunları görebilir",
+    "canSee": [
+      "Çalışma süreniz, seriniz ve haftalık ilerleme özetiniz",
+      "Çözdüğünüz test ve denemelerin sonuçları, netiniz ve yüzdelik bilginiz",
+      "Konu bazlı güçlü ve zayıf alanlarınız"
+    ],
+    "cannotSeeTitle": "Veliniz şunları göremez",
+    "cannotSee": [
+      "Şifreniz ve hesap giriş bilgileriniz",
+      "Öğretmene sorduğunuz soruların içeriği ve yazışmalarınız",
+      "Hafıza kartlarına yazdığınız kişisel notlar"
+    ],
+    "limitNote": "Bir öğrenciye en fazla 2 veli bağlanabilir.",
+    "linkedTitle": "Bağlı veliler",
+    "linkedEmpty": "Henüz bağlı bir veliniz yok.",
+    "linkedSince": "Bağlantı tarihi",
+    "unlink": "Bağlantıyı kes",
+    "unlinkTitle": "Veli bağlantısı kesilsin mi?",
+    "unlinkBody": "Bağlantıyı kestiğinizde bu kişi ilerlemenizi ve sonuçlarınızı artık göremez. Dilerseniz davet kodunuzu paylaşarak yeniden bağlayabilirsiniz.",
+    "unlinkConfirm": "Evet, bağlantıyı kes",
+    "unlinked": "Veli bağlantısı kesildi.",
+    "unlinking": "Bağlantı kesiliyor...",
+    "nameless": "Adı belirtilmemiş veli",
+    "formTitle": "Öğrenci ekle",
+    "formDescription": "Öğrencinin ayarlar sayfasındaki 8 haneli davet kodunu girin.",
+    "codeInput": "Davet kodu",
+    "codeInputHint": "Büyük harf ve rakamlardan oluşan 8 hane. Boşluk ve tireleri yok sayarız.",
+    "submit": "Öğrenciyi bağla",
+    "submitting": "Bağlanıyor...",
+    "linked": "Öğrenci hesabınıza bağlandı."
+  }
+}

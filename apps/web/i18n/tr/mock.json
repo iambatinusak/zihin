@@ -1,0 +1,85 @@
+{
+  "mock": {
+    "title": "Denemeler",
+    "subtitle": "Gerçek sınav düzeninde çöz, netini ve tahmini sıralamanı gör.",
+    "otherSubject": "Diğer",
+    "emptyTitle": "Henüz yayımlanmış bir deneme yok.",
+    "emptyBody": "Hedeflediğin sınav için deneme yayımlandığında burada listelenecek. O zamana kadar konu testleriyle çalışmaya devam edebilirsin.",
+    "noExamTitle": "Önce hedef sınavını seç.",
+    "noExamBody": "Denemeler hedeflediğin sınava göre listeleniyor.",
+    "goSettings": "Ayarlara git",
+    "backToList": "Denemelere dön",
+
+    "questionCount": "{count} soru",
+    "durationMinutes": "{minutes} dakika",
+    "noDuration": "Süre sınırı yok",
+    "sectionsLabel": "Ders dağılımı",
+    "sectionCount": "{name} · {count}",
+    "partialNotice": "Bu denemenin soru havuzu henüz tamamlanmadı; {count} soruyla çözeceksin.",
+
+    "statusNotStarted": "Çözülmedi",
+    "statusInProgress": "Devam ediyor",
+    "statusFinished": "Tamamlandı",
+    "netLabel": "net",
+    "finishedAt": "{date} tarihinde tamamlandı",
+
+    "start": "Denemeyi başlat",
+    "starting": "Hazırlanıyor...",
+    "resume": "Kaldığın yerden devam et",
+    "retry": "Yeniden çöz",
+    "viewResult": "Sonucu gör",
+    "startFailed": "Deneme başlatılamadı. Lütfen tekrar deneyin.",
+
+    "windowBefore": "Başlamasına kalan süre",
+    "windowOpen": "Bitmesine kalan süre",
+    "windowBeforeHint": "Bu canlı deneme henüz başlamadı; başlangıç saatinde girebileceksin.",
+    "windowOpenHint": "Canlı deneme sürüyor. Sıralama, pencere kapandıktan sonra açılır.",
+    "windowClosedHint": "Katılım süresi doldu. Sıralamayı sonuç ekranından görebilirsin.",
+    "windowClosedTitle": "Katılım süresi doldu",
+    "countdownStarted": "Süre başladı",
+    "countdownDay": "g",
+    "countdownHour": "sa",
+    "countdownMinute": "dk",
+    "countdownSecond": "sn",
+
+    "runner": {
+      "sectionsLabel": "Dersler",
+      "sectionTab": "{name} bölümü, {answered} / {total} cevaplandı",
+      "sectionProgress": "{answered}/{total}",
+      "sectionEmpty": "Bu bölümde henüz soru yok.",
+      "globalTimer": "Deneme süresi",
+      "sectionGrid": "{name} soruları",
+      "overallProgress": "Toplam {answered}/{total} soru cevaplandı"
+    },
+
+    "result": {
+      "title": "Deneme Sonucu",
+      "overall": "Genel",
+      "overallNet": "Toplam net",
+      "bySection": "Ders bazlı sonuç",
+      "sectionColumn": "Ders",
+      "totalColumn": "Soru",
+      "correct": "Doğru",
+      "wrong": "Yanlış",
+      "blank": "Boş",
+      "net": "Net",
+      "emptySection": "Bu derste soru yok",
+      "percentileTitle": "Yüzdelik dilim",
+      "percentileValue": "%{percent}",
+      "percentileHint": "Bu denemeyi bitiren {count} kişi arasındaki yerin.",
+      "percentileEstimate": "Bu netle katılımcıların yaklaşık ilk %{top} dilimindesin. Bu bir tahmindir, gerçek sınav sıralaması değildir.",
+      "percentileInsufficient": "Yeterli veri yok",
+      "percentileInsufficientHint": "Yüzdelik dilim, bu denemeyi en az {required} kişi bitirdiğinde hesaplanır. Şu an {count} kişi bitirdi; daha az katılımcıyla çıkan sıralama seni yanıltırdı.",
+      "rankingLocked": "Sıralama henüz açılmadı",
+      "rankingLockedHint": "Canlı deneme penceresi kapandığında yüzdelik dilimin burada görünecek.",
+      "reviewTitle": "Soru çözümleri",
+      "emptyTitle": "Bu denemede çözülecek soru bulunamadı.",
+      "emptyBody": "Denemenin soruları yayımdan kaldırılmış olabilir."
+    },
+
+    "notFoundTitle": "Deneme bulunamadı.",
+    "notFoundBody": "Bağlantı geçersiz olabilir ya da deneme yayımdan kaldırılmış olabilir.",
+    "expiredTitle": "Bu oturumun süresi doldu.",
+    "expiredBody": "Denemeyi baştan başlatabilirsin."
+  }
+}

@@ -1,0 +1,97 @@
+{
+  "onboarding": {
+    "title": "Birkaç adımda sizi tanıyalım",
+    "subtitle": "Verdiğiniz cevaplara göre çalışma programınızı kuracağız. İstediğiniz an geri dönebilirsiniz.",
+    "progressLabel": "Sihirbaz ilerlemesi",
+    "stepCounter": "Adım {current} / {total}",
+    "saving": "Kaydediliyor...",
+    "saveFailed": "Bilgileriniz kaydedilemedi. Lütfen tekrar deneyin.",
+    "resumeNotice": "Kaldığınız yerden devam ediyorsunuz.",
+    "role": {
+      "title": "Kim olarak katılıyorsunuz?",
+      "description": "Bu seçim panelinizi ve göreceğiniz içerikleri belirler.",
+      "legend": "Rol seçimi",
+      "student": "Öğrenci",
+      "studentHint": "Ders çalışacağım, test çözeceğim.",
+      "parent": "Veli",
+      "parentHint": "Çocuğumun gelişimini takip edeceğim.",
+      "preselected": "Rolünüz kayıt sırasında belirlendi ve buradan değiştirilemez. Farklı bir rolle devam etmek isterseniz o rolle yeni bir hesap açın.",
+      "required": "Devam etmek için bir rol seçin."
+    },
+    "exam": {
+      "title": "Hangi sınava hazırlanıyorsunuz?",
+      "description": "Müfredat, testler ve programınız bu sınava göre kurulur.",
+      "legend": "Hedef sınav",
+      "required": "Devam etmek için bir sınav seçin.",
+      "empty": "Şu anda seçilebilecek aktif bir sınav yok. Lütfen daha sonra tekrar deneyin."
+    },
+    "grade": {
+      "title": "Sınıfınız ya da durumunuz nedir?",
+      "description": "Konu sıralamasını buna göre önceliklendiriyoruz.",
+      "legend": "Sınıf veya durum",
+      "required": "Devam etmek için sınıf ya da durum seçin.",
+      "options": {
+        "8": "8. sınıf",
+        "9": "9. sınıf",
+        "10": "10. sınıf",
+        "11": "11. sınıf",
+        "12": "12. sınıf",
+        "mezun": "Mezun",
+        "yetiskin": "Yetişkin aday"
+      }
+    },
+    "date": {
+      "title": "Sınav tarihiniz ne zaman?",
+      "description": "Geri sayım ve programınızın yoğunluğu bu tarihe göre hesaplanır.",
+      "label": "Sınav tarihi",
+      "hint": "Tarih henüz açıklanmadıysa tahmini bir tarih seçebilirsiniz; sonradan değiştirebilirsiniz.",
+      "defaultApplied": "Sınavın bilinen tarihiyle dolduruldu.",
+      "pastWarning": "Seçtiğiniz tarih geçmişte kalıyor. Yine de devam edebilirsiniz, ancak programınızın geri sayımı çalışmaz.",
+      "required": "Bir sınav tarihi seçin.",
+      "invalid": "Geçerli bir tarih seçin."
+    },
+    "schedule": {
+      "title": "Günde ne kadar çalışabilirsiniz?",
+      "description": "Gerçekçi bir süre seçin; programı bu bütçeye göre dolduruyoruz.",
+      "minutesLegend": "Günlük çalışma süresi",
+      "daysLegend": "Çalışma günleri",
+      "daysHint": "En az bir gün seçmelisiniz.",
+      "daysRequired": "En az bir çalışma günü seçin.",
+      "minutes": {
+        "30": "30 dakika",
+        "60": "1 saat",
+        "120": "2 saat",
+        "180": "3 saat ve üzeri"
+      },
+      "days": {
+        "1": "Pazartesi",
+        "2": "Salı",
+        "3": "Çarşamba",
+        "4": "Perşembe",
+        "5": "Cuma",
+        "6": "Cumartesi",
+        "7": "Pazar"
+      },
+      "daysShort": {
+        "1": "Pzt",
+        "2": "Sal",
+        "3": "Çar",
+        "4": "Per",
+        "5": "Cum",
+        "6": "Cmt",
+        "7": "Paz"
+      }
+    },
+    "placement": {
+      "title": "Seviye tespit sınavı",
+      "description": "Kısa bir sınavla hangi konularınızın güçlü, hangilerinin zayıf olduğunu ölçüyoruz. Sonuca göre program önce zayıf konuları çalıştırır.",
+      "bullet1": "Yaklaşık 20 soru, 25 dakika.",
+      "bullet2": "Puanınız kimseyle paylaşılmaz; yalnızca programınızı kurmak için kullanılır.",
+      "bullet3": "Şimdi çözmezseniz program genel sıralamayla başlar, sonradan da çözebilirsiniz.",
+      "start": "Sınava başla",
+      "skip": "Şimdilik atla"
+    },
+    "finish": "Bitir",
+    "finishing": "Tamamlanıyor..."
+  }
+}

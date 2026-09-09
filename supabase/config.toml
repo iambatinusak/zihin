@@ -1,0 +1,96 @@
+# Zihin — yerel Supabase yapılandırması.
+# Çalıştırmak için Docker Desktop gerekir:  supabase start
+project_id = "zihin"
+
+[api]
+enabled = true
+port = 54321
+schemas = ["public", "storage", "graphql_public"]
+extra_search_path = ["public", "extensions"]
+max_rows = 1000
+
+[db]
+port = 54322
+shadow_port = 54320
+major_version = 15
+
+[db.pooler]
+enabled = false
+port = 54329
+pool_mode = "transaction"
+
+[realtime]
+enabled = true
+
+[studio]
+enabled = true
+port = 54323
+api_url = "http://127.0.0.1"
+
+# Yerel geliştirmede giden tüm e-postalar Inbucket'ta toplanır.
+[inbucket]
+enabled = true
+port = 54324
+
+[storage]
+enabled = true
+file_size_limit = "200MiB"
+
+[storage.buckets.videos]
+public = false
+file_size_limit = "500MiB"
+allowed_mime_types = ["video/mp4", "video/webm", "application/vnd.apple.mpegurl"]
+
+[storage.buckets.question-images]
+public = true
+file_size_limit = "5MiB"
+allowed_mime_types = ["image/png", "image/jpeg", "image/webp", "image/gif"]
+
+[storage.buckets.help-uploads]
+public = false
+file_size_limit = "5MiB"
+allowed_mime_types = ["image/png", "image/jpeg", "image/webp"]
+
+[storage.buckets.avatars]
+public = true
+file_size_limit = "2MiB"
+allowed_mime_types = ["image/png", "image/jpeg", "image/webp"]
+
+[auth]
+enabled = true
+site_url = "http://localhost:3000"
+additional_redirect_urls = ["http://localhost:3000/auth/callback"]
+jwt_expiry = 3600
+enable_refresh_token_rotation = true
+refresh_token_reuse_interval = 10
+enable_signup = true
+enable_anonymous_sign_ins = false
+
+[auth.email]
+enable_signup = true
+double_confirm_changes = true
+enable_confirmations = true
+secure_password_change = true
+max_frequency = "5s"
+
+[auth.email.template.confirmation]
+subject = "Zihin — E-posta adresinizi doğrulayın"
+content_path = "./templates/confirmation.html"
+
+[auth.email.template.recovery]
+subject = "Zihin — Şifre sıfırlama"
+content_path = "./templates/recovery.html"
+
+# Google OAuth — yerelde kullanmak için env değişkenlerini doldurun.
+[auth.external.google]
+enabled = false
+client_id = "env(SUPABASE_AUTH_GOOGLE_CLIENT_ID)"
+secret = "env(SUPABASE_AUTH_GOOGLE_SECRET)"
+redirect_uri = "http://127.0.0.1:54321/auth/v1/callback"
+
+[analytics]
+enabled = false
+
+[edge_runtime]
+enabled = true
+policy = "oneshot"

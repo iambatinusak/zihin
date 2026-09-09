@@ -1,0 +1,13 @@
+import base from '@/i18n/tr.json'
+import { createDictionary, type Section } from './core'
+
+/**
+ * Yalnızca paylaşılan metinler (common · nav · shell · states · mastery).
+ *
+ * Bölüm sırası `lib/i18n.ts` içindeki kanonik sırayla aynıdır.
+ */
+const dictionary = createDictionary([base] as Section[])
+
+export const t = dictionary.t
+export const section = dictionary.section
+export { fill } from './core'

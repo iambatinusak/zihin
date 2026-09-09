@@ -1,0 +1,44 @@
+{
+  "notifications": {
+    "title": "Bildirimler",
+    "description": "Tekrar zamanı, cevaplanan sorular ve program hatırlatmaları burada toplanır.",
+    "panelTitle": "Bildirimler",
+    "open": "Bildirimleri aç",
+    "viewAll": "Tümünü gör",
+    "markAll": "Tümünü okundu işaretle",
+    "markAllDone": "Tüm bildirimler okundu işaretlendi.",
+    "markAllPending": "İşaretleniyor...",
+    "markAllFailed": "Bildirimler işaretlenemedi. Lütfen tekrar deneyin.",
+    "unreadBadge": "Okunmadı",
+    "loading": "Bildirimler yükleniyor...",
+    "loadFailed": "Bildirimler yüklenemedi.",
+    "emptyTitle": "Henüz bildiriminiz yok",
+    "emptyBody": "Çalışmaya başladığınızda tekrar hatırlatmaları ve program bildirimleri burada görünür.",
+    "emptyFilterTitle": "Bu türde bildirim yok",
+    "emptyFilterBody": "Başka bir filtre seçerek diğer bildirimlerinize bakabilirsiniz.",
+    "unreadOnly": "Yalnızca okunmamışlar",
+    "filterLabel": "Bildirim türü",
+    "filterAll": "Tümü",
+    "prefsHint": "Hangi bildirimleri alacağınızı ayarlar sayfasından değiştirebilirsiniz.",
+    "prefsLink": "Bildirim tercihleri",
+    "time": {
+      "now": "az önce",
+      "minutes": "{n} dakika önce",
+      "hours": "{n} saat önce",
+      "days": "{n} gün önce"
+    },
+    "types": {
+      "review_due": "Tekrar zamanı",
+      "plan_reminder": "Program hatırlatması",
+      "help_answered": "Soru yanıtlandı",
+      "weekly_summary": "Haftalık özet",
+      "subscription_ending": "Abonelik",
+      "badge_earned": "Rozet",
+      "mock_published": "Yeni deneme"
+    },
+    "messages": {
+      "reviewDueTitle": "Tekrar zamanı geldi",
+      "reviewDueBody": "{count} hafıza kartının tekrarı bekliyor. Bugün 10 dakikanı ayır, unutma eğrisini kır."
+    }
+  }
+}

@@ -1,0 +1,324 @@
+# ---------------------------------------------------------------------------
+# Zihin — kendi kendine yeten geliştirme/demo yığını.
+#
+#   cd <depo kökü>
+#   cp docker/.env.example docker/.env
+#   node scripts/generate-keys.mjs --write
+#   docker compose -f docker/docker-compose.yml up -d
+#
+# Açılan adresler (hepsi 14xxx):
+#   http://localhost:14000   Zihin uygulaması
+#   http://localhost:14001   Supabase API (uygulamanın konuştuğu adres)
+#   localhost:14002          PostgreSQL
+#   http://localhost:14003   Supabase Studio
+#   http://localhost:14004   Mailpit — giden TÜM e-postalar burada
+#
+# Servis bağımlılıkları bilinçli olarak `service_healthy` ile kurulu:
+#   db → auth (GoTrue `auth` şemasını kurar) → migrate (bizim şemamız + seed)
+#     → web. Sıra bozulursa `0002_identity.sql` `auth.users`'ı bulamaz.
+# ---------------------------------------------------------------------------
+
+name: zihin
+
+services:
+  # === Veritabanı ==========================================================
+  # supabase/postgres, düz postgres değil: anon / authenticated / service_role
+  # / authenticator rollerini ve uzantıları kurulumda hazırlar. Düz postgres
+  # imajıyla RLS politikaları uygulanamaz.
+  db:
+    image: ${IMAGE_POSTGRES:-supabase/postgres:15.8.1.060}
+    container_name: zihin-db
+    restart: unless-stopped
+    ports:
+      - '${PORT_DB:-14002}:5432'
+    environment:
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:?POSTGRES_PASSWORD gerekli — scripts/generate-keys.mjs çalıştırın}
+      POSTGRES_DB: postgres
+      JWT_SECRET: ${JWT_SECRET:?JWT_SECRET gerekli}
+      JWT_EXP: 3600
+    volumes:
+      - db-data:/var/lib/postgresql/data
+    healthcheck:
+      test: ['CMD-SHELL', 'pg_isready -U postgres -d postgres']
+      interval: 5s
+      timeout: 5s
+      retries: 20
+      start_period: 30s
+
+  # === Kimlik doğrulama ====================================================
+  auth:
+    image: ${IMAGE_GOTRUE:-supabase/gotrue:v2.170.0}
+    container_name: zihin-auth
+    restart: unless-stopped
+    depends_on:
+      db:
+        condition: service_healthy
+    environment:
+      GOTRUE_API_HOST: 0.0.0.0
+      GOTRUE_API_PORT: 9999
+      API_EXTERNAL_URL: ${PUBLIC_API_URL:-http://localhost:14001}
+
+      GOTRUE_DB_DRIVER: postgres
+      GOTRUE_DB_DATABASE_URL: postgres://supabase_auth_admin:${POSTGRES_PASSWORD}@db:5432/postgres?search_path=auth
+
+      GOTRUE_SITE_URL: ${PUBLIC_APP_URL:-http://localhost:14000}
+      GOTRUE_URI_ALLOW_LIST: ${PUBLIC_APP_URL:-http://localhost:14000}/**
+      GOTRUE_DISABLE_SIGNUP: 'false'
+
+      GOTRUE_JWT_SECRET: ${JWT_SECRET}
+      GOTRUE_JWT_EXP: 3600
+      GOTRUE_JWT_DEFAULT_GROUP_NAME: authenticated
+      GOTRUE_JWT_ADMIN_ROLES: service_role
+      GOTRUE_JWT_AUD: authenticated
+
+      GOTRUE_EXTERNAL_EMAIL_ENABLED: 'true'
+      # Kayıt sonrası doğrulama zorunlu mu. Şartname doğrulanmamış e-postayla
+      # içerik erişimini yasaklıyor, bu yüzden varsayılan `false`.
+      GOTRUE_MAILER_AUTOCONFIRM: ${ENABLE_EMAIL_AUTOCONFIRM:-false}
+      GOTRUE_MAILER_URLPATHS_CONFIRMATION: /auth/callback
+      GOTRUE_MAILER_URLPATHS_RECOVERY: /reset-password
+      GOTRUE_MAILER_URLPATHS_EMAIL_CHANGE: /auth/callback
+      GOTRUE_MAILER_URLPATHS_INVITE: /auth/callback
+
+      # Tüm e-postalar Mailpit'e; kimlik doğrulaması yok, dışarı çıkış yok.
+      GOTRUE_SMTP_HOST: mail
+      GOTRUE_SMTP_PORT: 1025
+      GOTRUE_SMTP_ADMIN_EMAIL: ${EMAIL_FROM:-bilgi@zihin.local}
+      GOTRUE_SMTP_SENDER_NAME: ${NEXT_PUBLIC_APP_NAME:-Zihin}
+
+      GOTRUE_EXTERNAL_PHONE_ENABLED: 'false'
+      GOTRUE_SMS_AUTOCONFIRM: 'true'
+      GOTRUE_LOG_LEVEL: info
+    healthcheck:
+      test: ['CMD', 'wget', '--no-verbose', '--tries=1', '--spider', 'http://localhost:9999/health']
+      interval: 5s
+      timeout: 5s
+      retries: 20
+      start_period: 20s
+
+  # === Veri API'si =========================================================
+  rest:
+    image: ${IMAGE_POSTGREST:-postgrest/postgrest:v12.2.8}
+    container_name: zihin-rest
+    restart: unless-stopped
+    depends_on:
+      db:
+        condition: service_healthy
+    environment:
+      PGRST_DB_URI: postgres://authenticator:${POSTGRES_PASSWORD}@db:5432/postgres
+      # `storage` şeması da açık: imza doğrulama ve bucket okuma için gerekli.
+      PGRST_DB_SCHEMAS: public,storage
+      PGRST_DB_ANON_ROLE: anon
+      PGRST_JWT_SECRET: ${JWT_SECRET}
+      PGRST_DB_USE_LEGACY_GUCS: 'false'
+      PGRST_APP_SETTINGS_JWT_SECRET: ${JWT_SECRET}
+      PGRST_APP_SETTINGS_JWT_EXP: 3600
+
+  # === Dosya depolama ======================================================
+  storage:
+    image: ${IMAGE_STORAGE:-supabase/storage-api:v1.19.3}
+    container_name: zihin-storage
+    restart: unless-stopped
+    depends_on:
+      db:
+        condition: service_healthy
+      rest:
+        condition: service_started
+    environment:
+      ANON_KEY: ${ANON_KEY}
+      SERVICE_KEY: ${SERVICE_ROLE_KEY}
+      POSTGREST_URL: http://rest:3000
+      PGRST_JWT_SECRET: ${JWT_SECRET}
+      DATABASE_URL: postgres://supabase_storage_admin:${POSTGRES_PASSWORD}@db:5432/postgres
+      FILE_SIZE_LIMIT: 524288000
+      STORAGE_BACKEND: file
+      FILE_STORAGE_BACKEND_PATH: /var/lib/storage
+      TENANT_ID: zihin
+      REGION: local
+      GLOBAL_S3_BUCKET: zihin
+      ENABLE_IMAGE_TRANSFORMATION: 'true'
+      IMGPROXY_URL: http://imgproxy:5001
+    volumes:
+      - storage-data:/var/lib/storage
+    healthcheck:
+      test: ['CMD', 'wget', '--no-verbose', '--tries=1', '--spider', 'http://localhost:5000/status']
+      interval: 5s
+      timeout: 5s
+      retries: 20
+      start_period: 20s
+
+  imgproxy:
+    image: ${IMAGE_IMGPROXY:-darthsim/imgproxy:v3.8.0}
+    container_name: zihin-imgproxy
+    restart: unless-stopped
+    environment:
+      IMGPROXY_BIND: ':5001'
+      IMGPROXY_LOCAL_FILESYSTEM_ROOT: /
+      IMGPROXY_USE_ETAG: 'true'
+      IMGPROXY_ENABLE_WEBP_DETECTION: 'true'
+    volumes:
+      - storage-data:/var/lib/storage
+
+  # === API ağ geçidi =======================================================
+  # supabase-js tek kök adres bekler; bu servis /auth /rest /storage
+  # öneklerini ilgili konteynere yönlendirir. Ayrıntı: nginx/supabase.conf.template
+  api:
+    image: ${IMAGE_NGINX:-nginx:1.27-alpine}
+    container_name: zihin-api
+    restart: unless-stopped
+    depends_on:
+      auth:
+        condition: service_healthy
+      rest:
+        condition: service_started
+      storage:
+        condition: service_started
+    ports:
+      - '${PORT_API:-14001}:80'
+    volumes:
+      - ./nginx/supabase.conf.template:/etc/nginx/templates/default.conf.template:ro
+    environment:
+      NGINX_ENVSUBST_OUTPUT_DIR: /etc/nginx/conf.d
+    healthcheck:
+      test: ['CMD', 'wget', '--no-verbose', '--tries=1', '--spider', 'http://localhost/health']
+      interval: 5s
+      timeout: 5s
+      retries: 20
+      start_period: 10s
+
+  # === Şema + seed (tek seferlik) =========================================
+  # `auth.users` GoTrue tarafından kurulduktan SONRA çalışır; migrate.mjs
+  # ayrıca kendi içinde de bekler, çünkü sağlık kontrolü "şema hazır"
+  # demek zorunda değil.
+  migrate:
+    build:
+      context: ..
+      dockerfile: docker/Dockerfile.migrate
+    container_name: zihin-migrate
+    restart: 'no'
+    depends_on:
+      db:
+        condition: service_healthy
+      auth:
+        condition: service_healthy
+    environment:
+      SUPABASE_DB_URL: postgres://postgres:${POSTGRES_PASSWORD}@db:5432/postgres
+      NODE_ENV: ${NODE_ENV:-development}
+      SEED_DATABASE: ${SEED_DATABASE:-true}
+    # Seed kararını betiğin kendisi SEED_DATABASE'e bakarak verir; komut
+    # satırında koşullu bayrak üretmek kabuk kaçışlarına bağımlı olurdu.
+    command: ['node', 'packages/db/scripts/migrate.mjs']
+
+  # === Uygulama ============================================================
+  web:
+    build:
+      context: ..
+      dockerfile: docker/Dockerfile.web
+      args:
+        # Next.js NEXT_PUBLIC_* değerlerini DERLEME sırasında gömer; bu yüzden
+        # bunlar runtime environment değil, build arg olmak zorunda.
+        NEXT_PUBLIC_SUPABASE_URL: ${PUBLIC_API_URL:-http://localhost:14001}
+        NEXT_PUBLIC_SUPABASE_ANON_KEY: ${ANON_KEY}
+        NEXT_PUBLIC_APP_URL: ${PUBLIC_APP_URL:-http://localhost:14000}
+        NEXT_PUBLIC_APP_NAME: ${NEXT_PUBLIC_APP_NAME:-Zihin}
+        NEXT_PUBLIC_BRAND_HUE: ${NEXT_PUBLIC_BRAND_HUE:-243}
+    container_name: zihin-web
+    restart: unless-stopped
+    depends_on:
+      api:
+        condition: service_healthy
+      migrate:
+        condition: service_completed_successfully
+    ports:
+      - '${PORT_WEB:-14000}:3000'
+    environment:
+      NODE_ENV: production
+      PORT: 3000
+      HOSTNAME: '0.0.0.0'
+
+      NEXT_PUBLIC_SUPABASE_URL: ${PUBLIC_API_URL:-http://localhost:14001}
+      NEXT_PUBLIC_SUPABASE_ANON_KEY: ${ANON_KEY}
+      NEXT_PUBLIC_APP_URL: ${PUBLIC_APP_URL:-http://localhost:14000}
+      NEXT_PUBLIC_APP_NAME: ${NEXT_PUBLIC_APP_NAME:-Zihin}
+      NEXT_PUBLIC_BRAND_HUE: ${NEXT_PUBLIC_BRAND_HUE:-243}
+
+      # Sunucu tarafı. Konteynerler arası çağrı ağ geçidini kısa devre eder:
+      # tarayıcı :14001'e gider, sunucu doğrudan nginx konteynerine.
+      SUPABASE_SERVICE_ROLE_KEY: ${SERVICE_ROLE_KEY}
+      SUPABASE_DB_URL: postgres://postgres:${POSTGRES_PASSWORD}@db:5432/postgres
+      CRON_SECRET: ${CRON_SECRET}
+
+      RESEND_API_KEY: ${RESEND_API_KEY:-}
+      EMAIL_FROM: ${EMAIL_FROM:-Zihin <bilgi@zihin.local>}
+      SMTP_HOST: mail
+      SMTP_PORT: 1025
+
+      IYZICO_API_KEY: ${IYZICO_API_KEY:-}
+      IYZICO_SECRET_KEY: ${IYZICO_SECRET_KEY:-}
+      IYZICO_BASE_URL: ${IYZICO_BASE_URL:-https://sandbox-api.iyzipay.com}
+
+      VIDEO_PROVIDER: ${VIDEO_PROVIDER:-supabase}
+      SUPABASE_VIDEO_BUCKET: ${SUPABASE_VIDEO_BUCKET:-videos}
+      BUNNY_LIBRARY_ID: ${BUNNY_LIBRARY_ID:-}
+      BUNNY_API_KEY: ${BUNNY_API_KEY:-}
+      BUNNY_PULL_ZONE: ${BUNNY_PULL_ZONE:-}
+      BUNNY_TOKEN_KEY: ${BUNNY_TOKEN_KEY:-}
+    healthcheck:
+      test: ['CMD', 'wget', '--no-verbose', '--tries=1', '--spider', 'http://localhost:3000/']
+      interval: 10s
+      timeout: 5s
+      retries: 10
+      start_period: 30s
+
+  # === Yardımcı servisler ==================================================
+  mail:
+    image: ${IMAGE_MAILPIT:-axllent/mailpit:v1.21}
+    container_name: zihin-mail
+    restart: unless-stopped
+    ports:
+      - '${PORT_MAIL_UI:-14004}:8025'
+      - '${PORT_MAIL_SMTP:-14005}:1025'
+    environment:
+      MP_MAX_MESSAGES: 5000
+      MP_SMTP_AUTH_ACCEPT_ANY: 1
+      MP_SMTP_AUTH_ALLOW_INSECURE: 1
+
+  meta:
+    image: ${IMAGE_META:-supabase/postgres-meta:v0.87.1}
+    container_name: zihin-meta
+    restart: unless-stopped
+    depends_on:
+      db:
+        condition: service_healthy
+    environment:
+      PG_META_PORT: 8080
+      PG_META_DB_HOST: db
+      PG_META_DB_PORT: 5432
+      PG_META_DB_NAME: postgres
+      PG_META_DB_USER: postgres
+      PG_META_DB_PASSWORD: ${POSTGRES_PASSWORD}
+
+  studio:
+    image: ${IMAGE_STUDIO:-supabase/studio:20250224-d10db0f}
+    container_name: zihin-studio
+    restart: unless-stopped
+    depends_on:
+      meta:
+        condition: service_started
+    ports:
+      - '${PORT_STUDIO:-14003}:3000'
+    environment:
+      STUDIO_PG_META_URL: http://meta:8080
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD}
+      DEFAULT_ORGANIZATION_NAME: Zihin
+      DEFAULT_PROJECT_NAME: Zihin
+      SUPABASE_URL: http://api:80
+      SUPABASE_PUBLIC_URL: ${PUBLIC_API_URL:-http://localhost:14001}
+      SUPABASE_ANON_KEY: ${ANON_KEY}
+      SUPABASE_SERVICE_KEY: ${SERVICE_ROLE_KEY}
+      AUTH_JWT_SECRET: ${JWT_SECRET}
+      NEXT_PUBLIC_ENABLE_LOGS: 'false'
+
+volumes:
+  db-data:
+  storage-data:

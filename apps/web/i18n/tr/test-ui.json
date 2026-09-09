@@ -1,0 +1,50 @@
+{
+  "test": {
+    "solve": "Testi çöz",
+    "starting": "Test hazırlanıyor…",
+    "quickPracticeAction": "Hızlı Pratik",
+    "notFoundTitle": "Test oturumu bulunamadı",
+    "notFoundBody": "Bu bağlantı artık geçerli değil. Konuya dönüp testi yeniden başlatabilirsiniz.",
+    "expiredTitle": "Oturumun süresi doldu",
+    "expiredBody": "Bir test oturumu 24 saat açık kalır. Bu sürede bitirilmeyen oturum kapanır; testi yeniden başlatarak baştan çözebilirsiniz.",
+    "restart": "Yeniden başla",
+    "emptyTestTitle": "Soru bulunamadı",
+    "backToLessons": "Derslere dön",
+    "runner": {
+      "flag": "İşaretle",
+      "unflag": "İşareti kaldır",
+      "flagged": "İşaretlendi",
+      "gridLegendFlagged": "İşaretli",
+      "gridStatus": "{index}. soru — {status}",
+      "keyboardHint": "Klavye: 1-5 şık seçer, Enter sonraki soruya geçer, ← → sorular arasında gezinir.",
+      "retrySave": "Tekrar dene",
+      "warningMinutes": "Sınava {minutes} dakika kaldı.",
+      "warningLastMinute": "Son bir dakika!",
+      "questionImage": "Soru görseli",
+      "optionSelected": "{option} şıkkı seçildi.",
+      "answeredOf": "{answered} / {total} soru cevaplandı",
+      "finishing": "Test bitiriliyor…"
+    },
+    "result": {
+      "bySubject": "Ders kırılımı",
+      "subjectColumn": "Ders",
+      "totalColumn": "Soru",
+      "questionIndex": "{index}. soru",
+      "reviewEmpty": "Bu süzgece uyan soru yok.",
+      "addWrongToCards": "Yanlışlarımı karta ekle",
+      "durationHour": "sa",
+      "durationMinute": "dk",
+      "durationSecond": "sn",
+      "otherSubject": "Diğer",
+      "correctBadge": "Doğru cevapladınız",
+      "wrongBadge": "Yanlış cevapladınız",
+      "blankBadge": "Boş bıraktınız",
+      "bookmarkSaving": "Kaydediliyor…",
+      "bookmarkFailed": "Soru işareti güncellenemedi. Lütfen tekrar deneyin.",
+      "addWrongToCardsHint": "Yanlış cevapladığınız sorulardan hafıza kartı üretir; aynı soru ikinci kez eklenmez.",
+      "masteryHint": "Yetkinlik puanları bu testin cevaplarıyla birlikte güncellendi.",
+      "masteryColumn": "Yetkinlik",
+      "masteryUnknown": "Henüz ölçülmedi"
+    }
+  }
+}

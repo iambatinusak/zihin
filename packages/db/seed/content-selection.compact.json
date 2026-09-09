@@ -1,0 +1,1433 @@
+[
+  {
+    "i": 0,
+    "e": "LGS",
+    "s": "turkce",
+    "sn": "Türkçe",
+    "un": "Sözcükte Anlam",
+    "us": "sozcukte-anlam",
+    "t": [
+      ["gercek-mecaz-ve-terim-anlam", "Gerçek, Mecaz ve Terim Anlam", 2],
+      ["somut-ve-soyut-anlam", "Somut ve Soyut Anlam", 2],
+      ["sozcukler-arasindaki-anlam-iliskileri", "Sözcükler Arasındaki Anlam İlişkileri", 2]
+    ]
+  },
+  {
+    "i": 1,
+    "e": "LGS",
+    "s": "turkce",
+    "sn": "Türkçe",
+    "un": "Cümlede Anlam",
+    "us": "cumlede-anlam",
+    "t": [
+      ["cumlede-anlam-iliskileri", "Cümlede Anlam İlişkileri", 3],
+      ["oznel-ve-nesnel-yargilar", "Öznel ve Nesnel Yargılar", 2],
+      ["ortulu-anlam-ve-kesin-yargi", "Örtülü Anlam ve Kesin Yargı", 4]
+    ]
+  },
+  {
+    "i": 2,
+    "e": "LGS",
+    "s": "turkce",
+    "sn": "Türkçe",
+    "un": "Parçada Anlam",
+    "us": "parcada-anlam",
+    "t": [
+      ["paragrafta-konu-ve-ana-dusunce", "Paragrafta Konu ve Ana Düşünce", 3],
+      ["paragrafta-yardimci-dusunce", "Paragrafta Yardımcı Düşünce", 3],
+      ["paragrafta-yapi-bolme-tamamlama-ve-akis", "Paragrafta Yapı: Bölme, Tamamlama ve Akış", 4]
+    ]
+  },
+  {
+    "i": 3,
+    "e": "LGS",
+    "s": "matematik",
+    "sn": "Matematik",
+    "un": "Çarpanlar ve Katlar",
+    "us": "carpanlar-ve-katlar",
+    "t": [
+      ["asal-carpanlara-ayirma", "Asal Çarpanlara Ayırma", 2],
+      ["bolunebilme-kurallari", "Bölünebilme Kuralları", 3],
+      ["pozitif-tam-sayilarin-carpanlari", "Pozitif Tam Sayıların Çarpanları", 3]
+    ]
+  },
+  {
+    "i": 4,
+    "e": "LGS",
+    "s": "matematik",
+    "sn": "Matematik",
+    "un": "Üslü İfadeler",
+    "us": "uslu-ifadeler",
+    "t": [
+      ["uslu-ifadeler-ve-tam-sayi-kuvvetleri", "Üslü İfadeler ve Tam Sayı Kuvvetleri", 2],
+      ["uslu-ifadelerin-ozellikleri", "Üslü İfadelerin Özellikleri", 3],
+      ["uslu-ifadelerle-islemler", "Üslü İfadelerle İşlemler", 4]
+    ]
+  },
+  {
+    "i": 5,
+    "e": "LGS",
+    "s": "matematik",
+    "sn": "Matematik",
+    "un": "Kareköklü İfadeler",
+    "us": "karekoklu-ifadeler",
+    "t": [
+      ["tam-kare-sayilar-ve-karekok", "Tam Kare Sayılar ve Karekök", 2],
+      ["karekoklu-ifadelerde-carpma-ve-bolme", "Kareköklü İfadelerde Çarpma ve Bölme", 3],
+      ["karekoklu-ifadelerde-toplama-ve-cikarma", "Kareköklü İfadelerde Toplama ve Çıkarma", 3]
+    ]
+  },
+  {
+    "i": 6,
+    "e": "LGS",
+    "s": "fen-bilimleri",
+    "sn": "Fen Bilimleri",
+    "un": "Mevsimler ve İklim",
+    "us": "mevsimler-ve-iklim",
+    "t": [
+      ["dunyanin-hareketleri-ve-eksen-egikligi", "Dünya'nın Hareketleri ve Eksen Eğikliği", 3],
+      ["mevsimlerin-olusumu", "Mevsimlerin Oluşumu", 3],
+      ["iklim-ve-hava-olaylari", "İklim ve Hava Olayları", 2]
+    ]
+  },
+  {
+    "i": 7,
+    "e": "LGS",
+    "s": "fen-bilimleri",
+    "sn": "Fen Bilimleri",
+    "un": "DNA ve Genetik Kod",
+    "us": "dna-ve-genetik-kod",
+    "t": [
+      ["dnanin-yapisi-ve-eslenmesi", "DNA'nın Yapısı ve Eşlenmesi", 3],
+      ["kalitim-ve-kalitsal-ozellikler", "Kalıtım ve Kalıtsal Özellikler", 3],
+      ["caprazlama-problemleri", "Çaprazlama Problemleri", 4]
+    ]
+  },
+  {
+    "i": 8,
+    "e": "LGS",
+    "s": "fen-bilimleri",
+    "sn": "Fen Bilimleri",
+    "un": "Basınç",
+    "us": "basinc",
+    "t": [
+      ["kati-basinci", "Katı Basıncı", 3],
+      ["sivi-basinci", "Sıvı Basıncı", 4],
+      ["gaz-basinci-ve-acik-hava-basinci", "Gaz Basıncı ve Açık Hava Basıncı", 3]
+    ]
+  },
+  {
+    "i": 9,
+    "e": "LGS",
+    "s": "tc-inkilap-tarihi",
+    "sn": "T.C. İnkılap Tarihi",
+    "un": "Bir Kahraman Doğuyor",
+    "us": "bir-kahraman-doguyor",
+    "t": [
+      ["yirminci-yuzyil-baslarinda-osmanli-devleti", "20. Yüzyıl Başlarında Osmanlı Devleti", 2],
+      [
+        "mustafa-kemalin-cocuklugu-ve-ogrenim-hayati",
+        "Mustafa Kemal'in Çocukluğu ve Öğrenim Hayatı",
+        1
+      ],
+      [
+        "mustafa-kemali-etkileyen-olaylar-ve-fikir-akimlari",
+        "Mustafa Kemal'i Etkileyen Olaylar ve Fikir Akımları",
+        3
+      ]
+    ]
+  },
+  {
+    "i": 10,
+    "e": "LGS",
+    "s": "tc-inkilap-tarihi",
+    "sn": "T.C. İnkılap Tarihi",
+    "un": "Millî Uyanış: Bağımsızlık Yolunda Atılan Adımlar",
+    "us": "milli-uyanis-bagimsizlik-yolunda-atilan-adimlar",
+    "t": [
+      ["birinci-dunya-savasi-ve-osmanli-cepheleri", "I. Dünya Savaşı ve Osmanlı Cepheleri", 3],
+      ["mondros-ateskes-antlasmasi-ve-isgaller", "Mondros Ateşkes Antlaşması ve İşgaller", 3],
+      ["cemiyetler-ve-kuva-yi-milliye", "Cemiyetler ve Kuvâ-yı Millîye", 3]
+    ]
+  },
+  {
+    "i": 11,
+    "e": "LGS",
+    "s": "tc-inkilap-tarihi",
+    "sn": "T.C. İnkılap Tarihi",
+    "un": "Millî Bir Destan: Ya İstiklal Ya Ölüm",
+    "us": "milli-bir-destan-ya-istiklal-ya-olum",
+    "t": [
+      ["dogu-ve-guney-cephesi", "Doğu ve Güney Cephesi", 3],
+      ["bati-cephesi-ve-inonu-muharebeleri", "Batı Cephesi ve İnönü Muharebeleri", 3],
+      [
+        "kutahya-eskisehir-muharebeleri-ve-tekalif-i-milliye-emirleri",
+        "Kütahya-Eskişehir Muharebeleri ve Tekâlif-i Millîye Emirleri",
+        4
+      ]
+    ]
+  },
+  {
+    "i": 12,
+    "e": "LGS",
+    "s": "din-kulturu",
+    "sn": "Din Kültürü",
+    "un": "Kader İnancı",
+    "us": "kader-inanci",
+    "t": [
+      ["kader-ve-kaza-inanci", "Kader ve Kaza İnancı", 3],
+      ["evrendeki-yasalar", "Evrendeki Yasalar", 3],
+      ["insanin-iradesi-ve-sorumlulugu", "İnsanın İradesi ve Sorumluluğu", 3]
+    ]
+  },
+  {
+    "i": 13,
+    "e": "LGS",
+    "s": "din-kulturu",
+    "sn": "Din Kültürü",
+    "un": "Zekât ve Sadaka",
+    "us": "zekat-ve-sadaka",
+    "t": [
+      [
+        "islamin-paylasma-ve-yardimlasmaya-verdigi-onem",
+        "İslam'ın Paylaşma ve Yardımlaşmaya Verdiği Önem",
+        2
+      ],
+      ["zekat-ve-sadaka-ibadeti", "Zekât ve Sadaka İbadeti", 3],
+      [
+        "zekat-ve-sadakanin-bireysel-ve-toplumsal-faydalari",
+        "Zekât ve Sadakanın Bireysel ve Toplumsal Faydaları",
+        2
+      ]
+    ]
+  },
+  {
+    "i": 14,
+    "e": "LGS",
+    "s": "din-kulturu",
+    "sn": "Din Kültürü",
+    "un": "Din ve Hayat",
+    "us": "din-ve-hayat",
+    "t": [
+      ["din-birey-ve-toplum", "Din, Birey ve Toplum", 3],
+      ["dinin-temel-gayesi", "Dinin Temel Gayesi", 3],
+      [
+        "islam-dininin-aile-ve-topluma-verdigi-deger",
+        "İslam Dininin Aile ve Topluma Verdiği Değer",
+        2
+      ]
+    ]
+  },
+  {
+    "i": 15,
+    "e": "LGS",
+    "s": "ingilizce",
+    "sn": "İngilizce",
+    "un": "Friendship",
+    "us": "friendship",
+    "t": [
+      ["describing-people-and-personality", "Describing People and Personality", 2],
+      ["asking-for-and-giving-opinions", "Asking for and Giving Opinions", 3],
+      ["accepting-and-refusing-invitations", "Accepting and Refusing Invitations", 3]
+    ]
+  },
+  {
+    "i": 16,
+    "e": "LGS",
+    "s": "ingilizce",
+    "sn": "İngilizce",
+    "un": "Teen Life",
+    "us": "teen-life",
+    "t": [
+      ["daily-routines-and-free-time-activities", "Daily Routines and Free Time Activities", 2],
+      ["making-simple-suggestions", "Making Simple Suggestions", 3],
+      ["expressing-preferences", "Expressing Preferences", 3]
+    ]
+  },
+  {
+    "i": 17,
+    "e": "LGS",
+    "s": "ingilizce",
+    "sn": "İngilizce",
+    "un": "In the Kitchen",
+    "us": "in-the-kitchen",
+    "t": [
+      ["food-and-kitchen-vocabulary", "Food and Kitchen Vocabulary", 2],
+      ["describing-a-process-recipes", "Describing a Process: Recipes", 3],
+      ["sequence-adverbs", "Sequence Adverbs", 2]
+    ]
+  },
+  {
+    "i": 18,
+    "e": "TYT",
+    "s": "turkce",
+    "sn": "Türkçe",
+    "un": "Sözcükte Anlam",
+    "us": "sozcukte-anlam",
+    "t": [
+      ["gercek-mecaz-terim-anlam", "Gerçek, Mecaz ve Terim Anlam", 2],
+      ["sozcukler-arasi-anlam-iliskileri", "Sözcükler Arası Anlam İlişkileri", 2],
+      ["sozcukte-anlam-olaylari", "Sözcükte Anlam Olayları", 3]
+    ]
+  },
+  {
+    "i": 19,
+    "e": "TYT",
+    "s": "turkce",
+    "sn": "Türkçe",
+    "un": "Cümlede Anlam",
+    "us": "cumlede-anlam",
+    "t": [
+      ["cumlede-anlam-iliskileri", "Cümlede Anlam İlişkileri", 3],
+      ["cumle-yorumlama-ve-ortulu-anlam", "Cümle Yorumlama ve Örtülü Anlam", 4],
+      ["duygu-ve-dusunce-bildiren-cumleler", "Duygu ve Düşünce Bildiren Cümleler", 3]
+    ]
+  },
+  {
+    "i": 20,
+    "e": "TYT",
+    "s": "turkce",
+    "sn": "Türkçe",
+    "un": "Paragraf",
+    "us": "paragraf",
+    "t": [
+      ["paragrafta-konu-ana-dusunce", "Paragrafta Konu, Ana Düşünce ve Yardımcı Düşünce", 3],
+      ["paragrafta-yapi", "Paragrafta Yapı", 3],
+      ["anlatim-bicimleri", "Anlatım Biçimleri", 3]
+    ]
+  },
+  {
+    "i": 21,
+    "e": "TYT",
+    "s": "matematik",
+    "sn": "Matematik",
+    "un": "Temel Kavramlar",
+    "us": "temel-kavramlar",
+    "t": [
+      ["temel-kavramlar-ve-sayi-kumeleri", "Temel Kavramlar ve Sayı Kümeleri", 2],
+      ["sayi-basamaklari", "Sayı Basamakları", 3],
+      ["bolme-ve-bolunebilme", "Bölme ve Bölünebilme", 4]
+    ]
+  },
+  {
+    "i": 22,
+    "e": "TYT",
+    "s": "matematik",
+    "sn": "Matematik",
+    "un": "Üslü Sayılar, Köklü Sayılar ve Çarpanlara Ayırma",
+    "us": "uslu-koklu-sayilar-ve-carpanlara-ayirma",
+    "t": [
+      ["uslu-sayilar", "Üslü Sayılar", 3],
+      ["koklu-sayilar", "Köklü Sayılar", 3],
+      ["carpanlara-ayirma", "Çarpanlara Ayırma ve Özdeşlikler", 4]
+    ]
+  },
+  {
+    "i": 23,
+    "e": "TYT",
+    "s": "matematik",
+    "sn": "Matematik",
+    "un": "Problemler",
+    "us": "problemler",
+    "t": [
+      ["sayi-problemleri", "Sayı Problemleri", 3],
+      ["kesir-problemleri", "Kesir Problemleri", 3],
+      ["yas-problemleri", "Yaş Problemleri", 2]
+    ]
+  },
+  {
+    "i": 24,
+    "e": "TYT",
+    "s": "geometri",
+    "sn": "Geometri",
+    "un": "Doğruda ve Üçgende Açılar",
+    "us": "dogruda-ve-ucgende-acilar",
+    "t": [
+      ["temel-geometrik-kavramlar", "Temel Geometrik Kavramlar", 2],
+      ["dogruda-acilar", "Doğruda Açılar", 2],
+      ["ucgende-acilar", "Üçgende Açılar", 3]
+    ]
+  },
+  {
+    "i": 25,
+    "e": "TYT",
+    "s": "geometri",
+    "sn": "Geometri",
+    "un": "Üçgenler",
+    "us": "ucgenler",
+    "t": [
+      ["ucgende-aciortay-kenarortay-yukseklik", "Üçgende Açıortay, Kenarortay ve Yükseklik", 4],
+      ["dik-ucgen-ve-oklid-bagintilari", "Dik Üçgen ve Öklid Bağıntıları", 3],
+      ["ozel-ucgenler", "Özel Üçgenler", 3]
+    ]
+  },
+  {
+    "i": 26,
+    "e": "TYT",
+    "s": "geometri",
+    "sn": "Geometri",
+    "un": "Çokgenler ve Dörtgenler",
+    "us": "cokgenler-ve-dortgenler",
+    "t": [
+      ["cokgenler", "Çokgenler", 2],
+      ["paralelkenar-ve-eskenar-dortgen", "Paralelkenar ve Eşkenar Dörtgen", 3],
+      ["dikdortgen-kare-ve-deltoid", "Dikdörtgen, Kare ve Deltoid", 3]
+    ]
+  },
+  {
+    "i": 27,
+    "e": "TYT",
+    "s": "fizik",
+    "sn": "Fizik",
+    "un": "Fizik Bilimine Giriş ve Madde",
+    "us": "fizik-bilimine-giris-ve-madde",
+    "t": [
+      ["fizik-bilimine-giris", "Fizik Bilimine Giriş", 1],
+      ["fiziksel-nicelikler-ve-vektorler", "Fiziksel Nicelikler, Birimler ve Vektörler", 3],
+      ["madde-ve-ozellikleri", "Madde ve Özellikleri", 3]
+    ]
+  },
+  {
+    "i": 28,
+    "e": "TYT",
+    "s": "fizik",
+    "sn": "Fizik",
+    "un": "Basınç ve Kaldırma Kuvveti",
+    "us": "basinc-ve-kaldirma-kuvveti",
+    "t": [
+      ["kati-basinci", "Katı Basıncı", 2],
+      ["sivi-basinci", "Sıvı Basıncı ve Bileşik Kaplar", 3],
+      ["gaz-basinci", "Gaz Basıncı ve Açık Hava Basıncı", 3]
+    ]
+  },
+  {
+    "i": 29,
+    "e": "TYT",
+    "s": "fizik",
+    "sn": "Fizik",
+    "un": "Isı, Sıcaklık ve Genleşme",
+    "us": "isi-sicaklik-ve-genlesme",
+    "t": [
+      ["isi-ve-sicaklik", "Isı ve Sıcaklık", 2],
+      ["isi-alisverisi-ve-hal-degisimi", "Isı Alışverişi ve Hâl Değişimi", 4],
+      ["isinin-yayilma-yollari", "Isının Yayılma Yolları", 2]
+    ]
+  },
+  {
+    "i": 30,
+    "e": "TYT",
+    "s": "kimya",
+    "sn": "Kimya",
+    "un": "Kimya Bilimi",
+    "us": "kimya-bilimi",
+    "t": [
+      ["kimyanin-alt-bilim-dallari", "Kimyanın Alt Bilim Dalları ve Uygulama Alanları", 1],
+      ["kimyanin-sembolik-dili", "Kimyanın Sembolik Dili", 2],
+      ["guvenligimiz-ve-kimya", "Güvenliğimiz ve Kimya", 1]
+    ]
+  },
+  {
+    "i": 31,
+    "e": "TYT",
+    "s": "kimya",
+    "sn": "Kimya",
+    "un": "Atom ve Periyodik Sistem",
+    "us": "atom-ve-periyodik-sistem",
+    "t": [
+      ["atom-modelleri-ve-atomun-yapisi", "Atom Modelleri ve Atomun Yapısı", 3],
+      ["atomun-tanecikleri-ve-izotoplar", "Atomun Yapı Taşları ve İzotop Kavramı", 3],
+      ["periyodik-sistem-ve-elektron-dizilimi", "Periyodik Sistem ve Elektron Dizilimi", 4]
+    ]
+  },
+  {
+    "i": 32,
+    "e": "TYT",
+    "s": "kimya",
+    "sn": "Kimya",
+    "un": "Kimyasal Türler Arası Etkileşimler",
+    "us": "kimyasal-turler-arasi-etkilesimler",
+    "t": [
+      ["kimyasal-turler-ve-etkilesim-cesitleri", "Kimyasal Türler ve Etkileşim Çeşitleri", 2],
+      ["guclu-etkilesimler", "Güçlü Etkileşimler: İyonik, Kovalent ve Metalik Bağ", 4],
+      ["zayif-etkilesimler", "Zayıf Etkileşimler ve Hidrojen Bağı", 3]
+    ]
+  },
+  {
+    "i": 33,
+    "e": "TYT",
+    "s": "biyoloji",
+    "sn": "Biyoloji",
+    "un": "Yaşam Bilimi Biyoloji",
+    "us": "yasam-bilimi-biyoloji",
+    "t": [
+      ["canlilarin-ortak-ozellikleri", "Canlıların Ortak Özellikleri", 1],
+      ["inorganik-bilesikler", "Canlıların Yapısındaki İnorganik Bileşikler", 2],
+      ["organik-bilesikler", "Canlıların Yapısındaki Organik Bileşikler", 4]
+    ]
+  },
+  {
+    "i": 34,
+    "e": "TYT",
+    "s": "biyoloji",
+    "sn": "Biyoloji",
+    "un": "Hücre",
+    "us": "hucre",
+    "t": [
+      ["hucrenin-kesfi-ve-hucre-teorisi", "Hücrenin Keşfi ve Hücre Teorisi", 1],
+      ["hucre-zari", "Hücre Zarı ve Yapısı", 2],
+      ["sitoplazma-ve-organeller", "Sitoplazma ve Organeller", 3]
+    ]
+  },
+  {
+    "i": 35,
+    "e": "TYT",
+    "s": "biyoloji",
+    "sn": "Biyoloji",
+    "un": "Canlılar Dünyası",
+    "us": "canlilar-dunyasi",
+    "t": [
+      ["canlilarin-siniflandirilmasi", "Canlıların Sınıflandırılması", 3],
+      ["bakteriler-ve-arkeler", "Bakteriler ve Arkeler", 3],
+      ["protista-ve-mantarlar", "Protista ve Mantarlar Âlemi", 3]
+    ]
+  },
+  {
+    "i": 36,
+    "e": "TYT",
+    "s": "tarih",
+    "sn": "Tarih",
+    "un": "Tarih Bilimi ve İlk Çağ Uygarlıkları",
+    "us": "tarih-bilimi-ve-ilk-cag",
+    "t": [
+      ["tarih-bilimine-giris", "Tarih Bilimine Giriş", 2],
+      ["insanligin-ilk-donemleri", "İnsanlığın İlk Dönemleri", 2],
+      ["ilk-cag-uygarliklari", "İlk Çağ Uygarlıkları", 3]
+    ]
+  },
+  {
+    "i": 37,
+    "e": "TYT",
+    "s": "tarih",
+    "sn": "Tarih",
+    "un": "İlk Türk Devletleri ve İslam Tarihi",
+    "us": "ilk-turk-devletleri-ve-islam-tarihi",
+    "t": [
+      ["ilk-turk-devletleri", "Orta Asya’da Kurulan İlk Türk Devletleri", 3],
+      ["islamiyetin-dogusu", "İslamiyet’in Doğuşu ve İlk İslam Devletleri", 3],
+      [
+        "ilk-musluman-turk-devletleri",
+        "Türklerin İslamiyet’i Kabulü ve İlk Müslüman Türk Devletleri",
+        3
+      ]
+    ]
+  },
+  {
+    "i": 38,
+    "e": "TYT",
+    "s": "tarih",
+    "sn": "Tarih",
+    "un": "Osmanlı Devleti",
+    "us": "osmanli-devleti",
+    "t": [
+      ["osmanli-devletinin-kurulusu", "Osmanlı Devleti’nin Kuruluşu", 3],
+      ["osmanli-yukselme-donemi", "Osmanlı Devleti’nin Yükselme Dönemi", 3],
+      ["osmanli-kultur-ve-medeniyeti", "Osmanlı Kültür ve Medeniyeti", 3]
+    ]
+  },
+  {
+    "i": 39,
+    "e": "TYT",
+    "s": "cografya",
+    "sn": "Coğrafya",
+    "un": "Doğa ve İnsan, Harita Bilgisi",
+    "us": "doga-insan-ve-harita-bilgisi",
+    "t": [
+      ["cografyanin-konusu", "Coğrafyanın Konusu ve Bölümleri", 1],
+      ["dunyanin-sekli-ve-hareketleri", "Dünya’nın Şekli ve Hareketleri", 4],
+      ["cografi-konum", "Coğrafi Konum", 3]
+    ]
+  },
+  {
+    "i": 40,
+    "e": "TYT",
+    "s": "cografya",
+    "sn": "Coğrafya",
+    "un": "İklim Bilgisi",
+    "us": "iklim-bilgisi",
+    "t": [
+      ["atmosfer-ve-sicaklik", "Atmosfer ve Sıcaklık", 3],
+      ["basinc-ve-ruzgarlar", "Basınç ve Rüzgârlar", 4],
+      ["nem-ve-yagis", "Nem ve Yağış", 3]
+    ]
+  },
+  {
+    "i": 41,
+    "e": "TYT",
+    "s": "cografya",
+    "sn": "Coğrafya",
+    "un": "İç ve Dış Kuvvetler",
+    "us": "ic-ve-dis-kuvvetler",
+    "t": [
+      ["yerin-yapisi-ve-ic-kuvvetler", "Yerin Yapısı ve İç Kuvvetler", 3],
+      ["dis-kuvvetler", "Dış Kuvvetler ve Oluşturduğu Yer Şekilleri", 3],
+      ["turkiyenin-yer-sekilleri", "Türkiye’nin Yer Şekilleri", 3]
+    ]
+  },
+  {
+    "i": 42,
+    "e": "TYT",
+    "s": "felsefe",
+    "sn": "Felsefe",
+    "un": "Felsefeyi Tanıma",
+    "us": "felsefeyi-tanima",
+    "t": [
+      ["felsefenin-anlami-ve-konusu", "Felsefenin Anlamı ve Konusu", 2],
+      ["felsefi-dusuncenin-ozellikleri", "Felsefi Düşüncenin Özellikleri", 2],
+      ["felsefenin-rolu", "Felsefenin İnsan ve Toplum Hayatındaki Rolü", 2]
+    ]
+  },
+  {
+    "i": 43,
+    "e": "TYT",
+    "s": "felsefe",
+    "sn": "Felsefe",
+    "un": "Felsefenin Temel Konuları",
+    "us": "felsefenin-temel-konulari",
+    "t": [
+      ["bilgi-felsefesi", "Bilgi Felsefesi", 4],
+      ["varlik-felsefesi", "Varlık Felsefesi", 4],
+      ["ahlak-felsefesi", "Ahlak Felsefesi", 3]
+    ]
+  },
+  {
+    "i": 44,
+    "e": "TYT",
+    "s": "felsefe",
+    "sn": "Felsefe",
+    "un": "MÖ 6. Yüzyıl - MS 2. Yüzyıl Felsefesi",
+    "us": "ilk-cag-felsefesi",
+    "t": [
+      ["felsefenin-ortaya-cikisi", "Felsefenin Ortaya Çıkışı ve İlk Filozoflar", 3],
+      ["sokrates-platon-aristoteles", "Sokrates, Platon ve Aristoteles", 4],
+      ["helenistik-donem-felsefesi", "Helenistik Dönem Felsefesi", 3]
+    ]
+  },
+  {
+    "i": 45,
+    "e": "TYT",
+    "s": "din-kulturu-ve-ahlak-bilgisi",
+    "sn": "Din Kültürü ve Ahlak Bilgisi",
+    "un": "Bilgi, İnanç ve İslam",
+    "us": "bilgi-inanc-ve-islam",
+    "t": [
+      ["bilgi-ve-inanc", "Bilgi ve İnanç", 2],
+      ["din-ve-islam", "Din ve İslam", 2],
+      ["allah-insan-iliskisi", "Allah - İnsan İlişkisi", 3]
+    ]
+  },
+  {
+    "i": 46,
+    "e": "TYT",
+    "s": "din-kulturu-ve-ahlak-bilgisi",
+    "sn": "Din Kültürü ve Ahlak Bilgisi",
+    "un": "İbadet ve Ahlak",
+    "us": "ibadet-ve-ahlak",
+    "t": [
+      ["islam-ve-ibadet", "İslam ve İbadet", 2],
+      ["din-ve-hayat", "Din ve Hayat", 2],
+      ["ahlaki-tutum-ve-davranislar", "Ahlaki Tutum ve Davranışlar", 2]
+    ]
+  },
+  {
+    "i": 47,
+    "e": "TYT",
+    "s": "din-kulturu-ve-ahlak-bilgisi",
+    "sn": "Din Kültürü ve Ahlak Bilgisi",
+    "un": "Hz. Muhammed ve Kur’an-ı Kerim",
+    "us": "hz-muhammed-ve-kuran",
+    "t": [
+      ["kurana-gore-hz-muhammed", "Kur’an’a Göre Hz. Muhammed", 3],
+      ["hz-muhammed-ve-genclik", "Hz. Muhammed ve Gençlik", 2],
+      ["kuranda-bazi-kavramlar", "Kur’an’da Bazı Kavramlar", 3]
+    ]
+  },
+  {
+    "i": 48,
+    "e": "AYT",
+    "s": "matematik",
+    "sn": "Matematik",
+    "un": "Fonksiyonlar",
+    "us": "fonksiyonlar",
+    "t": [
+      ["fonksiyon-kavrami-ve-gosterimi", "Fonksiyon Kavramı ve Gösterimi", 2],
+      [
+        "fonksiyon-cesitleri-bire-bir-orten-ve-icine",
+        "Fonksiyon Çeşitleri: Bire Bir, Örten ve İçine",
+        3
+      ],
+      ["fonksiyonlarda-islemler", "Fonksiyonlarda İşlemler", 2]
+    ]
+  },
+  {
+    "i": 49,
+    "e": "AYT",
+    "s": "matematik",
+    "sn": "Matematik",
+    "un": "Polinomlar",
+    "us": "polinomlar",
+    "t": [
+      ["polinom-kavrami-ve-derecesi", "Polinom Kavramı ve Derecesi", 2],
+      ["polinomlarda-dort-islem", "Polinomlarda Dört İşlem", 2],
+      ["polinomlarda-bolme-ve-kalan-bulma", "Polinomlarda Bölme ve Kalan Bulma", 4]
+    ]
+  },
+  {
+    "i": 50,
+    "e": "AYT",
+    "s": "matematik",
+    "sn": "Matematik",
+    "un": "İkinci Dereceden Denklemler ve Eşitsizlikler",
+    "us": "ikinci-dereceden-denklemler-ve-esitsizlikler",
+    "t": [
+      [
+        "ikinci-dereceden-denklemlerin-cozumu-ve-diskriminant",
+        "İkinci Dereceden Denklemlerin Çözümü ve Diskriminant",
+        3
+      ],
+      [
+        "kokler-ile-katsayilar-arasindaki-bagintilar",
+        "Kökler ile Katsayılar Arasındaki Bağıntılar",
+        3
+      ],
+      ["ikinci-dereceden-fonksiyonlar-ve-parabol", "İkinci Dereceden Fonksiyonlar ve Parabol", 4]
+    ]
+  },
+  {
+    "i": 51,
+    "e": "AYT",
+    "s": "fizik",
+    "sn": "Fizik",
+    "un": "Kuvvet ve Hareket",
+    "us": "kuvvet-ve-hareket",
+    "t": [
+      ["vektorler", "Vektörler", 3],
+      ["bagil-hareket", "Bağıl Hareket", 4],
+      ["newtonun-hareket-yasalari", "Newton'un Hareket Yasaları", 4]
+    ]
+  },
+  {
+    "i": 52,
+    "e": "AYT",
+    "s": "fizik",
+    "sn": "Fizik",
+    "un": "İş, Güç ve Enerji",
+    "us": "is-guc-ve-enerji",
+    "t": [
+      ["is-guc-ve-enerji-kavramlari", "İş, Güç ve Enerji Kavramları", 3],
+      ["enerjinin-korunumu-ve-donusumu", "Enerjinin Korunumu ve Dönüşümü", 4],
+      ["surtunmeli-yuzeylerde-enerji-ve-verim", "Sürtünmeli Yüzeylerde Enerji ve Verim", 4]
+    ]
+  },
+  {
+    "i": 53,
+    "e": "AYT",
+    "s": "fizik",
+    "sn": "Fizik",
+    "un": "İtme ve Momentum",
+    "us": "itme-ve-momentum",
+    "t": [
+      ["itme-ve-cizgisel-momentum", "İtme ve Çizgisel Momentum", 3],
+      ["momentumun-korunumu", "Momentumun Korunumu", 4],
+      ["esnek-ve-esnek-olmayan-carpismalar", "Esnek ve Esnek Olmayan Çarpışmalar", 4]
+    ]
+  },
+  {
+    "i": 54,
+    "e": "AYT",
+    "s": "kimya",
+    "sn": "Kimya",
+    "un": "Modern Atom Teorisi",
+    "us": "modern-atom-teorisi",
+    "t": [
+      ["atomun-kuantum-modeli", "Atomun Kuantum Modeli", 4],
+      ["kuantum-sayilari-ve-orbitaller", "Kuantum Sayıları ve Orbitaller", 4],
+      ["elektron-dizilimleri-ve-periyodik-sistem", "Elektron Dizilimleri ve Periyodik Sistem", 3]
+    ]
+  },
+  {
+    "i": 55,
+    "e": "AYT",
+    "s": "kimya",
+    "sn": "Kimya",
+    "un": "Gazlar",
+    "us": "gazlar",
+    "t": [
+      [
+        "gazlarin-genel-ozellikleri-ve-gaz-yasalari",
+        "Gazların Genel Özellikleri ve Gaz Yasaları",
+        3
+      ],
+      ["ideal-gaz-denklemi", "İdeal Gaz Denklemi", 3],
+      ["gaz-karisimlari-ve-kismi-basinc", "Gaz Karışımları ve Kısmi Basınç", 4]
+    ]
+  },
+  {
+    "i": 56,
+    "e": "AYT",
+    "s": "kimya",
+    "sn": "Kimya",
+    "un": "Sıvı Çözeltiler ve Çözünürlük",
+    "us": "sivi-cozeltiler-ve-cozunurluk",
+    "t": [
+      ["cozucu-cozunen-etkilesimleri", "Çözücü-Çözünen Etkileşimleri", 2],
+      ["derisim-birimleri", "Derişim Birimleri", 3],
+      ["koligatif-ozellikler", "Koligatif Özellikler", 4]
+    ]
+  },
+  {
+    "i": 57,
+    "e": "AYT",
+    "s": "biyoloji",
+    "sn": "Biyoloji",
+    "un": "Sinir Sistemi ve Endokrin Sistem",
+    "us": "sinir-sistemi-ve-endokrin-sistem",
+    "t": [
+      ["sinir-sisteminin-yapisi-ve-noronlar", "Sinir Sisteminin Yapısı ve Nöronlar", 3],
+      ["merkezi-sinir-sistemi", "Merkezî Sinir Sistemi", 3],
+      ["cevresel-sinir-sistemi-ve-refleks", "Çevresel Sinir Sistemi ve Refleks", 3]
+    ]
+  },
+  {
+    "i": 58,
+    "e": "AYT",
+    "s": "biyoloji",
+    "sn": "Biyoloji",
+    "un": "Duyu Organları",
+    "us": "duyu-organlari",
+    "t": [
+      ["goz-ve-gorme", "Göz ve Görme", 3],
+      ["kulak-isitme-ve-denge", "Kulak, İşitme ve Denge", 3],
+      ["deri-dil-ve-burun", "Deri, Dil ve Burun", 2]
+    ]
+  },
+  {
+    "i": 59,
+    "e": "AYT",
+    "s": "biyoloji",
+    "sn": "Biyoloji",
+    "un": "Destek ve Hareket Sistemi",
+    "us": "destek-ve-hareket-sistemi",
+    "t": [
+      ["iskelet-sistemi", "İskelet Sistemi", 2],
+      ["kemik-yapisi-ve-gelisimi", "Kemik Yapısı ve Gelişimi", 3],
+      ["kas-sistemi-ve-kasilma-mekanizmasi", "Kas Sistemi ve Kasılma Mekanizması", 4]
+    ]
+  },
+  {
+    "i": 60,
+    "e": "AYT",
+    "s": "edebiyat",
+    "sn": "Edebiyat",
+    "un": "Şiir Bilgisi",
+    "us": "siir-bilgisi",
+    "t": [
+      ["siirde-ahenk-olcu-uyak-ve-redif", "Şiirde Ahenk: Ölçü, Uyak ve Redif", 3],
+      ["nazim-birimi-ve-nazim-bicimleri", "Nazım Birimi ve Nazım Biçimleri", 3],
+      ["siirde-yapi-tema-ve-soyleyici", "Şiirde Yapı, Tema ve Söyleyici", 3]
+    ]
+  },
+  {
+    "i": 61,
+    "e": "AYT",
+    "s": "edebiyat",
+    "sn": "Edebiyat",
+    "un": "Edebî Türler ve Metin Bilgisi",
+    "us": "edebi-turler-ve-metin-bilgisi",
+    "t": [
+      ["hikaye-oyku", "Hikâye (Öykü)", 3],
+      ["roman", "Roman", 3],
+      ["tiyatro", "Tiyatro", 3]
+    ]
+  },
+  {
+    "i": 62,
+    "e": "AYT",
+    "s": "edebiyat",
+    "sn": "Edebiyat",
+    "un": "İslamiyet Öncesi Türk Edebiyatı ve Geçiş Dönemi",
+    "us": "islamiyet-oncesi-turk-edebiyati-ve-gecis-donemi",
+    "t": [
+      ["sozlu-edebiyat-kosuk-sagu-sav-ve-destan", "Sözlü Edebiyat: Koşuk, Sagu, Sav ve Destan", 2],
+      [
+        "yazili-edebiyat-orhun-yazitlari-ve-uygur-metinleri",
+        "Yazılı Edebiyat: Orhun Yazıtları ve Uygur Metinleri",
+        2
+      ],
+      ["gecis-donemi-eserleri", "Geçiş Dönemi Eserleri", 3]
+    ]
+  },
+  {
+    "i": 63,
+    "e": "AYT",
+    "s": "tarih-1",
+    "sn": "Tarih-1",
+    "un": "Tarih Bilimi ve İlk Çağ Uygarlıkları",
+    "us": "tarih-bilimi-ve-ilk-cag-uygarliklari",
+    "t": [
+      ["tarih-ve-zaman", "Tarih ve Zaman", 2],
+      ["insanligin-ilk-donemleri", "İnsanlığın İlk Dönemleri", 2],
+      [
+        "ilk-cagda-anadolu-ve-mezopotamya-uygarliklari",
+        "İlk Çağ'da Anadolu ve Mezopotamya Uygarlıkları",
+        3
+      ]
+    ]
+  },
+  {
+    "i": 64,
+    "e": "AYT",
+    "s": "tarih-1",
+    "sn": "Tarih-1",
+    "un": "Orta Çağ'da Dünya ve İlk Türk Devletleri",
+    "us": "orta-cagda-dunya-ve-ilk-turk-devletleri",
+    "t": [
+      ["orta-cagda-siyasi-yapilar", "Orta Çağ'da Siyasi Yapılar", 3],
+      [
+        "ilk-turk-devletleri-hunlar-gokturkler-ve-uygurlar",
+        "İlk Türk Devletleri: Hunlar, Göktürkler ve Uygurlar",
+        3
+      ],
+      ["diger-turk-devlet-ve-topluluklari", "Diğer Türk Devlet ve Toplulukları", 3]
+    ]
+  },
+  {
+    "i": 65,
+    "e": "AYT",
+    "s": "tarih-1",
+    "sn": "Tarih-1",
+    "un": "İslam Medeniyeti ve İlk Türk-İslam Devletleri",
+    "us": "islam-medeniyeti-ve-ilk-turk-islam-devletleri",
+    "t": [
+      ["islamiyetin-dogusu-ve-yayilisi", "İslamiyet'in Doğuşu ve Yayılışı", 3],
+      ["emeviler-ve-abbasiler", "Emeviler ve Abbasiler", 3],
+      ["turklerin-islamiyeti-kabulu", "Türklerin İslamiyet'i Kabulü", 3]
+    ]
+  },
+  {
+    "i": 66,
+    "e": "AYT",
+    "s": "cografya-1",
+    "sn": "Coğrafya-1",
+    "un": "Ekosistem ve Biyoçeşitlilik",
+    "us": "ekosistem-ve-biyocesitlilik",
+    "t": [
+      ["ekosistemin-yapisi-ve-isleyisi", "Ekosistemin Yapısı ve İşleyişi", 3],
+      ["enerji-akisi-ve-madde-donguleri", "Enerji Akışı ve Madde Döngüleri", 3],
+      ["biyocesitlilik-ve-biyomlar", "Biyoçeşitlilik ve Biyomlar", 3]
+    ]
+  },
+  {
+    "i": 67,
+    "e": "AYT",
+    "s": "cografya-1",
+    "sn": "Coğrafya-1",
+    "un": "Nüfus Politikaları ve Yerleşme",
+    "us": "nufus-politikalari-ve-yerlesme",
+    "t": [
+      ["dunyada-nufus-politikalari", "Dünyada Nüfus Politikaları", 2],
+      ["turkiyede-nufus-politikalari", "Türkiye'de Nüfus Politikaları", 2],
+      ["turkiyede-nufusun-yapisi-ve-dagilisi", "Türkiye'de Nüfusun Yapısı ve Dağılışı", 3]
+    ]
+  },
+  {
+    "i": 68,
+    "e": "AYT",
+    "s": "cografya-1",
+    "sn": "Coğrafya-1",
+    "un": "Ekonomik Faaliyetler ve Doğal Kaynaklar",
+    "us": "ekonomik-faaliyetler-ve-dogal-kaynaklar",
+    "t": [
+      ["ekonomik-faaliyetlerin-siniflandirilmasi", "Ekonomik Faaliyetlerin Sınıflandırılması", 2],
+      ["dogal-kaynaklar-ve-kullanimi", "Doğal Kaynaklar ve Kullanımı", 2],
+      ["turkiyede-tarim-ve-hayvancilik", "Türkiye'de Tarım ve Hayvancılık", 3]
+    ]
+  },
+  {
+    "i": 69,
+    "e": "AYT",
+    "s": "tarih-2",
+    "sn": "Tarih-2",
+    "un": "Değişim Çağında Avrupa ve Osmanlı",
+    "us": "degisim-caginda-avrupa-ve-osmanli",
+    "t": [
+      [
+        "avrupada-ronesans-reform-ve-cografi-kesifler",
+        "Avrupa'da Rönesans, Reform ve Coğrafi Keşifler",
+        3
+      ],
+      [
+        "osmanli-devletinde-degisim-ve-duraklama-1595-1699",
+        "Osmanlı Devleti'nde Değişim ve Duraklama (1595-1699)",
+        3
+      ],
+      ["xvii-yuzyil-islahatlari", "XVII. Yüzyıl Islahatları", 3]
+    ]
+  },
+  {
+    "i": 70,
+    "e": "AYT",
+    "s": "tarih-2",
+    "sn": "Tarih-2",
+    "un": "Devrimler Çağında Osmanlı",
+    "us": "devrimler-caginda-osmanli",
+    "t": [
+      [
+        "fransiz-ihtilali-ve-sanayi-inkilabinin-etkileri",
+        "Fransız İhtilali ve Sanayi İnkılabı'nın Etkileri",
+        3
+      ],
+      [
+        "iii-selim-ve-ii-mahmut-donemi-islahatlari",
+        "III. Selim ve II. Mahmut Dönemi Islahatları",
+        3
+      ],
+      ["tanzimat-ve-islahat-fermanlari", "Tanzimat ve Islahat Fermanları", 3]
+    ]
+  },
+  {
+    "i": 71,
+    "e": "AYT",
+    "s": "tarih-2",
+    "sn": "Tarih-2",
+    "un": "Uluslararası İlişkilerde Denge Stratejisi (1774-1914)",
+    "us": "uluslararasi-iliskilerde-denge-stratejisi-1774-1914",
+    "t": [
+      ["osmanli-rus-ve-osmanli-fransiz-iliskileri", "Osmanlı-Rus ve Osmanlı-Fransız İlişkileri", 3],
+      ["misir-ve-bogazlar-meselesi", "Mısır ve Boğazlar Meselesi", 4],
+      ["kirim-savasi-ve-sonuclari", "Kırım Savaşı ve Sonuçları", 3]
+    ]
+  },
+  {
+    "i": 72,
+    "e": "AYT",
+    "s": "cografya-2",
+    "sn": "Coğrafya-2",
+    "un": "Doğal Sistemler ve Doğadaki Değişimler",
+    "us": "dogal-sistemler-ve-dogadaki-degisimler",
+    "t": [
+      ["ekstrem-doga-olaylari", "Ekstrem Doğa Olayları", 3],
+      [
+        "dogal-sistemlerdeki-degisimler-ve-insana-etkileri",
+        "Doğal Sistemlerdeki Değişimler ve İnsana Etkileri",
+        3
+      ],
+      ["kuresel-iklim-degisikligi-ve-etkileri", "Küresel İklim Değişikliği ve Etkileri", 3]
+    ]
+  },
+  {
+    "i": 73,
+    "e": "AYT",
+    "s": "cografya-2",
+    "sn": "Coğrafya-2",
+    "un": "Şehirler ve Fonksiyonları",
+    "us": "sehirler-ve-fonksiyonlari",
+    "t": [
+      ["sehirlerin-fonksiyonel-siniflandirilmasi", "Şehirlerin Fonksiyonel Sınıflandırılması", 3],
+      ["kuresel-etkiye-sahip-sehirler", "Küresel Etkiye Sahip Şehirler", 2],
+      [
+        "turkiyede-sehirlesme-ve-sehirlerin-fonksiyonlari",
+        "Türkiye'de Şehirleşme ve Şehirlerin Fonksiyonları",
+        3
+      ]
+    ]
+  },
+  {
+    "i": 74,
+    "e": "AYT",
+    "s": "cografya-2",
+    "sn": "Coğrafya-2",
+    "un": "Türkiye'de Ekonomi, Ulaşım ve Turizm",
+    "us": "turkiyede-ekonomi-ulasim-ve-turizm",
+    "t": [
+      ["turkiyede-ulasim-sistemleri", "Türkiye'de Ulaşım Sistemleri", 3],
+      ["turkiyede-ticaret-ve-dis-ticaret", "Türkiye'de Ticaret ve Dış Ticaret", 3],
+      ["turkiyede-turizm-ve-turizm-potansiyeli", "Türkiye'de Turizm ve Turizm Potansiyeli", 3]
+    ]
+  },
+  {
+    "i": 75,
+    "e": "AYT",
+    "s": "felsefe-grubu",
+    "sn": "Felsefe Grubu",
+    "un": "Felsefeye Giriş",
+    "us": "felsefeye-giris",
+    "t": [
+      ["felsefenin-anlami-ve-konusu", "Felsefenin Anlamı ve Konusu", 2],
+      ["felsefi-dusuncenin-ozellikleri", "Felsefi Düşüncenin Özellikleri", 2],
+      ["felsefenin-diger-disiplinlerle-iliskisi", "Felsefenin Diğer Disiplinlerle İlişkisi", 2]
+    ]
+  },
+  {
+    "i": 76,
+    "e": "AYT",
+    "s": "felsefe-grubu",
+    "sn": "Felsefe Grubu",
+    "un": "Bilgi Felsefesi",
+    "us": "bilgi-felsefesi",
+    "t": [
+      ["bilginin-dogasi-ve-dogruluk-olcutleri", "Bilginin Doğası ve Doğruluk Ölçütleri", 3],
+      [
+        "dogru-bilginin-imkani-suphecilik-ve-dogmatizm",
+        "Doğru Bilginin İmkânı: Şüphecilik ve Dogmatizm",
+        4
+      ],
+      ["bilgi-turleri", "Bilgi Türleri", 2]
+    ]
+  },
+  {
+    "i": 77,
+    "e": "AYT",
+    "s": "felsefe-grubu",
+    "sn": "Felsefe Grubu",
+    "un": "Varlık Felsefesi",
+    "us": "varlik-felsefesi",
+    "t": [
+      ["varligin-var-olup-olmadigi-problemi", "Varlığın Var Olup Olmadığı Problemi", 3],
+      [
+        "varligin-ne-oldugu-problemi-idealizm-ve-materyalizm",
+        "Varlığın Ne Olduğu Problemi: İdealizm ve Materyalizm",
+        4
+      ],
+      ["varlik-felsefesinin-temel-kavramlari", "Varlık Felsefesinin Temel Kavramları", 3]
+    ]
+  },
+  {
+    "i": 78,
+    "e": "AYT",
+    "s": "din-kulturu-ve-ahlak-bilgisi",
+    "sn": "Din Kültürü ve Ahlak Bilgisi",
+    "un": "İnanç ve Bilgi",
+    "us": "inanc-ve-bilgi",
+    "t": [
+      ["bilgi-turleri-ve-din", "Bilgi Türleri ve Din", 2],
+      ["islamda-inanc-esaslari", "İslam'da İnanç Esasları", 2],
+      ["kaza-ve-kader-inanci", "Kaza ve Kader İnancı", 3]
+    ]
+  },
+  {
+    "i": 79,
+    "e": "AYT",
+    "s": "din-kulturu-ve-ahlak-bilgisi",
+    "sn": "Din Kültürü ve Ahlak Bilgisi",
+    "un": "İslam ve İbadet",
+    "us": "islam-ve-ibadet",
+    "t": [
+      ["ibadetin-anlami-ve-kapsami", "İbadetin Anlamı ve Kapsamı", 2],
+      ["namaz-oruc-zekat-ve-hac", "Namaz, Oruç, Zekât ve Hac", 3],
+      [
+        "ibadetlerin-bireysel-ve-toplumsal-faydalari",
+        "İbadetlerin Bireysel ve Toplumsal Faydaları",
+        2
+      ]
+    ]
+  },
+  {
+    "i": 80,
+    "e": "AYT",
+    "s": "din-kulturu-ve-ahlak-bilgisi",
+    "sn": "Din Kültürü ve Ahlak Bilgisi",
+    "un": "Ahlak ve Değerler",
+    "us": "ahlak-ve-degerler",
+    "t": [
+      ["islam-ahlakinin-temel-kavramlari", "İslam Ahlakının Temel Kavramları", 2],
+      ["bireysel-ve-toplumsal-ahlaki-degerler", "Bireysel ve Toplumsal Ahlaki Değerler", 2],
+      ["genclik-ve-degerler-egitimi", "Gençlik ve Değerler Eğitimi", 2]
+    ]
+  },
+  {
+    "i": 81,
+    "e": "KPSS_LISANS",
+    "s": "turkce",
+    "sn": "Türkçe",
+    "un": "Sözcükte Anlam",
+    "us": "sozcukte-anlam",
+    "t": [
+      ["gercek-mecaz-ve-terim-anlam", "Gerçek, Mecaz ve Terim Anlam", 2],
+      ["sozcukler-arasi-anlam-iliskileri", "Sözcükler Arası Anlam İlişkileri", 2],
+      ["deyimler-ve-atasozleri", "Deyimler ve Atasözleri", 2]
+    ]
+  },
+  {
+    "i": 82,
+    "e": "KPSS_LISANS",
+    "s": "turkce",
+    "sn": "Türkçe",
+    "un": "Cümlede Anlam",
+    "us": "cumlede-anlam",
+    "t": [
+      ["cumlede-anlam-iliskileri", "Cümlede Anlam İlişkileri", 3],
+      ["cumle-yorumlama-ve-kesin-yargi", "Cümle Yorumlama ve Kesin Yargı", 4],
+      ["cumlede-anlatim-bicimleri-ve-duygular", "Cümlede Anlatım Biçimleri ve Duygular", 3]
+    ]
+  },
+  {
+    "i": 83,
+    "e": "KPSS_LISANS",
+    "s": "turkce",
+    "sn": "Türkçe",
+    "un": "Paragraf",
+    "us": "paragraf",
+    "t": [
+      [
+        "paragrafta-konu-ana-dusunce-ve-yardimci-dusunce",
+        "Paragrafta Konu, Ana Düşünce ve Yardımcı Düşünce",
+        3
+      ],
+      ["paragrafta-yapi-giris-gelisme-sonuc", "Paragrafta Yapı: Giriş, Gelişme, Sonuç", 3],
+      ["paragraf-tamamlama", "Paragraf Tamamlama", 4]
+    ]
+  },
+  {
+    "i": 84,
+    "e": "KPSS_LISANS",
+    "s": "matematik",
+    "sn": "Matematik",
+    "un": "Temel Kavramlar ve Sayılar",
+    "us": "temel-kavramlar-ve-sayilar",
+    "t": [
+      ["temel-kavramlar", "Temel Kavramlar", 2],
+      ["sayi-basamaklari", "Sayı Basamakları", 3],
+      ["bolme-ve-bolunebilme-kurallari", "Bölme ve Bölünebilme Kuralları", 3]
+    ]
+  },
+  {
+    "i": 85,
+    "e": "KPSS_LISANS",
+    "s": "matematik",
+    "sn": "Matematik",
+    "un": "Cebir",
+    "us": "cebir",
+    "t": [
+      ["birinci-dereceden-denklemler", "Birinci Dereceden Denklemler", 3],
+      ["basit-esitsizlikler", "Basit Eşitsizlikler", 3],
+      ["mutlak-deger", "Mutlak Değer", 4]
+    ]
+  },
+  {
+    "i": 86,
+    "e": "KPSS_LISANS",
+    "s": "matematik",
+    "sn": "Matematik",
+    "un": "Problemler",
+    "us": "problemler",
+    "t": [
+      ["sayi-ve-kesir-problemleri", "Sayı ve Kesir Problemleri", 3],
+      ["yas-problemleri", "Yaş Problemleri", 2],
+      ["isci-ve-havuz-problemleri", "İşçi ve Havuz Problemleri", 4]
+    ]
+  },
+  {
+    "i": 87,
+    "e": "KPSS_LISANS",
+    "s": "tarih",
+    "sn": "Tarih",
+    "un": "İslamiyet Öncesi Türk Tarihi",
+    "us": "islamiyet-oncesi-turk-tarihi",
+    "t": [
+      [
+        "turklerin-anayurdu-ve-orta-asyadan-gocler",
+        "Türklerin Anayurdu ve Orta Asya'dan Göçler",
+        2
+      ],
+      [
+        "ilk-turk-devletleri-asya-hun-gokturk-ve-uygurlar",
+        "İlk Türk Devletleri: Asya Hun, Göktürk ve Uygurlar",
+        3
+      ],
+      ["diger-turk-devlet-ve-topluluklari", "Diğer Türk Devlet ve Toplulukları", 3]
+    ]
+  },
+  {
+    "i": 88,
+    "e": "KPSS_LISANS",
+    "s": "tarih",
+    "sn": "Tarih",
+    "un": "İlk Türk-İslam Devletleri",
+    "us": "ilk-turk-islam-devletleri",
+    "t": [
+      [
+        "turklerin-islamiyeti-kabulu-ve-talas-savasi",
+        "Türklerin İslamiyet'i Kabulü ve Talas Savaşı",
+        2
+      ],
+      ["tolunogullari-karahanlilar-ve-gazneliler", "Tolunoğulları, Karahanlılar ve Gazneliler", 3],
+      ["buyuk-selcuklu-devleti", "Büyük Selçuklu Devleti", 3]
+    ]
+  },
+  {
+    "i": 89,
+    "e": "KPSS_LISANS",
+    "s": "tarih",
+    "sn": "Tarih",
+    "un": "Osmanlı Devleti: Kuruluş ve Yükselme Dönemi",
+    "us": "osmanli-devleti-kurulus-ve-yukselme-donemi",
+    "t": [
+      [
+        "osmanli-devletinin-kurulusu-ve-beylikten-devlete-gecis",
+        "Osmanlı Devleti'nin Kuruluşu ve Beylikten Devlete Geçiş",
+        3
+      ],
+      ["fetret-devri-ve-toparlanma-sureci", "Fetret Devri ve Toparlanma Süreci", 3],
+      [
+        "istanbulun-fethi-ve-fatih-sultan-mehmet-donemi",
+        "İstanbul'un Fethi ve Fatih Sultan Mehmet Dönemi",
+        2
+      ]
+    ]
+  },
+  {
+    "i": 90,
+    "e": "KPSS_LISANS",
+    "s": "cografya",
+    "sn": "Coğrafya",
+    "un": "Türkiye'nin Coğrafi Konumu",
+    "us": "turkiyenin-cografi-konumu",
+    "t": [
+      ["matematik-konum-ve-sonuclari", "Matematik Konum ve Sonuçları", 3],
+      ["ozel-konum-ve-sonuclari", "Özel Konum ve Sonuçları", 2],
+      ["turkiyenin-sinirlari-ve-komsulari", "Türkiye'nin Sınırları ve Komşuları", 2]
+    ]
+  },
+  {
+    "i": 91,
+    "e": "KPSS_LISANS",
+    "s": "cografya",
+    "sn": "Coğrafya",
+    "un": "Türkiye'nin Yer Şekilleri",
+    "us": "turkiyenin-yer-sekilleri",
+    "t": [
+      ["turkiyenin-jeolojik-yapisi-ve-olusumu", "Türkiye'nin Jeolojik Yapısı ve Oluşumu", 3],
+      ["daglar-ovalar-ve-platolar", "Dağlar, Ovalar ve Platolar", 3],
+      ["turkiyenin-akarsulari-ve-golleri", "Türkiye'nin Akarsuları ve Gölleri", 3]
+    ]
+  },
+  {
+    "i": 92,
+    "e": "KPSS_LISANS",
+    "s": "cografya",
+    "sn": "Coğrafya",
+    "un": "Türkiye'nin İklimi ve Bitki Örtüsü",
+    "us": "turkiyenin-iklimi-ve-bitki-ortusu",
+    "t": [
+      ["turkiyenin-iklimini-etkileyen-faktorler", "Türkiye'nin İklimini Etkileyen Faktörler", 3],
+      ["turkiyede-gorulen-iklim-tipleri", "Türkiye'de Görülen İklim Tipleri", 3],
+      ["sicaklik-basinc-ve-ruzgarlar", "Sıcaklık, Basınç ve Rüzgârlar", 3]
+    ]
+  },
+  {
+    "i": 93,
+    "e": "KPSS_LISANS",
+    "s": "vatandaslik",
+    "sn": "Vatandaşlık",
+    "un": "Hukuk Başlangıcı",
+    "us": "hukuk-baslangici",
+    "t": [
+      ["hukukun-tanimi-kaynaklari-ve-dallari", "Hukukun Tanımı, Kaynakları ve Dalları", 3],
+      [
+        "sosyal-duzen-kurallari-ve-yaptirim-turleri",
+        "Sosyal Düzen Kuralları ve Yaptırım Türleri",
+        2
+      ],
+      ["kisilik-hak-ehliyeti-ve-fiil-ehliyeti", "Kişilik, Hak Ehliyeti ve Fiil Ehliyeti", 3]
+    ]
+  },
+  {
+    "i": 94,
+    "e": "KPSS_LISANS",
+    "s": "vatandaslik",
+    "sn": "Vatandaşlık",
+    "un": "Anayasa Hukuku ve Türk Anayasa Tarihi",
+    "us": "anayasa-hukuku-ve-turk-anayasa-tarihi",
+    "t": [
+      ["anayasa-kavrami-ve-anayasa-turleri", "Anayasa Kavramı ve Anayasa Türleri", 3],
+      ["osmanli-donemi-anayasal-gelismeler", "Osmanlı Dönemi Anayasal Gelişmeler", 3],
+      ["1921-ve-1924-anayasalari", "1921 ve 1924 Anayasaları", 3]
+    ]
+  },
+  {
+    "i": 95,
+    "e": "KPSS_LISANS",
+    "s": "vatandaslik",
+    "sn": "Vatandaşlık",
+    "un": "1982 Anayasası'nın Genel Esasları",
+    "us": "1982-anayasasinin-genel-esaslari",
+    "t": [
+      ["cumhuriyetin-nitelikleri", "Cumhuriyetin Nitelikleri", 3],
+      [
+        "devletin-temel-amac-ve-gorevleri-egemenlik",
+        "Devletin Temel Amaç ve Görevleri, Egemenlik",
+        3
+      ],
+      [
+        "baslangic-ilkeleri-ve-anayasanin-ustunlugu",
+        "Başlangıç İlkeleri ve Anayasanın Üstünlüğü",
+        3
+      ]
+    ]
+  },
+  {
+    "i": 96,
+    "e": "KPSS_LISANS",
+    "s": "guncel-bilgiler",
+    "sn": "Güncel Bilgiler",
+    "un": "Türkiye ve Dünya Kuruluşları",
+    "us": "turkiye-ve-dunya-kuruluslari",
+    "t": [
+      [
+        "uluslararasi-kuruluslarin-merkezleri-ve-yoneticileri",
+        "Uluslararası Kuruluşların Merkezleri ve Yöneticileri",
+        3
+      ],
+      [
+        "turkiyenin-uyesi-oldugu-kuruluslar-ve-donem-baskanliklari",
+        "Türkiye'nin Üyesi Olduğu Kuruluşlar ve Dönem Başkanlıkları",
+        3
+      ],
+      [
+        "turkiyedeki-kamu-kurumlari-ve-duzenleyici-ust-kurullar",
+        "Türkiye'deki Kamu Kurumları ve Düzenleyici Üst Kurullar",
+        3
+      ]
+    ]
+  },
+  {
+    "i": 97,
+    "e": "KPSS_LISANS",
+    "s": "guncel-bilgiler",
+    "sn": "Güncel Bilgiler",
+    "un": "Ödüller, Kültür ve Sanat",
+    "us": "oduller-kultur-ve-sanat",
+    "t": [
+      ["nobel-odulleri-ve-bilim-odulleri", "Nobel Ödülleri ve Bilim Ödülleri", 3],
+      ["sinema-odulleri-ve-film-festivalleri", "Sinema Ödülleri ve Film Festivalleri", 2],
+      [
+        "edebiyat-odulleri-ve-guncel-turk-edebiyati",
+        "Edebiyat Ödülleri ve Güncel Türk Edebiyatı",
+        3
+      ]
+    ]
+  },
+  {
+    "i": 98,
+    "e": "KPSS_LISANS",
+    "s": "guncel-bilgiler",
+    "sn": "Güncel Bilgiler",
+    "un": "Spor Organizasyonları",
+    "us": "spor-organizasyonlari",
+    "t": [
+      ["olimpiyat-ve-paralimpik-oyunlar", "Olimpiyat ve Paralimpik Oyunlar", 2],
+      ["dunya-ve-avrupa-sampiyonalari", "Dünya ve Avrupa Şampiyonaları", 2],
+      ["turk-sporcularin-uluslararasi-basarilari", "Türk Sporcuların Uluslararası Başarıları", 3]
+    ]
+  }
+]
