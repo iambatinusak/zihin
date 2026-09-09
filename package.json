@@ -22,7 +22,8 @@
     "seed": "pnpm --filter @zihin/db seed",
     "export:content": "pnpm --filter @zihin/db export:content",
     "setup": "node scripts/setup.mjs",
-    "prepare": "husky || true"
+    "prepare": "husky || true",
+    "icons": "node scripts/generate-icons.mjs"
   },
   "devDependencies": {
     "@types/node": "^22.10.5",

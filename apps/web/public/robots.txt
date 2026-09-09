@@ -1,0 +1,31 @@
+# Zihin — arama motoru yönergeleri.
+# Pazarlama sayfaları taranabilir; oturum gerektiren her şey taranmaz.
+# (Bu yollar zaten girişe kapalı; buradaki amaç gereksiz tarama trafiğini
+#  ve arama sonuçlarında "giriş yapın" sayfalarının görünmesini engellemek.)
+
+User-agent: *
+Allow: /$
+Allow: /paketler
+Allow: /kvkk
+Allow: /gizlilik
+
+Disallow: /dashboard
+Disallow: /dersler
+Disallow: /video
+Disallow: /test
+Disallow: /sonuc
+Disallow: /panel
+Disallow: /program
+Disallow: /kartlar
+Disallow: /deneme
+Disallow: /soru-sor
+Disallow: /rozetler
+Disallow: /ayarlar
+Disallow: /bildirimler
+Disallow: /seviye-tespit
+Disallow: /veli
+Disallow: /ogretmen
+Disallow: /admin
+Disallow: /odeme
+Disallow: /api
+Disallow: /auth
